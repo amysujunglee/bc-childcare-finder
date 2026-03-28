@@ -8,19 +8,35 @@ interface MapViewProps {
   centres: Centre[];
   selectedCentreId?: string;
   onCentreSelect?: (centreId: string) => void;
+  searchQuery?: string;
 }
 
-export default function MapView({ centres, selectedCentreId, onCentreSelect }: MapViewProps) {
+const BC_POSTAL_CODE = /^[vV]\d[a-zA-Z]\s?\d[a-zA-Z]\d$/;
+
+async function geocode(query: string): Promise<[number, number] | null> {
+  try {
+    const res = await fetch(
+      `https://nominatim.openstreetmap.org/search?q=${encodeURIComponent(query + ', BC, Canada')}&format=json&limit=1`,
+      { headers: { 'Accept-Language': 'en' } }
+    );
+    const data = await res.json();
+    if (data.length > 0) {
+      return [parseFloat(data[0].lat), parseFloat(data[0].lon)];
+    }
+  } catch {}
+  return null;
+}
+
+export default function MapView({ centres, selectedCentreId, onCentreSelect, searchQuery }: MapViewProps) {
   const mapRef = useRef<HTMLDivElement>(null);
   const mapInstanceRef = useRef<import('leaflet').Map | null>(null);
   const markersRef = useRef<import('leaflet').Marker[]>([]);
 
+  // Initialise map once
   useEffect(() => {
     if (!mapRef.current || mapInstanceRef.current) return;
 
-    // Dynamically import Leaflet (SSR safe)
     import('leaflet').then((L) => {
-      // Fix default marker icon paths broken by webpack
       // @ts-expect-error - _getIconUrl is not in types
       delete L.Icon.Default.prototype._getIconUrl;
       L.Icon.Default.mergeOptions({
@@ -41,17 +57,40 @@ export default function MapView({ centres, selectedCentreId, onCentreSelect }: M
         maxZoom: 18,
       }).addTo(map);
 
-      // Custom green pin icon
+      mapInstanceRef.current = map;
+    });
+
+    return () => {
+      mapInstanceRef.current?.remove();
+      mapInstanceRef.current = null;
+      markersRef.current = [];
+    };
+  }, []);
+
+  // Re-render markers whenever centres change
+  useEffect(() => {
+    const map = mapInstanceRef.current;
+    if (!map) {
+      // Map not ready yet — retry shortly
+      const t = setTimeout(() => {
+        const m = mapInstanceRef.current;
+        if (m) updateMarkers(m);
+      }, 300);
+      return () => clearTimeout(t);
+    }
+    updateMarkers(map);
+    return undefined;
+  }, [centres, selectedCentreId]);
+
+  function updateMarkers(map: import('leaflet').Map) {
+    import('leaflet').then((L) => {
+      // Clear existing markers
+      markersRef.current.forEach((m) => m.remove());
+      markersRef.current = [];
+
       const greenIcon = L.divIcon({
         className: '',
-        html: `<div style="
-          width:32px;height:32px;
-          background:#4CAF82;
-          border:2.5px solid #fff;
-          border-radius:50% 50% 50% 0;
-          transform:rotate(-45deg);
-          box-shadow:0 2px 6px rgba(0,0,0,0.25);
-        "></div>`,
+        html: `<div style="width:32px;height:32px;background:#4CAF82;border:2.5px solid #fff;border-radius:50% 50% 50% 0;transform:rotate(-45deg);box-shadow:0 2px 6px rgba(0,0,0,0.25);"></div>`,
         iconSize: [32, 32],
         iconAnchor: [16, 32],
         popupAnchor: [0, -34],
@@ -59,14 +98,7 @@ export default function MapView({ centres, selectedCentreId, onCentreSelect }: M
 
       const selectedIcon = L.divIcon({
         className: '',
-        html: `<div style="
-          width:36px;height:36px;
-          background:#1A1A2E;
-          border:2.5px solid #4CAF82;
-          border-radius:50% 50% 50% 0;
-          transform:rotate(-45deg);
-          box-shadow:0 2px 8px rgba(0,0,0,0.35);
-        "></div>`,
+        html: `<div style="width:36px;height:36px;background:#1A1A2E;border:2.5px solid #4CAF82;border-radius:50% 50% 50% 0;transform:rotate(-45deg);box-shadow:0 2px 8px rgba(0,0,0,0.35);"></div>`,
         iconSize: [36, 36],
         iconAnchor: [18, 36],
         popupAnchor: [0, -38],
@@ -100,31 +132,40 @@ export default function MapView({ centres, selectedCentreId, onCentreSelect }: M
         markersRef.current.push(marker);
       });
 
-      mapInstanceRef.current = map;
+      // Fit map to show all filtered centres
+      if (centres.length > 0) {
+        const bounds = L.latLngBounds(centres.map((c) => [c.lat, c.lng]));
+        map.fitBounds(bounds, { padding: [48, 48], maxZoom: 13, animate: true });
+      }
     });
+  }
 
-    return () => {
-      mapInstanceRef.current?.remove();
-      mapInstanceRef.current = null;
-      markersRef.current = [];
-    };
-  }, []);
-
-  // Pan to selected centre
+  // Pan to selected centre when card is clicked
   useEffect(() => {
-    if (!mapInstanceRef.current || !selectedCentreId) return;
+    const map = mapInstanceRef.current;
+    if (!map || !selectedCentreId) return;
     const centre = centres.find((c) => c.id === selectedCentreId);
     if (centre) {
-      mapInstanceRef.current.setView([centre.lat, centre.lng], 13, { animate: true });
+      map.setView([centre.lat, centre.lng], 14, { animate: true });
     }
-  }, [selectedCentreId, centres]);
+  }, [selectedCentreId]);
+
+  // Geocode search query (postal code or city not in our data)
+  useEffect(() => {
+    const map = mapInstanceRef.current;
+    if (!map || !searchQuery) return;
+
+    const isPostalCode = BC_POSTAL_CODE.test(searchQuery.trim());
+    if (isPostalCode) {
+      geocode(searchQuery).then((coords) => {
+        if (coords) map.setView(coords, 13, { animate: true });
+      });
+    }
+  }, [searchQuery]);
 
   return (
     <>
-      <link
-        rel="stylesheet"
-        href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
-      />
+      <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
       <div
         ref={mapRef}
         className="w-full rounded-card border border-neutral-border shadow-soft overflow-hidden"

@@ -5,7 +5,7 @@ import { useSearchParams } from 'next/navigation';
 import CentreCard from '@/components/CentreCard';
 import FilterSidebar from '@/components/FilterSidebar';
 import MapView from '@/components/MapView';
-import { centres, filterCentres, searchCentres, AgeGroup, ScheduleType } from '@/lib/mock-data';
+import { centres, searchCentres, AgeGroup, ScheduleType } from '@/lib/mock-data';
 
 function FindPageInner() {
   const searchParams = useSearchParams();
@@ -20,21 +20,19 @@ function FindPageInner() {
 
   // Apply filters
   useEffect(() => {
-    let filtered = centres;
-
-    // Handle search params
     const searchQuery = searchParams.get('search');
-    if (searchQuery) {
-      filtered = searchCentres(searchQuery);
-    }
 
-    // Apply filters
-    filtered = filterCentres({
-      city: selectedCity,
-      ageGroup: selectedAgeGroup,
-      scheduleType: selectedScheduleType,
-      tenDollarDay: selectedTenDollarDay,
-      language: selectedLanguage,
+    // Start from search results if query exists, otherwise all centres
+    let filtered = searchQuery ? searchCentres(searchQuery) : centres;
+
+    // Apply sidebar filters on top of search results
+    filtered = filtered.filter((c) => {
+      if (selectedCity && c.city.toLowerCase() !== selectedCity.toLowerCase()) return false;
+      if (selectedAgeGroup && !c.ageGroups.includes(selectedAgeGroup)) return false;
+      if (selectedScheduleType && c.scheduleType !== selectedScheduleType) return false;
+      if (selectedTenDollarDay !== undefined && c.tenDollarDay !== selectedTenDollarDay) return false;
+      if (selectedLanguage && !c.languages.includes(selectedLanguage)) return false;
+      return true;
     });
 
     setDisplayedCentres(filtered);
@@ -92,6 +90,7 @@ function FindPageInner() {
               centres={displayedCentres}
               selectedCentreId={selectedCentreId}
               onCentreSelect={handleMapPinClick}
+              searchQuery={searchParams.get('search') ?? undefined}
             />
           </div>
 

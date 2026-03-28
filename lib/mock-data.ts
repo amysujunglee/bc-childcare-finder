@@ -266,6 +266,14 @@ export const getUniqueLanguages = (): string[] =>
 export const searchCentres = (query: string): Centre[] => {
   const q = query.toLowerCase().trim();
   if (!q) return centres;
+
+  // Exact city match takes priority to avoid substring collisions
+  // e.g. "Vancouver" should not return "North Vancouver"
+  const exactCityMatch = centres.some((c) => c.city.toLowerCase() === q);
+  if (exactCityMatch) {
+    return centres.filter((c) => c.city.toLowerCase() === q);
+  }
+
   return centres.filter(
     (c) =>
       c.name.toLowerCase().includes(q) ||
