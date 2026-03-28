@@ -1,5 +1,5 @@
 {
-  "name": "spot-finder",
+  "name": "bc-childcare-finder",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,16 +9,19 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "react": "^18",
-    "react-dom": "^18",
-    "next": "14.2.35"
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "next": "^14.2.3",
+    "@react-google-maps/api": "^2.20.1",
+    "@anthropic-ai/sdk": "^0.24.3"
   },
   "devDependencies": {
     "typescript": "^5",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
-    "postcss": "^8",
-    "tailwindcss": "^3.4.1"
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.32",
+    "tailwindcss": "^3.4.0"
   }
 }

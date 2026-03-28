@@ -1,0 +1,208 @@
+"use client";
+
+import {
+  AgeGroup,
+  ScheduleType,
+  getUniqueCities,
+  getUniqueLanguages,
+} from "@/lib/mock-data";
+import Badge from "./Badge";
+
+interface FilterSidebarProps {
+  selectedCity?: string;
+  selectedAgeGroup?: AgeGroup;
+  selectedScheduleType?: ScheduleType;
+  selectedLanguage?: string;
+  selectedTenDollarDay?: boolean;
+  onFilterChange: (filters: {
+    city?: string;
+    ageGroup?: AgeGroup;
+    scheduleType?: ScheduleType;
+    language?: string;
+    tenDollarDay?: boolean;
+  }) => void;
+}
+
+export default function FilterSidebar({
+  selectedCity,
+  selectedAgeGroup,
+  selectedScheduleType,
+  selectedLanguage,
+  selectedTenDollarDay,
+  onFilterChange,
+}: FilterSidebarProps) {
+  const cities = getUniqueCities();
+  const languages = getUniqueLanguages();
+
+  const ageGroups: { value: AgeGroup; label: string }[] = [
+    { value: "infant", label: "Infant" },
+    { value: "toddler", label: "Toddler" },
+    { value: "preschool", label: "Preschool" },
+    { value: "schoolAge", label: "School Age" },
+  ];
+
+  const scheduleTypes: { value: ScheduleType; label: string }[] = [
+    { value: "full-time", label: "Full-Time" },
+    { value: "part-time", label: "Part-Time" },
+    { value: "drop-in", label: "Drop-In" },
+  ];
+
+  const handleReset = () => {
+    onFilterChange({
+      city: undefined,
+      ageGroup: undefined,
+      scheduleType: undefined,
+      language: undefined,
+      tenDollarDay: undefined,
+    });
+  };
+
+  return (
+    <div className="bg-white p-6 rounded-card border border-neutral-border h-fit sticky top-20">
+      <h2 className="font-serif text-lg font-bold text-primary-dark mb-6">
+        Filters
+      </h2>
+
+      {/* City */}
+      <div className="mb-6">
+        <label className="block text-sm font-bold text-primary-dark mb-3">
+          City
+        </label>
+        <select
+          value={selectedCity || ""}
+          onChange={(e) =>
+            onFilterChange({
+              city: e.target.value || undefined,
+              ageGroup: selectedAgeGroup,
+              scheduleType: selectedScheduleType,
+              language: selectedLanguage,
+              tenDollarDay: selectedTenDollarDay,
+            })
+          }
+          className="w-full px-3 py-2 border border-neutral-border rounded-card text-sm text-primary-dark focus:outline-none focus:ring-2 focus:ring-primary-green"
+        >
+          <option value="">All Cities</option>
+          {cities.map((city) => (
+            <option key={city} value={city}>
+              {city}
+            </option>
+          ))}
+        </select>
+      </div>
+
+      {/* Age Groups */}
+      <div className="mb-6">
+        <label className="block text-sm font-bold text-primary-dark mb-3">
+          Age Groups
+        </label>
+        <div className="space-y-2">
+          {ageGroups.map(({ value, label }) => (
+            <label key={value} className="flex items-center">
+              <input
+                type="checkbox"
+                checked={selectedAgeGroup === value}
+                onChange={(e) =>
+                  onFilterChange({
+                    city: selectedCity,
+                    ageGroup: e.target.checked ? value : undefined,
+                    scheduleType: selectedScheduleType,
+                    language: selectedLanguage,
+                    tenDollarDay: selectedTenDollarDay,
+                  })
+                }
+                className="w-4 h-4 rounded accent-primary-green cursor-pointer"
+              />
+              <span className="ml-2 text-sm text-primary-dark">{label}</span>
+            </label>
+          ))}
+        </div>
+      </div>
+
+      {/* Schedule Type */}
+      <div className="mb-6">
+        <label className="block text-sm font-bold text-primary-dark mb-3">
+          Schedule
+        </label>
+        <div className="space-y-2">
+          {scheduleTypes.map(({ value, label }) => (
+            <label key={value} className="flex items-center">
+              <input
+                type="checkbox"
+                checked={selectedScheduleType === value}
+                onChange={(e) =>
+                  onFilterChange({
+                    city: selectedCity,
+                    ageGroup: selectedAgeGroup,
+                    scheduleType: e.target.checked ? value : undefined,
+                    language: selectedLanguage,
+                    tenDollarDay: selectedTenDollarDay,
+                  })
+                }
+                className="w-4 h-4 rounded accent-primary-green cursor-pointer"
+              />
+              <span className="ml-2 text-sm text-primary-dark">{label}</span>
+            </label>
+          ))}
+        </div>
+      </div>
+
+      {/* Language */}
+      <div className="mb-6">
+        <label className="block text-sm font-bold text-primary-dark mb-3">
+          Language
+        </label>
+        <select
+          value={selectedLanguage || ""}
+          onChange={(e) =>
+            onFilterChange({
+              city: selectedCity,
+              ageGroup: selectedAgeGroup,
+              scheduleType: selectedScheduleType,
+              language: e.target.value || undefined,
+              tenDollarDay: selectedTenDollarDay,
+            })
+          }
+          className="w-full px-3 py-2 border border-neutral-border rounded-card text-sm text-primary-dark focus:outline-none focus:ring-2 focus:ring-primary-green"
+        >
+          <option value="">All Languages</option>
+          {languages.map((lang) => (
+            <option key={lang} value={lang}>
+              {lang}
+            </option>
+          ))}
+        </select>
+      </div>
+
+      {/* $10/Day */}
+      <div className="mb-6">
+        <label className="flex items-center">
+          <input
+            type="checkbox"
+            checked={selectedTenDollarDay || false}
+            onChange={(e) =>
+              onFilterChange({
+                city: selectedCity,
+                ageGroup: selectedAgeGroup,
+                scheduleType: selectedScheduleType,
+                language: selectedLanguage,
+                tenDollarDay: e.target.checked || undefined,
+              })
+            }
+            className="w-4 h-4 rounded accent-primary-green cursor-pointer"
+          />
+          <span className="ml-2 text-sm font-bold text-primary-dark">
+            $10/Day Program Only
+          </span>
+        </label>
+      </div>
+
+      {/* Reset Button */}
+      <button
+        onClick={handleReset}
+        className="w-full bg-neutral-border text-primary-dark px-4 py-2 rounded-card hover:bg-opacity-75 transition font-medium text-sm"
+      >
+        Reset Filters
+      </button>
+    </div>
+  );
+}
