@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { Centre } from "@/lib/mock-data";
 import Badge from "./Badge";
-import { getStarRating } from "@/lib/utils";
+import { getStarRating, slugify } from "@/lib/utils";
 
 interface CentreCardProps {
   centre: Centre;
@@ -14,7 +14,7 @@ export default function CentreCard({ centre, onClick }: CentreCardProps) {
   const { full } = getStarRating(centre.rating);
 
   return (
-    <Link href={`/centre/${centre.id}`} onClick={onClick}>
+    <Link href={`/centre/${slugify(centre.name)}`} onClick={onClick}>
       <div className="bg-white rounded-card border border-neutral-border hover:shadow-md transition cursor-pointer h-full flex flex-col">
         {/* Image Placeholder */}
         <div className="w-full h-40 bg-gradient-to-br from-primary-green to-primary-dark rounded-t-card flex items-center justify-center">

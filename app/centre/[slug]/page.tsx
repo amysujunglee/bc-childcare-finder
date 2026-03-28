@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
-import { getCentreById } from '@/lib/mock-data';
+import { getCentreBySlug } from '@/lib/mock-data';
 import Badge from '@/components/Badge';
 import AIChatPanel from '@/components/AIChatPanel';
 import { formatAgeGroups, formatScheduleType, getStarRating } from '@/lib/utils';
@@ -10,12 +10,12 @@ import { notFound } from 'next/navigation';
 
 interface CentrePageProps {
   params: {
-    id: string;
+    slug: string;
   };
 }
 
 export default function CentrePage({ params }: CentrePageProps) {
-  const centre = getCentreById(params.id);
+  const centre = getCentreBySlug(params.slug);
   const [isChatOpen, setIsChatOpen] = useState(false);
 
   if (!centre) {

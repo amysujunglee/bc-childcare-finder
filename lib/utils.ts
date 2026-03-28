@@ -1,5 +1,12 @@
 import { AgeGroup, ScheduleType } from "./mock-data";
 
+export const slugify = (name: string): string =>
+  name
+    .toLowerCase()
+    .replace(/[^a-z0-9\s-]/g, '')
+    .trim()
+    .replace(/\s+/g, '-');
+
 export const formatAgeGroups = (ageGroups: AgeGroup[]): string => {
   const labels: Record<AgeGroup, string> = {
     infant: "Infant",

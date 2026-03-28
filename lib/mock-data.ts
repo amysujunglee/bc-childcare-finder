@@ -243,6 +243,17 @@ export const centres: Centre[] = [
 export const getCentreById = (id: string): Centre | undefined =>
   centres.find((c) => c.id === id);
 
+// Helper: get centre by slug (e.g. "little-explorers-daycare")
+export const getCentreBySlug = (slug: string): Centre | undefined =>
+  centres.find(
+    (c) =>
+      c.name
+        .toLowerCase()
+        .replace(/[^a-z0-9\s-]/g, '')
+        .trim()
+        .replace(/\s+/g, '-') === slug
+  );
+
 // Helper: get unique cities
 export const getUniqueCities = (): string[] =>
   [...new Set(centres.map((c) => c.city))].sort();

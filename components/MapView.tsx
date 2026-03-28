@@ -2,6 +2,7 @@
 
 import { useEffect, useRef } from 'react';
 import { Centre } from '@/lib/mock-data';
+import { slugify } from '@/lib/utils';
 
 interface MapViewProps {
   centres: Centre[];
@@ -88,7 +89,7 @@ export default function MapView({ centres, selectedCentreId, onCentreSelect }: M
                 ${centre.spotsAvailable > 0 ? `${centre.spotsAvailable} spots open` : 'Full'}
               </span>
             </div>
-            <a href="/centre/${centre.id}" style="color:#4CAF82;font-size:12px;font-weight:600;text-decoration:none;">
+            <a href="/centre/${slugify(centre.name)}" style="color:#4CAF82;font-size:12px;font-weight:600;text-decoration:none;">
               View profile →
             </a>
           </div>
