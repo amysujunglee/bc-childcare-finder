@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useEffect, useRef } from 'react';
 import { Centre } from '@/lib/mock-data';
 
 interface MapViewProps {
@@ -10,80 +10,125 @@ interface MapViewProps {
 }
 
 export default function MapView({ centres, selectedCentreId, onCentreSelect }: MapViewProps) {
-  const [hoveredId, setHoveredId] = useState<string>();
+  const mapRef = useRef<HTMLDivElement>(null);
+  const mapInstanceRef = useRef<import('leaflet').Map | null>(null);
+  const markersRef = useRef<import('leaflet').Marker[]>([]);
 
-  // Calculate bounds
-  const lats = centres.map((c) => c.lat);
-  const lngs = centres.map((c) => c.lng);
-  const minLat = Math.min(...lats);
-  const maxLat = Math.max(...lats);
-  const minLng = Math.min(...lngs);
-  const maxLng = Math.max(...lngs);
+  useEffect(() => {
+    if (!mapRef.current || mapInstanceRef.current) return;
 
-  const width = maxLng - minLng || 0.1;
-  const height = maxLat - minLat || 0.1;
+    // Dynamically import Leaflet (SSR safe)
+    import('leaflet').then((L) => {
+      // Fix default marker icon paths broken by webpack
+      // @ts-expect-error - _getIconUrl is not in types
+      delete L.Icon.Default.prototype._getIconUrl;
+      L.Icon.Default.mergeOptions({
+        iconUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-icon.png',
+        iconRetinaUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-icon-2x.png',
+        shadowUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-shadow.png',
+      });
+
+      const map = L.map(mapRef.current!, {
+        center: [49.22, -122.98],
+        zoom: 10,
+        zoomControl: true,
+        scrollWheelZoom: false,
+      });
+
+      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+        maxZoom: 18,
+      }).addTo(map);
+
+      // Custom green pin icon
+      const greenIcon = L.divIcon({
+        className: '',
+        html: `<div style="
+          width:32px;height:32px;
+          background:#4CAF82;
+          border:2.5px solid #fff;
+          border-radius:50% 50% 50% 0;
+          transform:rotate(-45deg);
+          box-shadow:0 2px 6px rgba(0,0,0,0.25);
+        "></div>`,
+        iconSize: [32, 32],
+        iconAnchor: [16, 32],
+        popupAnchor: [0, -34],
+      });
+
+      const selectedIcon = L.divIcon({
+        className: '',
+        html: `<div style="
+          width:36px;height:36px;
+          background:#1A1A2E;
+          border:2.5px solid #4CAF82;
+          border-radius:50% 50% 50% 0;
+          transform:rotate(-45deg);
+          box-shadow:0 2px 8px rgba(0,0,0,0.35);
+        "></div>`,
+        iconSize: [36, 36],
+        iconAnchor: [18, 36],
+        popupAnchor: [0, -38],
+      });
+
+      centres.forEach((centre) => {
+        const isSelected = centre.id === selectedCentreId;
+        const marker = L.marker([centre.lat, centre.lng], {
+          icon: isSelected ? selectedIcon : greenIcon,
+          title: centre.name,
+        });
+
+        marker.bindPopup(`
+          <div style="font-family:sans-serif;min-width:180px;">
+            <p style="font-weight:700;font-size:14px;margin:0 0 2px;color:#1A1A2E;">${centre.name}</p>
+            <p style="color:#666;font-size:12px;margin:0 0 8px;">${centre.city}</p>
+            <div style="display:flex;gap:6px;align-items:center;margin-bottom:8px;">
+              ${centre.tenDollarDay ? '<span style="background:#4CAF82;color:#fff;padding:2px 8px;border-radius:999px;font-size:11px;">$10/Day</span>' : ''}
+              <span style="font-size:12px;color:${centre.spotsAvailable > 0 ? '#4CAF82' : '#ef4444'};font-weight:600;">
+                ${centre.spotsAvailable > 0 ? `${centre.spotsAvailable} spots open` : 'Full'}
+              </span>
+            </div>
+            <a href="/centre/${centre.id}" style="color:#4CAF82;font-size:12px;font-weight:600;text-decoration:none;">
+              View profile →
+            </a>
+          </div>
+        `);
+
+        marker.on('click', () => onCentreSelect?.(centre.id));
+        marker.addTo(map);
+        markersRef.current.push(marker);
+      });
+
+      mapInstanceRef.current = map;
+    });
+
+    return () => {
+      mapInstanceRef.current?.remove();
+      mapInstanceRef.current = null;
+      markersRef.current = [];
+    };
+  }, []);
+
+  // Pan to selected centre
+  useEffect(() => {
+    if (!mapInstanceRef.current || !selectedCentreId) return;
+    const centre = centres.find((c) => c.id === selectedCentreId);
+    if (centre) {
+      mapInstanceRef.current.setView([centre.lat, centre.lng], 13, { animate: true });
+    }
+  }, [selectedCentreId, centres]);
 
   return (
-    <div className="relative w-full h-96 bg-gray-100 rounded-card border border-neutral-border overflow-hidden">
-      {/* Map Container */}
-      <svg
-        viewBox={`${minLng - width * 0.1} ${minLat - height * 0.1} ${width * 1.2} ${height * 1.2}`}
-        className="w-full h-full"
-      >
-        {/* Background grid */}
-        <defs>
-          <pattern id="grid" width="0.01" height="0.01" patternUnits="userSpaceOnUse">
-            <path d="M 0.01 0 L 0 0 0 0.01" fill="none" stroke="#E8E4DC" strokeWidth="0.0005" />
-          </pattern>
-        </defs>
-        <rect width="100%" height="100%" fill="url(#grid)" />
-
-        {/* Centre Pins */}
-        {centres.map((centre) => {
-          const isSelected = centre.id === selectedCentreId;
-          const isHovered = centre.id === hoveredId;
-          const isHighlight = isSelected || isHovered;
-
-          return (
-            <g key={centre.id}>
-              <circle
-                cx={centre.lng}
-                cy={centre.lat}
-                r={isHighlight ? 0.012 : 0.008}
-                fill={isHighlight ? '#FF6B6B' : '#4CAF82'}
-                opacity={isHighlight ? 1 : 0.7}
-                className="cursor-pointer"
-                onClick={() => onCentreSelect?.(centre.id)}
-                onMouseEnter={() => setHoveredId(centre.id)}
-                onMouseLeave={() => setHoveredId(undefined)}
-              />
-              {isHighlight && (
-                <circle
-                  cx={centre.lng}
-                  cy={centre.lat}
-                  r={0.018}
-                  fill="none"
-                  stroke="#4CAF82"
-                  strokeWidth="0.002"
-                  opacity="0.3"
-                />
-              )}
-            </g>
-          );
-        })}
-      </svg>
-
-      {hoveredId && (
-        <div className="absolute bottom-4 left-4 right-4 bg-white rounded-card p-3 shadow-md border border-neutral-border text-xs">
-          {centres.find((c) => c.id === hoveredId)?.name}
-        </div>
-      )}
-
-      {centres.length === 0 && (
-        <div className="absolute inset-0 flex items-center justify-center bg-gray-50">
-          <p className="text-neutral-muted text-sm">No centres found. Try adjusting your filters.</p>
-        </div>
-      )}
-    </div>
+    <>
+      <link
+        rel="stylesheet"
+        href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      />
+      <div
+        ref={mapRef}
+        className="w-full rounded-card border border-neutral-border shadow-soft overflow-hidden"
+        style={{ height: '420px' }}
+      />
+    </>
   );
 }
