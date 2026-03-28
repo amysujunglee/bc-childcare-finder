@@ -29,21 +29,20 @@ export default function Navbar() {
             >
               Find Care
             </Link>
-            <a
-              href="#about"
+            <Link
+              href="/about"
               className="text-foreground hover:text-primary-green transition"
             >
               About
-            </a>
+            </Link>
+            <Link
+              href="/contact"
+              className="text-foreground hover:text-primary-green transition"
+            >
+              Contact
+            </Link>
           </div>
 
-          {/* CTA Button */}
-          <Link
-            href="/find"
-            className="bg-primary-green text-white px-6 py-2 rounded-card hover:bg-opacity-90 transition font-medium text-sm"
-          >
-            Get Started
-          </Link>
         </div>
       </div>
     </nav>
