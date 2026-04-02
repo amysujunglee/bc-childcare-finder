@@ -6,7 +6,6 @@ import {
   getUniqueCities,
   getUniqueLanguages,
 } from "@/lib/mock-data";
-import Badge from "./Badge";
 
 interface FilterSidebarProps {
   selectedCity?: string;
@@ -68,26 +67,31 @@ export default function FilterSidebar({
         <label className="block text-sm font-bold text-primary-dark mb-3">
           City
         </label>
-        <select
-          value={selectedCity || ""}
-          onChange={(e) =>
-            onFilterChange({
-              city: e.target.value || undefined,
-              ageGroup: selectedAgeGroup,
-              scheduleType: selectedScheduleType,
-              language: selectedLanguage,
-              tenDollarDay: selectedTenDollarDay,
-            })
-          }
-          className="w-full px-3 py-2 border border-neutral-border rounded-card text-sm text-primary-dark focus:outline-none focus:ring-2 focus:ring-primary-green"
-        >
-          <option value="">All Cities</option>
-          {cities.map((city) => (
-            <option key={city} value={city}>
-              {city}
-            </option>
-          ))}
-        </select>
+        <div className="relative">
+          <select
+            value={selectedCity || ""}
+            onChange={(e) =>
+              onFilterChange({
+                city: e.target.value || undefined,
+                ageGroup: selectedAgeGroup,
+                scheduleType: selectedScheduleType,
+                language: selectedLanguage,
+                tenDollarDay: selectedTenDollarDay,
+              })
+            }
+            className="w-full appearance-none pl-3 pr-10 py-2 border border-neutral-border rounded-card text-sm text-primary-dark focus:outline-none focus:ring-2 focus:ring-primary-green bg-white"
+          >
+            <option value="">All Cities</option>
+            {cities.map((city) => (
+              <option key={city} value={city}>
+                {city}
+              </option>
+            ))}
+          </select>
+          <svg className="pointer-events-none absolute right-3 top-1/2 -translate-y-1/2 w-4 h-4 text-neutral-muted" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+          </svg>
+        </div>
       </div>
 
       {/* Age Groups */}
@@ -151,26 +155,31 @@ export default function FilterSidebar({
         <label className="block text-sm font-bold text-primary-dark mb-3">
           Language
         </label>
-        <select
-          value={selectedLanguage || ""}
-          onChange={(e) =>
-            onFilterChange({
-              city: selectedCity,
-              ageGroup: selectedAgeGroup,
-              scheduleType: selectedScheduleType,
-              language: e.target.value || undefined,
-              tenDollarDay: selectedTenDollarDay,
-            })
-          }
-          className="w-full px-3 py-2 border border-neutral-border rounded-card text-sm text-primary-dark focus:outline-none focus:ring-2 focus:ring-primary-green"
-        >
-          <option value="">All Languages</option>
-          {languages.map((lang) => (
-            <option key={lang} value={lang}>
-              {lang}
-            </option>
-          ))}
-        </select>
+        <div className="relative">
+          <select
+            value={selectedLanguage || ""}
+            onChange={(e) =>
+              onFilterChange({
+                city: selectedCity,
+                ageGroup: selectedAgeGroup,
+                scheduleType: selectedScheduleType,
+                language: e.target.value || undefined,
+                tenDollarDay: selectedTenDollarDay,
+              })
+            }
+            className="w-full appearance-none pl-3 pr-10 py-2 border border-neutral-border rounded-card text-sm text-primary-dark focus:outline-none focus:ring-2 focus:ring-primary-green bg-white"
+          >
+            <option value="">All Languages</option>
+            {languages.map((lang) => (
+              <option key={lang} value={lang}>
+                {lang}
+              </option>
+            ))}
+          </select>
+          <svg className="pointer-events-none absolute right-3 top-1/2 -translate-y-1/2 w-4 h-4 text-neutral-muted" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+          </svg>
+        </div>
       </div>
 
       {/* $10/Day */}
