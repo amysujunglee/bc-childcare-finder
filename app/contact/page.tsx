@@ -155,17 +155,22 @@ export default function ContactPage() {
               <label className="block text-sm font-medium text-primary-dark mb-1.5">
                 What's this about?
               </label>
-              <select
-                value={issueType}
-                onChange={(e) => setIssueType(e.target.value)}
-                required
-                className="w-full px-4 py-2.5 border border-neutral-border rounded-card text-sm text-primary-dark focus:outline-none focus:ring-2 focus:ring-primary-green"
-              >
-                <option value="" disabled>Select an issue type…</option>
-                {issueTypes.map((type) => (
-                  <option key={type} value={type}>{type}</option>
-                ))}
-              </select>
+              <div className="relative">
+                <select
+                  value={issueType}
+                  onChange={(e) => setIssueType(e.target.value)}
+                  required
+                  className="w-full appearance-none pl-4 pr-10 py-2.5 border border-neutral-border rounded-card text-sm text-primary-dark focus:outline-none focus:ring-2 focus:ring-primary-green bg-white"
+                >
+                  <option value="" disabled>Select an issue type…</option>
+                  {issueTypes.map((type) => (
+                    <option key={type} value={type}>{type}</option>
+                  ))}
+                </select>
+                <svg className="pointer-events-none absolute right-3 top-1/2 -translate-y-1/2 w-4 h-4 text-neutral-muted" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                </svg>
+              </div>
             </div>
 
             {/* Message */}
