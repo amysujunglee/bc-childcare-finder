@@ -17,15 +17,12 @@ function FindPageInner() {
   const [selectedTenDollarDay, setSelectedTenDollarDay] = useState<boolean>();
   const [selectedCentreId, setSelectedCentreId] = useState<string>();
   const [scrollToCard, setScrollToCard] = useState<string>();
+  const [filtersOpen, setFiltersOpen] = useState(false);
 
-  // Apply filters
   useEffect(() => {
     const searchQuery = searchParams.get('search');
-
-    // Start from search results if query exists, otherwise all centres
     let filtered = searchQuery ? searchCentres(searchQuery) : centres;
 
-    // Apply sidebar filters on top of search results
     filtered = filtered.filter((c) => {
       if (selectedCity && c.city.toLowerCase() !== selectedCity.toLowerCase()) return false;
       if (selectedAgeGroup && !c.ageGroups.includes(selectedAgeGroup)) return false;
@@ -57,20 +54,54 @@ function FindPageInner() {
     setScrollToCard(centreId);
   };
 
+  const activeFilterCount = [selectedCity, selectedAgeGroup, selectedScheduleType, selectedLanguage, selectedTenDollarDay].filter(Boolean).length;
+
   return (
-    <div className="py-8 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <h1 className="text-3xl font-serif font-bold text-primary-dark mb-8">
-        Find Childcare
-        {searchParams.get('search') && (
-          <span className="text-lg font-normal text-neutral-muted ml-2">
-            for "{searchParams.get('search')}"
-          </span>
-        )}
-      </h1>
+    <div className="py-6 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="flex items-center justify-between mb-6">
+        <h1 className="text-2xl sm:text-3xl font-serif font-bold text-primary-dark">
+          Find Childcare
+          {searchParams.get('search') && (
+            <span className="text-base font-normal text-neutral-muted ml-2">
+              for &ldquo;{searchParams.get('search')}&rdquo;
+            </span>
+          )}
+        </h1>
+
+        {/* Mobile filter toggle */}
+        <button
+          className="md:hidden flex items-center gap-2 text-sm font-medium bg-white border border-neutral-border px-3 py-2 rounded-card shadow-soft"
+          onClick={() => setFiltersOpen(!filtersOpen)}
+        >
+          <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 4h18M6 8h12M9 12h6" />
+          </svg>
+          Filters
+          {activeFilterCount > 0 && (
+            <span className="bg-primary-green text-white text-xs rounded-full w-5 h-5 flex items-center justify-center">
+              {activeFilterCount}
+            </span>
+          )}
+        </button>
+      </div>
+
+      {/* Mobile Filter Drawer */}
+      {filtersOpen && (
+        <div className="md:hidden mb-6">
+          <FilterSidebar
+            selectedCity={selectedCity}
+            selectedAgeGroup={selectedAgeGroup}
+            selectedScheduleType={selectedScheduleType}
+            selectedLanguage={selectedLanguage}
+            selectedTenDollarDay={selectedTenDollarDay}
+            onFilterChange={(f) => { handleFilterChange(f); setFiltersOpen(false); }}
+          />
+        </div>
+      )}
 
       <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-        {/* Left: Filters */}
-        <div className="md:col-span-1">
+        {/* Desktop Sidebar */}
+        <div className="hidden md:block md:col-span-1">
           <FilterSidebar
             selectedCity={selectedCity}
             selectedAgeGroup={selectedAgeGroup}
@@ -81,11 +112,12 @@ function FindPageInner() {
           />
         </div>
 
-        {/* Right: Map and List */}
+        {/* Map and List */}
         <div className="md:col-span-3">
-          {/* Map */}
-          <div className="mb-8">
-            <h2 className="text-lg font-serif font-bold text-primary-dark mb-4">Map View ({displayedCentres.length})</h2>
+          <div className="mb-6">
+            <h2 className="text-base font-serif font-bold text-primary-dark mb-3">
+              Map View ({displayedCentres.length})
+            </h2>
             <MapView
               centres={displayedCentres}
               selectedCentreId={selectedCentreId}
@@ -94,38 +126,30 @@ function FindPageInner() {
             />
           </div>
 
-          {/* List */}
           <div>
-            <h2 className="text-lg font-serif font-bold text-primary-dark mb-4">
+            <h2 className="text-base font-serif font-bold text-primary-dark mb-4">
               Available Centres ({displayedCentres.length})
             </h2>
 
             {displayedCentres.length === 0 ? (
-              <div className="bg-white rounded-card border border-neutral-border p-12 text-center">
-                <p className="text-neutral-muted text-lg mb-4">No daycares found matching your filters.</p>
+              <div className="bg-white rounded-card border border-neutral-border p-8 text-center">
+                <p className="text-neutral-muted mb-4">No daycares found matching your filters.</p>
                 <button
                   onClick={() => handleFilterChange({})}
-                  className="bg-primary-green text-white px-6 py-2 rounded-card hover:bg-opacity-90 transition font-medium"
+                  className="bg-primary-green text-white px-6 py-2 rounded-card hover:bg-opacity-90 transition font-medium text-sm"
                 >
                   Clear Filters
                 </button>
               </div>
             ) : (
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6">
                 {displayedCentres.map((centre) => (
                   <div
                     key={centre.id}
                     id={`centre-${centre.id}`}
-                    className={`transition ${
-                      scrollToCard === centre.id ? 'ring-2 ring-primary-green' : ''
-                    }`}
+                    className={`transition ${scrollToCard === centre.id ? 'ring-2 ring-primary-green rounded-card' : ''}`}
                   >
-                    <CentreCard
-                      centre={centre}
-                      onClick={() => {
-                        setSelectedCentreId(centre.id);
-                      }}
-                    />
+                    <CentreCard centre={centre} onClick={() => setSelectedCentreId(centre.id)} />
                   </div>
                 ))}
               </div>
