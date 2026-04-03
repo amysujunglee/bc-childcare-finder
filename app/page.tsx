@@ -38,7 +38,7 @@ export default function HomePage() {
                 type="text"
                 value={searchInput}
                 onChange={(e) => setSearchInput(e.target.value)}
-                placeholder="Search by city or postal code..."
+                placeholder="Search by name, city, or postal code..."
                 className="flex-1 min-w-0 px-4 py-3 border border-neutral-border rounded-card focus:outline-none focus:ring-2 focus:ring-primary-green text-foreground text-sm"
               />
               <button

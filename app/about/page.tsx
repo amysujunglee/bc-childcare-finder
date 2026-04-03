@@ -1,4 +1,10 @@
+import type { Metadata } from 'next';
 import Link from 'next/link';
+
+export const metadata: Metadata = {
+  title: 'About | BC Childcare Finder',
+  description: 'Learn about BC Childcare Finder — our mission to help BC families find licensed, affordable daycare and support childcare providers across the province.',
+};
 
 const stats = [
   { value: '60%', label: 'of BC families with children under 6 have both parents working — yet licensed childcare spaces meet less than 30% of demand.' },

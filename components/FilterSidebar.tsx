@@ -13,6 +13,8 @@ interface FilterSidebarProps {
   selectedScheduleType?: ScheduleType;
   selectedLanguage?: string;
   selectedTenDollarDay?: boolean;
+  searchQuery?: string;
+  onSearch?: (query: string) => void;
   onFilterChange: (filters: {
     city?: string;
     ageGroup?: AgeGroup;
@@ -28,16 +30,18 @@ export default function FilterSidebar({
   selectedScheduleType,
   selectedLanguage,
   selectedTenDollarDay,
+  searchQuery = '',
+  onSearch,
   onFilterChange,
 }: FilterSidebarProps) {
   const cities = getUniqueCities();
   const languages = getUniqueLanguages();
 
   const ageGroups: { value: AgeGroup; label: string }[] = [
-    { value: "infant", label: "Infant" },
-    { value: "toddler", label: "Toddler" },
-    { value: "preschool", label: "Preschool" },
-    { value: "schoolAge", label: "School Age" },
+    { value: "infant", label: "Infant (0–18 months)" },
+    { value: "toddler", label: "Toddler (18 months–3 years)" },
+    { value: "preschool", label: "Preschool (3–5 years)" },
+    { value: "schoolAge", label: "School Age (5–12 years)" },
   ];
 
   const scheduleTypes: { value: ScheduleType; label: string }[] = [
@@ -61,6 +65,24 @@ export default function FilterSidebar({
       <h2 className="font-serif text-lg font-bold text-primary-dark mb-6">
         Filters
       </h2>
+
+      {/* Search */}
+      {onSearch && (
+        <div className="mb-6">
+          <label className="block text-sm font-bold text-primary-dark mb-3">
+            Search
+          </label>
+          <form onSubmit={(e) => { e.preventDefault(); onSearch(searchQuery); }} className="flex gap-2">
+            <input
+              type="text"
+              value={searchQuery}
+              onChange={(e) => onSearch(e.target.value)}
+              placeholder="Name, city, or address…"
+              className="flex-1 min-w-0 border border-neutral-border rounded-card px-3 py-2 text-sm text-primary-dark placeholder:text-neutral-muted focus:outline-none focus:ring-2 focus:ring-primary-green"
+            />
+          </form>
+        </div>
+      )}
 
       {/* City */}
       <div className="mb-6">
