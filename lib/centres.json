@@ -2734,5 +2734,605 @@
     "rating": 0,
     "manager": "Eugenia Ghiocel",
     "capacity": 8
+  },
+  {
+    "id": "115",
+    "name": "Tree House Infant and Toddler Daycare",
+    "address": "6897 Sussex Ave",
+    "city": "Burnaby",
+    "lat": 49.2488,
+    "lng": -122.9805,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(778)389-8009",
+    "email": "",
+    "description": "Licensed infant and toddler care in Burnaby.",
+    "rating": 0,
+    "manager": "Yanhong Xu",
+    "capacity": 8
+  },
+  {
+    "id": "116",
+    "name": "Weave Childcare Centre",
+    "address": "3905 Norland Ave",
+    "city": "Burnaby",
+    "lat": 49.2488,
+    "lng": -122.9805,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(778)321-5467",
+    "email": "",
+    "description": "Licensed infant and toddler care in Burnaby.",
+    "rating": 0,
+    "manager": "Ilnam Kim",
+    "capacity": 12
+  },
+  {
+    "id": "117",
+    "name": "1,2,3, A.B.C. Montessori Infant/Toddler Center",
+    "address": "737 Poirier St",
+    "city": "Coquitlam",
+    "lat": 49.2838,
+    "lng": -122.7932,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(604)931-7206",
+    "email": "",
+    "description": "Licensed infant and toddler care in Coquitlam.",
+    "rating": 0,
+    "manager": "Alicia Wozniak",
+    "capacity": 12
+  },
+  {
+    "id": "118",
+    "name": "All Bright Early Learning Center",
+    "address": "706 Linton St",
+    "city": "Coquitlam",
+    "lat": 49.2838,
+    "lng": -122.7932,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(778)316-5360",
+    "email": "",
+    "description": "Licensed infant and toddler care in Coquitlam.",
+    "rating": 0,
+    "manager": "Sunhwa Lee",
+    "capacity": 8
+  },
+  {
+    "id": "119",
+    "name": "All Bright Early Learning Center Park",
+    "address": "2274 Park Cres",
+    "city": "Coquitlam",
+    "lat": 49.2838,
+    "lng": -122.7932,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(604)970-4423",
+    "email": "",
+    "description": "Licensed infant and toddler care in Coquitlam.",
+    "rating": 0,
+    "manager": "Mingjian Li (Jane)",
+    "capacity": 8
+  },
+  {
+    "id": "120",
+    "name": "All My Kids Ltd",
+    "address": "1710 Harbour Dr",
+    "city": "Coquitlam",
+    "lat": 49.2838,
+    "lng": -122.7932,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(778)835-6104",
+    "email": "",
+    "description": "Licensed infant and toddler care in Coquitlam.",
+    "rating": 0,
+    "manager": "Elaheh Golabi",
+    "capacity": 8
+  },
+  {
+    "id": "121",
+    "name": "Alpha Bees Childcare",
+    "address": "1157 Falcon Dr",
+    "city": "Coquitlam",
+    "lat": 49.2838,
+    "lng": -122.7932,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(778)316-3732",
+    "email": "",
+    "description": "Licensed infant and toddler care in Coquitlam.",
+    "rating": 0,
+    "manager": "Marzieh (Maryam) Tabatabaei",
+    "capacity": 8
+  },
+  {
+    "id": "122",
+    "name": "Amazing Tots Childcare Center",
+    "address": "2888 Walton Ave",
+    "city": "Coquitlam",
+    "lat": 49.2838,
+    "lng": -122.7932,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(778)227-5747",
+    "email": "",
+    "description": "Licensed infant and toddler care in Coquitlam.",
+    "rating": 0,
+    "manager": "Elaheh Mehrvarz",
+    "capacity": 10
+  },
+  {
+    "id": "123",
+    "name": "Angels Playhouse Daycare Society (Rochester Ave)",
+    "address": "722 Rochester Ave",
+    "city": "Coquitlam",
+    "lat": 49.2838,
+    "lng": -122.7932,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(604)809-3868",
+    "email": "",
+    "description": "Licensed infant and toddler care in Coquitlam.",
+    "rating": 0,
+    "manager": "Natale Channakian",
+    "capacity": 8
+  },
+  {
+    "id": "124",
+    "name": "Anna's Greenhouse Daycare",
+    "address": "220 Bernatchey St",
+    "city": "Coquitlam",
+    "lat": 49.2838,
+    "lng": -122.7932,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(604)767-8027",
+    "email": "",
+    "description": "Licensed infant and toddler care in Coquitlam.",
+    "rating": 0,
+    "manager": "Kun Ma",
+    "capacity": 8
+  },
+  {
+    "id": "125",
+    "name": "Art in Daycare",
+    "address": "625 Schoolhouse St",
+    "city": "Coquitlam",
+    "lat": 49.2838,
+    "lng": -122.7932,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(236)788-8485",
+    "email": "",
+    "description": "Licensed infant and toddler care in Coquitlam.",
+    "rating": 0,
+    "manager": "Cheong Min Kang",
+    "capacity": 8
+  },
+  {
+    "id": "126",
+    "name": "Awesome PlayTime (APT) Daycare",
+    "address": "849 Runnymede Ave",
+    "city": "Coquitlam",
+    "lat": 49.2838,
+    "lng": -122.7932,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(778)877-0706",
+    "email": "",
+    "description": "Licensed infant and toddler care in Coquitlam.",
+    "rating": 0,
+    "manager": "Jung Woo (Tina) Kim",
+    "capacity": 8
+  },
+  {
+    "id": "127",
+    "name": "Baby Smart Infant and Toddler Child Care Centre",
+    "address": "1530 Como Lake Ave",
+    "city": "Coquitlam",
+    "lat": 49.2838,
+    "lng": -122.7932,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(604)306-6698",
+    "email": "",
+    "description": "Licensed infant and toddler care in Coquitlam.",
+    "rating": 0,
+    "manager": "Jiana Liu (Anna)",
+    "capacity": 8
+  },
+  {
+    "id": "128",
+    "name": "Baby to Superstar Daycare",
+    "address": "2936 Valleyvista Dr",
+    "city": "Coquitlam",
+    "lat": 49.2838,
+    "lng": -122.7932,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(778)877-0706",
+    "email": "",
+    "description": "Licensed infant and toddler care in Coquitlam.",
+    "rating": 0,
+    "manager": "MinHwa Lee",
+    "capacity": 8
+  },
+  {
+    "id": "129",
+    "name": "Barney Group Daycare",
+    "address": "2905 Walton Ave",
+    "city": "Coquitlam",
+    "lat": 49.2838,
+    "lng": -122.7932,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(778)834-9771",
+    "email": "",
+    "description": "Licensed infant and toddler care in Coquitlam.",
+    "rating": 0,
+    "manager": "Behnoush Behzadi",
+    "capacity": 8
+  },
+  {
+    "id": "130",
+    "name": "Bright Beginnings Infant / Child Care",
+    "address": "1393 Austin Ave",
+    "city": "Coquitlam",
+    "lat": 49.2838,
+    "lng": -122.7932,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(604)613-1022",
+    "email": "",
+    "description": "Licensed infant and toddler care in Coquitlam.",
+    "rating": 0,
+    "manager": "Suzanne Logan",
+    "capacity": 12
+  },
+  {
+    "id": "131",
+    "name": "Bright Genius Academy Childcare Center",
+    "address": "1508 Shore View Pl",
+    "city": "Coquitlam",
+    "lat": 49.2838,
+    "lng": -122.7932,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(236)965-4536",
+    "email": "",
+    "description": "Licensed infant and toddler care in Coquitlam.",
+    "rating": 0,
+    "manager": "Jingna Dong",
+    "capacity": 8
+  },
+  {
+    "id": "132",
+    "name": "Bright Kiddo Childcare Ltd",
+    "address": "717 Poirier St",
+    "city": "Coquitlam",
+    "lat": 49.2838,
+    "lng": -122.7932,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(778)833-1137",
+    "email": "",
+    "description": "Licensed infant and toddler care in Coquitlam.",
+    "rating": 0,
+    "manager": "Kim Hyon Jong (Heather)",
+    "capacity": 8
+  },
+  {
+    "id": "133",
+    "name": "Burke Village Academy",
+    "address": "3516 Forst Ave",
+    "city": "Coquitlam",
+    "lat": 49.2838,
+    "lng": -122.7932,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(778)723-5650",
+    "email": "",
+    "description": "Licensed infant and toddler care in Coquitlam.",
+    "rating": 0,
+    "manager": "Xi Wang (Emma)",
+    "capacity": 8
+  },
+  {
+    "id": "134",
+    "name": "Busy Bees Child Care",
+    "address": "1159 Eagleridge Dr",
+    "city": "Coquitlam",
+    "lat": 49.2838,
+    "lng": -122.7932,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(604)561-5380",
+    "email": "",
+    "description": "Licensed infant and toddler care in Coquitlam.",
+    "rating": 0,
+    "manager": "Girish Sharma",
+    "capacity": 8
+  },
+  {
+    "id": "135",
+    "name": "Don Moore Childcare",
+    "address": "3392 Don Moore Dr",
+    "city": "Coquitlam",
+    "lat": 49.2838,
+    "lng": -122.7932,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(604)500-0740",
+    "email": "",
+    "description": "Licensed infant and toddler care in Coquitlam.",
+    "rating": 0,
+    "manager": "Roxana Aslanbeiki",
+    "capacity": 8
+  },
+  {
+    "id": "136",
+    "name": "Dream Castle Childcare Centre Ltd",
+    "address": "3542 Highland Dr",
+    "city": "Coquitlam",
+    "lat": 49.2838,
+    "lng": -122.7932,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(778)861-3456",
+    "email": "",
+    "description": "Licensed infant and toddler care in Coquitlam.",
+    "rating": 0,
+    "manager": "Man Liu",
+    "capacity": 8
+  },
+  {
+    "id": "137",
+    "name": "DreamKids Childcare",
+    "address": "207 - 1194 Lansdowne Dr",
+    "city": "Coquitlam",
+    "lat": 49.2838,
+    "lng": -122.7932,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(604)474-1010",
+    "email": "",
+    "description": "Licensed infant and toddler care in Coquitlam.",
+    "rating": 0,
+    "manager": "Heymi Amy Lee",
+    "capacity": 20
+  },
+  {
+    "id": "138",
+    "name": "Dreamy Daisy Daycare Corp.",
+    "address": "1519 Eagle Mountain Dr",
+    "city": "Coquitlam",
+    "lat": 49.2838,
+    "lng": -122.7932,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(778)898-4502",
+    "email": "",
+    "description": "Licensed infant and toddler care in Coquitlam.",
+    "rating": 0,
+    "manager": "Fatemeh Teimori",
+    "capacity": 8
+  },
+  {
+    "id": "139",
+    "name": "Hami's Playhouse Infant and Toddler",
+    "address": "1158 Hansard Cres",
+    "city": "Coquitlam",
+    "lat": 49.2838,
+    "lng": -122.7932,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(604)518-6147",
+    "email": "",
+    "description": "Licensed infant and toddler care in Coquitlam.",
+    "rating": 0,
+    "manager": "Hamideh Kazemi",
+    "capacity": 10
   }
 ]
