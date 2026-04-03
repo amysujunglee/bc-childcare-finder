@@ -18,7 +18,7 @@ export async function generateMetadata({ params }: CentrePageProps): Promise<Met
   const tenDollarText = centre.tenDollarDay ? ' $10/Day eligible.' : '';
 
   return {
-    title: `${centre.name} – ${centre.city} | BC Childcare Finder`,
+    title: `${centre.name} – ${centre.city} | Find Care BC`,
     description: `${centre.name} in ${centre.city}. Licensed childcare for ${ageLabel}.${tenDollarText}`,
   };
 }

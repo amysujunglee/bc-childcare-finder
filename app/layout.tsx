@@ -17,7 +17,7 @@ const dmSans = DM_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "BC Childcare Finder",
+  title: "Find Care BC",
   description: "Find licensed daycare homes and centres near you in BC, Canada",
 };
 

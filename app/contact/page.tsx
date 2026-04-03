@@ -54,7 +54,7 @@ export default function ContactPage() {
           <h2 className="text-3xl font-serif font-bold text-primary-dark mb-3">Thank you!</h2>
           <p className="text-neutral-muted mb-8">
             We've received your message and will review it shortly. Your feedback helps us keep
-            BC Childcare Finder accurate and useful for every family.
+            Find Care BC accurate and useful for every family.
           </p>
           <a
             href="/"
@@ -80,7 +80,7 @@ export default function ContactPage() {
             Help us get it right.
           </h1>
           <p className="text-gray-300 text-lg max-w-xl mx-auto">
-            BC Childcare Finder is a work in progress. If you spot something missing,
+            Find Care BC is a work in progress. If you spot something missing,
             outdated, or wrong — we want to hear from you. Every report makes the
             platform better for every BC family.
           </p>

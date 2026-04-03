@@ -2,8 +2,8 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'About | BC Childcare Finder',
-  description: 'Learn about BC Childcare Finder — our mission to help BC families find licensed, affordable daycare and support childcare providers across the province.',
+  title: 'About | Find Care BC',
+  description: 'Learn about Find Care BC — our mission to help BC families find licensed, affordable daycare and support childcare providers across the province.',
 };
 
 const stats = [
@@ -92,7 +92,7 @@ export default function AboutPage() {
             Every BC family deserves access to quality, affordable childcare.
           </h1>
           <p className="text-lg text-gray-300 max-w-2xl mx-auto leading-relaxed">
-            BC Childcare Finder was built because finding licensed daycare in British Columbia
+            Find Care BC was built because finding licensed daycare in British Columbia
             shouldn't require months of research, endless phone calls, and crossed fingers.
             We're here to change that — for families and for the providers who serve them.
           </p>
@@ -168,7 +168,7 @@ export default function AboutPage() {
               Fill spots. Reduce admin. Grow your community.
             </h2>
             <p className="text-neutral-muted max-w-xl mx-auto">
-              BC Childcare Finder gives licensed operators the visibility and tools they need
+              Find Care BC gives licensed operators the visibility and tools they need
               to connect with the right families quickly and efficiently.
             </p>
           </div>
@@ -193,7 +193,7 @@ export default function AboutPage() {
               We're just getting started.
             </h2>
             <p className="text-gray-400 max-w-xl mx-auto">
-              BC Childcare Finder is actively being built. Here's what's on the roadmap
+              Find Care BC is actively being built. Here's what's on the roadmap
               to make the platform even more powerful for families and providers.
             </p>
           </div>

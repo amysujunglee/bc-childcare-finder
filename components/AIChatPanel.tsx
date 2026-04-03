@@ -17,7 +17,7 @@ export default function AIChatPanel({ isOpen, onClose, context = '' }: AIChatPan
   const [messages, setMessages] = useState<Message[]>([
     {
       role: 'assistant',
-      content: 'Hello! I\'m your BC Childcare Finder assistant. Ask me about daycare options, fees, schedules, or anything else about finding childcare in BC!',
+      content: 'Hello! I\'m your Find Care BC assistant. Ask me about daycare options, fees, schedules, or anything else about finding childcare in BC!',
     },
   ]);
   const [input, setInput] = useState('');

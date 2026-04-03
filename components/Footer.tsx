@@ -13,9 +13,7 @@ export default function Footer() {
           <div>
             <div className="flex items-center gap-2 mb-4">
               <div className="w-5 h-5 bg-primary-green rounded-full" />
-              <span className="font-serif font-bold text-lg">
-                BC Childcare Finder
-              </span>
+              <span className="font-serif font-bold text-lg">Find Care BC</span>
             </div>
             <p className="text-gray-300 text-sm">
               Helping BC families find the perfect childcare for their little
@@ -75,10 +73,10 @@ export default function Footer() {
             <h3 className="font-serif font-bold mb-4">Contact</h3>
             <p className="text-sm text-gray-300 mb-2">
               <a
-                href="mailto:hello@bcchildcarefinder.ca"
+                href="/contact"
                 className="hover:text-primary-green transition"
               >
-                hello@bcchildcarefinder.ca
+                hello@findcarebc.ca
               </a>
             </p>
             <p className="text-sm text-gray-300">BC, Canada</p>
@@ -87,7 +85,7 @@ export default function Footer() {
 
         <div className="border-t border-gray-700 pt-8">
           <p className="text-center text-gray-400 text-sm">
-            © {currentYear} BC Childcare Finder. All rights reserved.
+            © {currentYear} Find Care BC. All rights reserved.
           </p>
         </div>
       </div>

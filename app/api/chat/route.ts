@@ -35,7 +35,7 @@ export async function POST(request: NextRequest) {
       2
     );
 
-    const systemPrompt = `You are a helpful assistant for BC Childcare Finder. Help parents find the right daycare for their child in BC, Canada. You have access to the list of centres and can answer questions about fees, schedules, age groups, $10/day programs, and general childcare advice in BC.
+    const systemPrompt = `You are a helpful assistant for Find Care BC. Help parents find the right daycare for their child in BC, Canada. You have access to the list of centres and can answer questions about fees, schedules, age groups, $10/day programs, and general childcare advice in BC.
 
 Here is the current list of available centres:
 

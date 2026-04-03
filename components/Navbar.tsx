@@ -23,7 +23,7 @@ export default function Navbar() {
           <Link href="/" className="flex items-center gap-2 group" onClick={() => setMobileOpen(false)}>
             <div className="w-5 h-5 bg-primary-green rounded-full flex-shrink-0" />
             <span className="text-base sm:text-lg font-serif font-bold text-primary-dark group-hover:text-primary-green transition">
-              BC Childcare Finder
+              Find Care BC
             </span>
           </Link>
 

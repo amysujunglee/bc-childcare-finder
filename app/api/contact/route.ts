@@ -13,10 +13,10 @@ export async function POST(request: NextRequest) {
     }
 
     await resend.emails.send({
-      from: 'BC Childcare Finder <onboarding@resend.dev>',
+      from: 'Find Care BC <onboarding@resend.dev>',
       to: process.env.CONTACT_EMAIL!,
       replyTo: email,
-      subject: `[BC Childcare Finder] ${issueType} — from ${name}`,
+      subject: `[Find Care BC] ${issueType} — from ${name}`,
       text: `New contact form submission\n\nRole: ${role}\nName: ${name}\nEmail: ${email}\nIssue: ${issueType}\n\nMessage:\n${message}`,
     });
 

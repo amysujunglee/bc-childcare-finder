@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 export const metadata = {
-  title: "Page Not Found — BC Childcare Finder",
+  title: "Page Not Found — Find Care BC",
 };
 
 export default function NotFound() {
