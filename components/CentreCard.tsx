@@ -42,17 +42,7 @@ export default function CentreCard({ centre, onClick }: CentreCardProps) {
             {centre.address}, {centre.city}
           </p>
 
-          {/* Rating */}
-          <div className="flex items-center gap-1 mb-3">
-            <span className="text-xs font-bold text-primary-green">
-              {"★".repeat(full)}
-            </span>
-            <span className="text-xs text-neutral-muted">
-              {centre.rating.toFixed(1)}
-            </span>
-          </div>
-
-          {/* Details Grid */}
+{/* Details Grid */}
           <div className="grid grid-cols-2 gap-2 mb-3 text-xs">
             <div>
               <p className="text-neutral-muted font-medium">Schedule</p>
@@ -61,9 +51,9 @@ export default function CentreCard({ centre, onClick }: CentreCardProps) {
               </p>
             </div>
             <div>
-              <p className="text-neutral-muted font-medium">Spots</p>
+              <p className="text-neutral-muted font-medium">Capacity</p>
               <p className="text-primary-dark font-medium">
-                {centre.spotsAvailable > 0 ? centre.spotsAvailable : "Full"}
+                {centre.capacity != null ? centre.capacity : "—"}
               </p>
             </div>
           </div>

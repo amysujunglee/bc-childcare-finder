@@ -15,12 +15,11 @@ export async function generateMetadata({ params }: CentrePageProps): Promise<Met
   if (!centre) return { title: 'Centre Not Found' };
 
   const ageLabel = formatAgeGroups(centre.ageGroups);
-  const spotsText = centre.spotsAvailable > 0 ? `${centre.spotsAvailable} spots available.` : 'Currently full.';
   const tenDollarText = centre.tenDollarDay ? ' $10/Day eligible.' : '';
 
   return {
     title: `${centre.name} – ${centre.city} | BC Childcare Finder`,
-    description: `${centre.name} in ${centre.city}. Licensed childcare for ${ageLabel}.${tenDollarText} ${spotsText}`,
+    description: `${centre.name} in ${centre.city}. Licensed childcare for ${ageLabel}.${tenDollarText}`,
   };
 }
 

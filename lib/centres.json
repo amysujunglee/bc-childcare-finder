@@ -6,14 +6,19 @@
     "city": "Burnaby",
     "lat": 49.2488,
     "lng": -122.9805,
-    "ageGroups": ["infant", "toddler"],
-    "languages": ["English"],
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
     "phone": "(604)809-3868",
     "email": "",
-    "description": "Licensed infant and toddler care in Burnaby. Group Child Care for children under 36 months.",
+    "description": "Licensed infant and toddler care in Burnaby.",
     "rating": 0,
     "manager": "Waghma Sayam",
     "capacity": 8
@@ -24,9 +29,14 @@
     "address": "8888 University Dr",
     "city": "Burnaby",
     "lat": 49.2766,
-    "lng": -122.9180,
-    "ageGroups": ["infant", "toddler"],
-    "languages": ["English"],
+    "lng": -122.918,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -44,8 +54,13 @@
     "city": "Burnaby",
     "lat": 49.2488,
     "lng": -122.9805,
-    "ageGroups": ["infant", "toddler"],
-    "languages": ["English"],
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -63,8 +78,13 @@
     "city": "Burnaby",
     "lat": 49.2488,
     "lng": -122.9805,
-    "ageGroups": ["toddler", "preschool"],
-    "languages": ["English"],
+    "ageGroups": [
+      "toddler",
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -82,8 +102,13 @@
     "city": "Burnaby",
     "lat": 49.2488,
     "lng": -122.9805,
-    "ageGroups": ["toddler", "preschool"],
-    "languages": ["English"],
+    "ageGroups": [
+      "toddler",
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -101,8 +126,13 @@
     "city": "Burnaby",
     "lat": 49.2488,
     "lng": -122.9805,
-    "ageGroups": ["toddler", "preschool"],
-    "languages": ["English"],
+    "ageGroups": [
+      "toddler",
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -118,10 +148,15 @@
     "name": "UniverCity Childcare",
     "address": "9075 Highland Ct",
     "city": "Burnaby",
-    "lat": 49.2780,
+    "lat": 49.278,
     "lng": -122.9175,
-    "ageGroups": ["toddler", "preschool"],
-    "languages": ["English"],
+    "ageGroups": [
+      "toddler",
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -139,8 +174,14 @@
     "city": "Burnaby",
     "lat": 49.2662,
     "lng": -122.9993,
-    "ageGroups": ["infant", "toddler", "preschool"],
-    "languages": ["English"],
+    "ageGroups": [
+      "infant",
+      "toddler",
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -158,8 +199,14 @@
     "city": "Burnaby",
     "lat": 49.2488,
     "lng": -122.9805,
-    "ageGroups": ["infant", "toddler", "preschool"],
-    "languages": ["English"],
+    "ageGroups": [
+      "infant",
+      "toddler",
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -177,8 +224,12 @@
     "city": "Burnaby",
     "lat": 49.2628,
     "lng": -122.8835,
-    "ageGroups": ["schoolAge"],
-    "languages": ["English"],
+    "ageGroups": [
+      "schoolAge"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "part-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -196,8 +247,13 @@
     "city": "Coquitlam",
     "lat": 49.2837,
     "lng": -122.7932,
-    "ageGroups": ["infant", "toddler"],
-    "languages": ["English"],
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -215,8 +271,13 @@
     "city": "Coquitlam",
     "lat": 49.2837,
     "lng": -122.7932,
-    "ageGroups": ["toddler", "preschool"],
-    "languages": ["English"],
+    "ageGroups": [
+      "toddler",
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -234,8 +295,13 @@
     "city": "Coquitlam",
     "lat": 49.2837,
     "lng": -122.7932,
-    "ageGroups": ["toddler", "preschool"],
-    "languages": ["English"],
+    "ageGroups": [
+      "toddler",
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -253,8 +319,13 @@
     "city": "Coquitlam",
     "lat": 49.2837,
     "lng": -122.7932,
-    "ageGroups": ["toddler", "preschool"],
-    "languages": ["English"],
+    "ageGroups": [
+      "toddler",
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -272,8 +343,15 @@
     "city": "Coquitlam",
     "lat": 49.2837,
     "lng": -122.7932,
-    "ageGroups": ["infant", "toddler", "preschool", "schoolAge"],
-    "languages": ["English"],
+    "ageGroups": [
+      "infant",
+      "toddler",
+      "preschool",
+      "schoolAge"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -291,8 +369,15 @@
     "city": "Coquitlam",
     "lat": 49.2837,
     "lng": -122.7932,
-    "ageGroups": ["infant", "toddler", "preschool", "schoolAge"],
-    "languages": ["English"],
+    "ageGroups": [
+      "infant",
+      "toddler",
+      "preschool",
+      "schoolAge"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -310,8 +395,13 @@
     "city": "Maple Ridge",
     "lat": 49.2192,
     "lng": -122.5981,
-    "ageGroups": ["toddler", "preschool"],
-    "languages": ["English"],
+    "ageGroups": [
+      "toddler",
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -329,8 +419,15 @@
     "city": "Maple Ridge",
     "lat": 49.2192,
     "lng": -122.5981,
-    "ageGroups": ["infant", "toddler", "preschool", "schoolAge"],
-    "languages": ["English"],
+    "ageGroups": [
+      "infant",
+      "toddler",
+      "preschool",
+      "schoolAge"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -346,10 +443,15 @@
     "name": "Cambridge Montessori Children's Centre",
     "address": "57 7th Ave",
     "city": "New Westminster",
-    "lat": 49.2060,
+    "lat": 49.206,
     "lng": -122.9109,
-    "ageGroups": ["toddler", "preschool"],
-    "languages": ["English"],
+    "ageGroups": [
+      "toddler",
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -365,10 +467,15 @@
     "name": "Polka Dot Early Learning",
     "address": "10 - 800 McBride Blvd",
     "city": "New Westminster",
-    "lat": 49.2060,
+    "lat": 49.206,
     "lng": -122.9109,
-    "ageGroups": ["infant", "toddler"],
-    "languages": ["English"],
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -384,10 +491,17 @@
     "name": "Mongio Early Learning Center",
     "address": "600 Royal Ave",
     "city": "New Westminster",
-    "lat": 49.2060,
+    "lat": 49.206,
     "lng": -122.9109,
-    "ageGroups": ["infant", "toddler", "preschool", "schoolAge"],
-    "languages": ["English"],
+    "ageGroups": [
+      "infant",
+      "toddler",
+      "preschool",
+      "schoolAge"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -403,10 +517,16 @@
     "name": "CEFA Meadowtown",
     "address": "115 - 19800 Lougheed Hwy",
     "city": "Pitt Meadows",
-    "lat": 49.2170,
+    "lat": 49.217,
     "lng": -122.6879,
-    "ageGroups": ["infant", "toddler", "preschool"],
-    "languages": ["English"],
+    "ageGroups": [
+      "infant",
+      "toddler",
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -422,10 +542,17 @@
     "name": "Canyon Springs Montessori Academy",
     "address": "18477 Old Dewdney Trunk Rd",
     "city": "Pitt Meadows",
-    "lat": 49.2170,
+    "lat": 49.217,
     "lng": -122.6879,
-    "ageGroups": ["infant", "toddler", "preschool", "schoolAge"],
-    "languages": ["English"],
+    "ageGroups": [
+      "infant",
+      "toddler",
+      "preschool",
+      "schoolAge"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -443,8 +570,13 @@
     "city": "Port Coquitlam",
     "lat": 49.2627,
     "lng": -122.7814,
-    "ageGroups": ["infant", "toddler"],
-    "languages": ["English"],
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -462,8 +594,15 @@
     "city": "Port Coquitlam",
     "lat": 49.2627,
     "lng": -122.7814,
-    "ageGroups": ["infant", "toddler", "preschool", "schoolAge"],
-    "languages": ["English"],
+    "ageGroups": [
+      "infant",
+      "toddler",
+      "preschool",
+      "schoolAge"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -481,8 +620,15 @@
     "city": "Port Coquitlam",
     "lat": 49.2627,
     "lng": -122.7814,
-    "ageGroups": ["infant", "toddler", "preschool", "schoolAge"],
-    "languages": ["English"],
+    "ageGroups": [
+      "infant",
+      "toddler",
+      "preschool",
+      "schoolAge"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -500,8 +646,15 @@
     "city": "Port Coquitlam",
     "lat": 49.2627,
     "lng": -122.7814,
-    "ageGroups": ["infant", "toddler", "preschool", "schoolAge"],
-    "languages": ["English"],
+    "ageGroups": [
+      "infant",
+      "toddler",
+      "preschool",
+      "schoolAge"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -519,8 +672,13 @@
     "city": "Port Moody",
     "lat": 49.2828,
     "lng": -122.8317,
-    "ageGroups": ["infant", "toddler"],
-    "languages": ["English"],
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -538,8 +696,14 @@
     "city": "Port Moody",
     "lat": 49.2828,
     "lng": -122.8317,
-    "ageGroups": ["infant", "toddler", "preschool"],
-    "languages": ["English"],
+    "ageGroups": [
+      "infant",
+      "toddler",
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -557,8 +721,13 @@
     "city": "Port Moody",
     "lat": 49.2828,
     "lng": -122.8317,
-    "ageGroups": ["toddler", "preschool"],
-    "languages": ["English"],
+    "ageGroups": [
+      "toddler",
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -575,9 +744,15 @@
     "address": "1 - 16050 Fraser Hwy",
     "city": "Surrey",
     "lat": 49.1913,
-    "lng": -122.8490,
-    "ageGroups": ["infant", "toddler", "preschool"],
-    "languages": ["English"],
+    "lng": -122.849,
+    "ageGroups": [
+      "infant",
+      "toddler",
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -594,9 +769,15 @@
     "address": "200 - 19255 28th Ave",
     "city": "Surrey",
     "lat": 49.0234,
-    "lng": -122.8010,
-    "ageGroups": ["infant", "toddler", "preschool"],
-    "languages": ["English"],
+    "lng": -122.801,
+    "ageGroups": [
+      "infant",
+      "toddler",
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -612,10 +793,16 @@
     "name": "Brightpath Clayton Hills",
     "address": "7239 192nd St",
     "city": "Surrey",
-    "lat": 49.1400,
-    "lng": -122.7200,
-    "ageGroups": ["infant", "toddler", "preschool"],
-    "languages": ["English"],
+    "lat": 49.14,
+    "lng": -122.72,
+    "ageGroups": [
+      "infant",
+      "toddler",
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -632,9 +819,16 @@
     "address": "100-106 - 15850 24th Ave",
     "city": "Surrey",
     "lat": 49.0234,
-    "lng": -122.8010,
-    "ageGroups": ["infant", "toddler", "preschool", "schoolAge"],
-    "languages": ["English"],
+    "lng": -122.801,
+    "ageGroups": [
+      "infant",
+      "toddler",
+      "preschool",
+      "schoolAge"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -651,9 +845,15 @@
     "address": "Unit AB102 - 15715 Croydon Dr",
     "city": "Surrey",
     "lat": 49.0234,
-    "lng": -122.8010,
-    "ageGroups": ["infant", "toddler", "preschool"],
-    "languages": ["English"],
+    "lng": -122.801,
+    "ageGroups": [
+      "infant",
+      "toddler",
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -670,9 +870,15 @@
     "address": "101 - 15326 103A Ave",
     "city": "Surrey",
     "lat": 49.1913,
-    "lng": -122.8490,
-    "ageGroups": ["infant", "toddler", "preschool"],
-    "languages": ["English"],
+    "lng": -122.849,
+    "ageGroups": [
+      "infant",
+      "toddler",
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -689,9 +895,15 @@
     "address": "100 - 9648 128th St",
     "city": "Surrey",
     "lat": 49.1913,
-    "lng": -122.8490,
-    "ageGroups": ["infant", "toddler", "preschool"],
-    "languages": ["English"],
+    "lng": -122.849,
+    "ageGroups": [
+      "infant",
+      "toddler",
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -708,9 +920,15 @@
     "address": "201 - 15679 104th Ave",
     "city": "Surrey",
     "lat": 49.1913,
-    "lng": -122.8490,
-    "ageGroups": ["infant", "toddler", "preschool"],
-    "languages": ["English"],
+    "lng": -122.849,
+    "ageGroups": [
+      "infant",
+      "toddler",
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -726,10 +944,16 @@
     "name": "CEFA Walnut Grove",
     "address": "100 - 19950 88th Ave",
     "city": "Langley",
-    "lat": 49.1600,
-    "lng": -122.6800,
-    "ageGroups": ["infant", "toddler", "preschool"],
-    "languages": ["English"],
+    "lat": 49.16,
+    "lng": -122.68,
+    "ageGroups": [
+      "infant",
+      "toddler",
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -747,8 +971,14 @@
     "city": "Langley",
     "lat": 49.1044,
     "lng": -122.6604,
-    "ageGroups": ["infant", "toddler", "preschool"],
-    "languages": ["English"],
+    "ageGroups": [
+      "infant",
+      "toddler",
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -766,8 +996,14 @@
     "city": "Langley",
     "lat": 49.1044,
     "lng": -122.6604,
-    "ageGroups": ["infant", "toddler", "preschool"],
-    "languages": ["English"],
+    "ageGroups": [
+      "infant",
+      "toddler",
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -783,10 +1019,17 @@
     "name": "Nurturing Hearts Montessori Daycare - Newlands",
     "address": "21025 48th Ave",
     "city": "Langley",
-    "lat": 49.0900,
-    "lng": -122.6500,
-    "ageGroups": ["infant", "toddler", "preschool", "schoolAge"],
-    "languages": ["English"],
+    "lat": 49.09,
+    "lng": -122.65,
+    "ageGroups": [
+      "infant",
+      "toddler",
+      "preschool",
+      "schoolAge"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -803,9 +1046,15 @@
     "address": "106 - 5519 Admiral Way",
     "city": "Delta",
     "lat": 49.0234,
-    "lng": -123.0700,
-    "ageGroups": ["infant", "toddler", "preschool"],
-    "languages": ["English"],
+    "lng": -123.07,
+    "ageGroups": [
+      "infant",
+      "toddler",
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -823,8 +1072,14 @@
     "city": "Delta",
     "lat": 49.0839,
     "lng": -123.0575,
-    "ageGroups": ["infant", "toddler", "preschool"],
-    "languages": ["English"],
+    "ageGroups": [
+      "infant",
+      "toddler",
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -842,8 +1097,14 @@
     "city": "Delta",
     "lat": 49.0839,
     "lng": -123.0575,
-    "ageGroups": ["infant", "toddler", "preschool"],
-    "languages": ["English"],
+    "ageGroups": [
+      "infant",
+      "toddler",
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -861,8 +1122,13 @@
     "city": "Abbotsford",
     "lat": 49.0504,
     "lng": -122.3045,
-    "ageGroups": ["infant", "toddler"],
-    "languages": ["English"],
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -880,8 +1146,13 @@
     "city": "Abbotsford",
     "lat": 49.0504,
     "lng": -122.3045,
-    "ageGroups": ["infant", "toddler"],
-    "languages": ["English"],
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -899,8 +1170,14 @@
     "city": "Abbotsford",
     "lat": 49.0504,
     "lng": -122.3045,
-    "ageGroups": ["infant", "toddler", "preschool"],
-    "languages": ["English"],
+    "ageGroups": [
+      "infant",
+      "toddler",
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -918,8 +1195,15 @@
     "city": "Abbotsford",
     "lat": 49.0504,
     "lng": -122.3045,
-    "ageGroups": ["infant", "toddler", "preschool", "schoolAge"],
-    "languages": ["English"],
+    "ageGroups": [
+      "infant",
+      "toddler",
+      "preschool",
+      "schoolAge"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -937,8 +1221,15 @@
     "city": "Abbotsford",
     "lat": 49.0504,
     "lng": -122.3045,
-    "ageGroups": ["infant", "toddler", "preschool", "schoolAge"],
-    "languages": ["English"],
+    "ageGroups": [
+      "infant",
+      "toddler",
+      "preschool",
+      "schoolAge"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -954,10 +1245,16 @@
     "name": "CEFA Cottonwood",
     "address": "7544 Vedder Rd",
     "city": "Chilliwack",
-    "lat": 49.1590,
+    "lat": 49.159,
     "lng": -121.9544,
-    "ageGroups": ["infant", "toddler", "preschool"],
-    "languages": ["English"],
+    "ageGroups": [
+      "infant",
+      "toddler",
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -973,10 +1270,17 @@
     "name": "Central Village Childcare Society",
     "address": "9391 College St",
     "city": "Chilliwack",
-    "lat": 49.1590,
+    "lat": 49.159,
     "lng": -121.9544,
-    "ageGroups": ["infant", "toddler", "preschool", "schoolAge"],
-    "languages": ["English"],
+    "ageGroups": [
+      "infant",
+      "toddler",
+      "preschool",
+      "schoolAge"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -992,10 +1296,16 @@
     "name": "Creative Kids Learning Centers - Chilliwack",
     "address": "200 Building J - 6640 Vedder Rd",
     "city": "Chilliwack",
-    "lat": 49.1590,
+    "lat": 49.159,
     "lng": -121.9544,
-    "ageGroups": ["infant", "toddler", "preschool"],
-    "languages": ["English"],
+    "ageGroups": [
+      "infant",
+      "toddler",
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -1011,10 +1321,17 @@
     "name": "Little Footsteps Child Care Centre Society",
     "address": "46510 1st Ave",
     "city": "Chilliwack",
-    "lat": 49.1590,
+    "lat": 49.159,
     "lng": -121.9544,
-    "ageGroups": ["infant", "toddler", "preschool", "schoolAge"],
-    "languages": ["English"],
+    "ageGroups": [
+      "infant",
+      "toddler",
+      "preschool",
+      "schoolAge"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -1032,8 +1349,15 @@
     "city": "Mission",
     "lat": 49.1344,
     "lng": -122.3106,
-    "ageGroups": ["infant", "toddler", "preschool", "schoolAge"],
-    "languages": ["English"],
+    "ageGroups": [
+      "infant",
+      "toddler",
+      "preschool",
+      "schoolAge"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -1043,5 +1367,653 @@
     "rating": 0,
     "manager": "Chamari Weerasinghe",
     "capacity": 118
+  },
+  {
+    "id": "56",
+    "name": "A & B Daycare",
+    "address": "6436 Malvern Ave",
+    "city": "Burnaby",
+    "lat": 49.2488,
+    "lng": -122.9805,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(778)995-2628",
+    "email": "",
+    "description": "Licensed infant and toddler care in Burnaby.",
+    "rating": 0,
+    "manager": "Hui-Ching Shih",
+    "capacity": 8
+  },
+  {
+    "id": "57",
+    "name": "A & B Early Learning Centre",
+    "address": "6327 Berwick Ct",
+    "city": "Burnaby",
+    "lat": 49.2488,
+    "lng": -122.9805,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(778)995-2628",
+    "email": "",
+    "description": "Licensed infant and toddler care in Burnaby.",
+    "rating": 0,
+    "manager": "Jia You",
+    "capacity": 8
+  },
+  {
+    "id": "58",
+    "name": "A Miracle Childcare",
+    "address": "6655 E Georgia St",
+    "city": "Burnaby",
+    "lat": 49.2488,
+    "lng": -122.9805,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(672)513-2463",
+    "email": "",
+    "description": "Licensed infant and toddler care in Burnaby.",
+    "rating": 0,
+    "manager": "Shan-Shan Chen",
+    "capacity": 8
+  },
+  {
+    "id": "59",
+    "name": "A1 Suncrest Daycare",
+    "address": "7907 Suncrest Dr",
+    "city": "Burnaby",
+    "lat": 49.2488,
+    "lng": -122.9805,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(778)986-9386",
+    "email": "",
+    "description": "Licensed infant and toddler care in Burnaby.",
+    "rating": 0,
+    "manager": "Yasong (Catherine) Li",
+    "capacity": 8
+  },
+  {
+    "id": "60",
+    "name": "All Bright Early Learning Center Metro",
+    "address": "5620 Oakglen Dr",
+    "city": "Burnaby",
+    "lat": 49.2488,
+    "lng": -122.9805,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(778)316-5360",
+    "email": "",
+    "description": "Licensed infant and toddler care in Burnaby.",
+    "rating": 0,
+    "manager": "Kyungmee Choi",
+    "capacity": 8
+  },
+  {
+    "id": "61",
+    "name": "Aloha Childcare Centre",
+    "address": "6338 Neville St",
+    "city": "Burnaby",
+    "lat": 49.2488,
+    "lng": -122.9805,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(604)720-0076",
+    "email": "",
+    "description": "Licensed infant and toddler care in Burnaby.",
+    "rating": 0,
+    "manager": "Li Ping Shen",
+    "capacity": 8
+  },
+  {
+    "id": "62",
+    "name": "Amazing Kidz Childcare",
+    "address": "3780 Lozells Ave",
+    "city": "Burnaby",
+    "lat": 49.2488,
+    "lng": -122.9805,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(236)863-1758",
+    "email": "",
+    "description": "Licensed infant and toddler care in Burnaby.",
+    "rating": 0,
+    "manager": "Fei Tianyi",
+    "capacity": 8
+  },
+  {
+    "id": "63",
+    "name": "Angel Smile Child Care",
+    "address": "6969 Sussex Ave",
+    "city": "Burnaby",
+    "lat": 49.2488,
+    "lng": -122.9805,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(778)885-6330",
+    "email": "",
+    "description": "Licensed infant and toddler care in Burnaby.",
+    "rating": 0,
+    "manager": "Siyuan Zeng",
+    "capacity": 8
+  },
+  {
+    "id": "64",
+    "name": "Angels Playhouse Daycare Society (Clinton St)",
+    "address": "5288 Clinton St",
+    "city": "Burnaby",
+    "lat": 49.2488,
+    "lng": -122.9805,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(604)809-3868",
+    "email": "",
+    "description": "Licensed infant and toddler care in Burnaby.",
+    "rating": 0,
+    "manager": "Ashwinder Kaur",
+    "capacity": 8
+  },
+  {
+    "id": "65",
+    "name": "Angels Playhouse Daycare Society (Grafton St)",
+    "address": "4529 Grafton St",
+    "city": "Burnaby",
+    "lat": 49.2488,
+    "lng": -122.9805,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(604)809-3868",
+    "email": "",
+    "description": "Licensed infant and toddler care in Burnaby.",
+    "rating": 0,
+    "manager": "Grace Hajung Cho",
+    "capacity": 8
+  },
+  {
+    "id": "66",
+    "name": "Angels Playhouse Daycare Society (Kentwood St)",
+    "address": "7650 Kentwood St",
+    "city": "Burnaby",
+    "lat": 49.2488,
+    "lng": -122.9805,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(604)809-3868",
+    "email": "",
+    "description": "Licensed infant and toddler care in Burnaby.",
+    "rating": 0,
+    "manager": "Karen Wang",
+    "capacity": 8
+  },
+  {
+    "id": "67",
+    "name": "Angels Playhouse Daycare Society (Sherban Ct)",
+    "address": "5798 Sherban Crt",
+    "city": "Burnaby",
+    "lat": 49.2488,
+    "lng": -122.9805,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(604)809-3868",
+    "email": "",
+    "description": "Licensed infant and toddler care in Burnaby.",
+    "rating": 0,
+    "manager": "Yan Hong Wu (Jacklin)",
+    "capacity": 8
+  },
+  {
+    "id": "68",
+    "name": "Angels Playhouse Daycare Society (Sperling Ave)",
+    "address": "6850 Sperling Ave",
+    "city": "Burnaby",
+    "lat": 49.2488,
+    "lng": -122.9805,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(604)809-3868",
+    "email": "",
+    "description": "Licensed infant and toddler care in Burnaby.",
+    "rating": 0,
+    "manager": "Xiang Jun Li",
+    "capacity": 8
+  },
+  {
+    "id": "69",
+    "name": "Angels Playhouse Infant & Toddler Child Care Centre",
+    "address": "103 - 7339 MacPherson Ave",
+    "city": "Burnaby",
+    "lat": 49.2488,
+    "lng": -122.9805,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(604)436-3865",
+    "email": "",
+    "description": "Licensed infant and toddler care in Burnaby.",
+    "rating": 0,
+    "manager": "Melody Fei Wen Ho",
+    "capacity": 8
+  },
+  {
+    "id": "70",
+    "name": "Angels Playhouse Infant & Toddler Childcare Centre (Crestlawn Dr)",
+    "address": "1361 Crestlawn Dr",
+    "city": "Burnaby",
+    "lat": 49.2488,
+    "lng": -122.9805,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(604)809-3868",
+    "email": "",
+    "description": "Licensed infant and toddler care in Burnaby.",
+    "rating": 0,
+    "manager": "Sudi Lai",
+    "capacity": 8
+  },
+  {
+    "id": "71",
+    "name": "Angels Playhouse Infant And Toddler Childcare Centre(Rumble St)",
+    "address": "5588 Rumble St",
+    "city": "Burnaby",
+    "lat": 49.2488,
+    "lng": -122.9805,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(604)809-3868",
+    "email": "",
+    "description": "Licensed infant and toddler care in Burnaby.",
+    "rating": 0,
+    "manager": "Jasmine Wang",
+    "capacity": 8
+  },
+  {
+    "id": "72",
+    "name": "Ark and Rainbow Child Care",
+    "address": "4869 Colbrook Crt",
+    "city": "Burnaby",
+    "lat": 49.2488,
+    "lng": -122.9805,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(778)358-5545",
+    "email": "",
+    "description": "Licensed infant and toddler care in Burnaby.",
+    "rating": 0,
+    "manager": "Suiling Guo",
+    "capacity": 8
+  },
+  {
+    "id": "73",
+    "name": "Astro Childcare",
+    "address": "4108 Manor St",
+    "city": "Burnaby",
+    "lat": 49.2488,
+    "lng": -122.9805,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(604)438-8585",
+    "email": "",
+    "description": "Licensed infant and toddler care in Burnaby.",
+    "rating": 0,
+    "manager": "Chien Tzu Yeh",
+    "capacity": 8
+  },
+  {
+    "id": "74",
+    "name": "Aubrey Daycare Centre",
+    "address": "949 Sperling Ave",
+    "city": "Burnaby",
+    "lat": 49.2488,
+    "lng": -122.9805,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(604)677-0012",
+    "email": "",
+    "description": "Licensed infant and toddler care in Burnaby.",
+    "rating": 0,
+    "manager": "Sabrina Dean",
+    "capacity": 8
+  },
+  {
+    "id": "75",
+    "name": "Aubrey Daycare Centre",
+    "address": "947 Sperling Ave",
+    "city": "Burnaby",
+    "lat": 49.2488,
+    "lng": -122.9805,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(778)228-1379",
+    "email": "",
+    "description": "Licensed infant and toddler care in Burnaby.",
+    "rating": 0,
+    "manager": "Sabrina Dean",
+    "capacity": 8
+  },
+  {
+    "id": "76",
+    "name": "Aubrey Daycare Centre",
+    "address": "6409 Aubrey St",
+    "city": "Burnaby",
+    "lat": 49.2488,
+    "lng": -122.9805,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(778)228-1379",
+    "email": "",
+    "description": "Licensed infant and toddler care in Burnaby.",
+    "rating": 0,
+    "manager": "Angela Tsang",
+    "capacity": 10
+  },
+  {
+    "id": "77",
+    "name": "Baby Angel Early Learning Inc",
+    "address": "4536 Irmin St",
+    "city": "Burnaby",
+    "lat": 49.2488,
+    "lng": -122.9805,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(778)885-6330",
+    "email": "",
+    "description": "Licensed infant and toddler care in Burnaby.",
+    "rating": 0,
+    "manager": "Yanwen Yang",
+    "capacity": 8
+  },
+  {
+    "id": "78",
+    "name": "Baby Beluga Early Learning & Play House",
+    "address": "5450 Moreland Dr",
+    "city": "Burnaby",
+    "lat": 49.2488,
+    "lng": -122.9805,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(778)846-5120",
+    "email": "",
+    "description": "Licensed infant and toddler care in Burnaby.",
+    "rating": 0,
+    "manager": "Hui Hui Fan",
+    "capacity": 8
+  },
+  {
+    "id": "79",
+    "name": "Baby Club Childcare",
+    "address": "7538 Tyndale Cres",
+    "city": "Burnaby",
+    "lat": 49.2488,
+    "lng": -122.9805,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(778)302-6919",
+    "email": "",
+    "description": "Licensed infant and toddler care in Burnaby.",
+    "rating": 0,
+    "manager": "Gia-un Liang (Joanna)",
+    "capacity": 8
+  },
+  {
+    "id": "80",
+    "name": "Baby Smile Childcare",
+    "address": "7348 Stride Ave",
+    "city": "Burnaby",
+    "lat": 49.2488,
+    "lng": -122.9805,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(778)302-6919",
+    "email": "",
+    "description": "Licensed infant and toddler care in Burnaby.",
+    "rating": 0,
+    "manager": "Xiaoni Shang",
+    "capacity": 8
+  },
+  {
+    "id": "81",
+    "name": "Baby Square Daycare",
+    "address": "4045 Union St",
+    "city": "Burnaby",
+    "lat": 49.2488,
+    "lng": -122.9805,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(778)302-1927",
+    "email": "",
+    "description": "Licensed infant and toddler care in Burnaby.",
+    "rating": 0,
+    "manager": "Ziyi Qian",
+    "capacity": 8
+  },
+  {
+    "id": "82",
+    "name": "Bear Cubs Childcare",
+    "address": "3530 Colter Crt",
+    "city": "Burnaby",
+    "lat": 49.2488,
+    "lng": -122.9805,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(778)898-6338",
+    "email": "",
+    "description": "Licensed infant and toddler care in Burnaby.",
+    "rating": 0,
+    "manager": "Meng Zhou",
+    "capacity": 8
   }
 ]
