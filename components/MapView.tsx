@@ -31,12 +31,18 @@ export default function MapView({ centres, selectedCentreId, onCentreSelect, sea
   const mapRef = useRef<HTMLDivElement>(null);
   const mapInstanceRef = useRef<import('leaflet').Map | null>(null);
   const markersRef = useRef<import('leaflet').Marker[]>([]);
+  const isInitializingRef = useRef(false);
 
   // Initialise map once
   useEffect(() => {
-    if (!mapRef.current || mapInstanceRef.current) return;
+    if (!mapRef.current || mapInstanceRef.current || isInitializingRef.current) return;
+    isInitializingRef.current = true;
 
     import('leaflet').then((L) => {
+      if (!mapRef.current || mapInstanceRef.current) {
+        isInitializingRef.current = false;
+        return;
+      }
       // @ts-expect-error - _getIconUrl is not in types
       delete L.Icon.Default.prototype._getIconUrl;
       L.Icon.Default.mergeOptions({
@@ -58,9 +64,11 @@ export default function MapView({ centres, selectedCentreId, onCentreSelect, sea
       }).addTo(map);
 
       mapInstanceRef.current = map;
+      isInitializingRef.current = false;
     });
 
     return () => {
+      isInitializingRef.current = false;
       mapInstanceRef.current?.remove();
       mapInstanceRef.current = null;
       markersRef.current = [];
