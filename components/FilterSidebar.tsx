@@ -41,7 +41,6 @@ export default function FilterSidebar({
     { value: "infant", label: "Infant (0–18 months)" },
     { value: "toddler", label: "Toddler (18 months–3 years)" },
     { value: "preschool", label: "Preschool (3–5 years)" },
-    { value: "schoolAge", label: "School Age (5–12 years)" },
   ];
 
   const scheduleTypes: { value: ScheduleType; label: string }[] = [

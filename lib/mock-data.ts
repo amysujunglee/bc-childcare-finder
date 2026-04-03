@@ -1,6 +1,6 @@
 import centresData from './centres.json';
 
-export type AgeGroup = "infant" | "toddler" | "preschool" | "schoolAge";
+export type AgeGroup = "infant" | "toddler" | "preschool";
 export type ScheduleType = "full-time" | "part-time" | "drop-in";
 
 export interface Centre {

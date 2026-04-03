@@ -94,9 +94,7 @@ export default function CentreDetail({ centre }: CentreDetailProps) {
                         ? "Infant (0–18 months)"
                         : age === "toddler"
                           ? "Toddler (18 months–3 years)"
-                          : age === "preschool"
-                            ? "Preschool (3–5 years)"
-                            : "School Age (5–12 years)"}
+                          : "Preschool (3–5 years)"}
                     </Badge>
                   ))}
                 </div>

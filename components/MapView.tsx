@@ -32,9 +32,11 @@ export default function MapView({ centres, selectedCentreId, onCentreSelect, sea
   const mapInstanceRef = useRef<import('leaflet').Map | null>(null);
   const markersRef = useRef<import('leaflet').Marker[]>([]);
   const isInitializingRef = useRef(false);
+  const isDestroyedRef = useRef(false);
 
   // Initialise map once
   useEffect(() => {
+    isDestroyedRef.current = false;
     if (!mapRef.current || mapInstanceRef.current || isInitializingRef.current) return;
     isInitializingRef.current = true;
 
@@ -68,6 +70,7 @@ export default function MapView({ centres, selectedCentreId, onCentreSelect, sea
     });
 
     return () => {
+      isDestroyedRef.current = true;
       isInitializingRef.current = false;
       mapInstanceRef.current?.remove();
       mapInstanceRef.current = null;
@@ -92,6 +95,7 @@ export default function MapView({ centres, selectedCentreId, onCentreSelect, sea
 
   function updateMarkers(map: import('leaflet').Map) {
     import('leaflet').then((L) => {
+      if (isDestroyedRef.current) return;
       // Clear existing markers
       markersRef.current.forEach((m) => m.remove());
       markersRef.current = [];

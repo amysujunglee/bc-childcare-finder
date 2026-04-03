@@ -25,30 +25,6 @@
   },
   {
     "id": "2",
-    "name": "SFU Childcare Society (IT Program)",
-    "address": "8888 University Dr",
-    "city": "Burnaby",
-    "lat": 49.2766,
-    "lng": -122.918,
-    "ageGroups": [
-      "infant",
-      "toddler"
-    ],
-    "languages": [
-      "English"
-    ],
-    "scheduleType": "full-time",
-    "tenDollarDay": false,
-    "spotsAvailable": 0,
-    "phone": "(778)782-4759",
-    "email": "",
-    "description": "Licensed infant and toddler care at Simon Fraser University in Burnaby.",
-    "rating": 0,
-    "manager": "Yu Jin Oh",
-    "capacity": 12
-  },
-  {
-    "id": "3",
     "name": "Busy Bee Montessori Children's House",
     "address": "5749 Elsom Ave",
     "city": "Burnaby",
@@ -66,510 +42,18 @@
     "spotsAvailable": 0,
     "phone": "(604)603-5687",
     "email": "",
-    "description": "Montessori infant and toddler care in Burnaby.",
+    "description": "Licensed infant and toddler care in Burnaby.",
     "rating": 0,
     "manager": "Jackie Hsieh",
     "capacity": 8
   },
   {
-    "id": "4",
-    "name": "Capitol Hill Children's Centre",
-    "address": "5750 Pandora St",
-    "city": "Burnaby",
-    "lat": 49.2488,
-    "lng": -122.9805,
-    "ageGroups": [
-      "toddler",
-      "preschool"
-    ],
-    "languages": [
-      "English"
-    ],
-    "scheduleType": "full-time",
-    "tenDollarDay": false,
-    "spotsAvailable": 0,
-    "phone": "(604)526-2522",
-    "email": "",
-    "description": "Licensed Group Child Care for children 30 months to school age in Burnaby.",
-    "rating": 0,
-    "manager": "Flavia Gavrilovits",
-    "capacity": 25
-  },
-  {
-    "id": "5",
-    "name": "Cariboo Kids Daycare",
-    "address": "7200 Cariboo Rd",
-    "city": "Burnaby",
-    "lat": 49.2488,
-    "lng": -122.9805,
-    "ageGroups": [
-      "toddler",
-      "preschool"
-    ],
-    "languages": [
-      "English"
-    ],
-    "scheduleType": "full-time",
-    "tenDollarDay": false,
-    "spotsAvailable": 0,
-    "phone": "(604)527-7200",
-    "email": "",
-    "description": "Licensed Group Child Care for toddlers and preschool-age children in Burnaby.",
-    "rating": 0,
-    "manager": "Po Yee To",
-    "capacity": 42
-  },
-  {
-    "id": "6",
-    "name": "Crescendo Childcare Centre",
-    "address": "4663 Hastings St",
-    "city": "Burnaby",
-    "lat": 49.2488,
-    "lng": -122.9805,
-    "ageGroups": [
-      "toddler",
-      "preschool"
-    ],
-    "languages": [
-      "English"
-    ],
-    "scheduleType": "full-time",
-    "tenDollarDay": false,
-    "spotsAvailable": 0,
-    "phone": "(604)649-7777",
-    "email": "",
-    "description": "Licensed childcare for toddlers and preschool-age children in Burnaby.",
-    "rating": 0,
-    "manager": "Khayeon Choi",
-    "capacity": 48
-  },
-  {
-    "id": "7",
-    "name": "UniverCity Childcare",
-    "address": "9075 Highland Ct",
-    "city": "Burnaby",
-    "lat": 49.278,
-    "lng": -122.9175,
-    "ageGroups": [
-      "toddler",
-      "preschool"
-    ],
-    "languages": [
-      "English"
-    ],
-    "scheduleType": "full-time",
-    "tenDollarDay": false,
-    "spotsAvailable": 0,
-    "phone": "(604)291-7366",
-    "email": "",
-    "description": "Licensed Group Child Care on Burnaby Mountain at UniverCity. Programs for 30 months to school age.",
-    "rating": 0,
-    "manager": "Morgan Van Diessen",
-    "capacity": 50
-  },
-  {
-    "id": "8",
-    "name": "CEFA Early Learning Brentwood",
-    "address": "LM100 - 4664 Lougheed Hwy",
-    "city": "Burnaby",
-    "lat": 49.2662,
-    "lng": -122.9993,
-    "ageGroups": [
-      "infant",
-      "toddler",
-      "preschool"
-    ],
-    "languages": [
-      "English"
-    ],
-    "scheduleType": "full-time",
-    "tenDollarDay": false,
-    "spotsAvailable": 0,
-    "phone": "(604)565-3333",
-    "email": "",
-    "description": "CEFA Early Learning centre at Brentwood in Burnaby. Programs for infants, toddlers and preschool-age children.",
-    "rating": 0,
-    "manager": "Daylene Silbernagel",
-    "capacity": 152
-  },
-  {
-    "id": "9",
-    "name": "Cameron Children's Centre",
-    "address": "9838 Cameron St",
-    "city": "Burnaby",
-    "lat": 49.2488,
-    "lng": -122.9805,
-    "ageGroups": [
-      "infant",
-      "toddler",
-      "preschool"
-    ],
-    "languages": [
-      "English"
-    ],
-    "scheduleType": "full-time",
-    "tenDollarDay": false,
-    "spotsAvailable": 0,
-    "phone": "(604)420-1414",
-    "email": "",
-    "description": "Licensed childcare facility in Burnaby with programs for infants, toddlers and preschool children.",
-    "rating": 0,
-    "manager": "Hao Hong Rong",
-    "capacity": 44
-  },
-  {
-    "id": "10",
-    "name": "Burquitlam Childcare",
-    "address": "9847 Lyndhurst St",
-    "city": "Burnaby",
-    "lat": 49.2628,
-    "lng": -122.8835,
-    "ageGroups": [
-      "schoolAge"
-    ],
-    "languages": [
-      "English"
-    ],
-    "scheduleType": "part-time",
-    "tenDollarDay": false,
-    "spotsAvailable": 0,
-    "phone": "(604)421-2919",
-    "email": "",
-    "description": "Licensed before and after school care in Burnaby.",
-    "rating": 0,
-    "manager": "Dawn Saunders-Mason",
-    "capacity": 58
-  },
-  {
-    "id": "11",
-    "name": "1,2,3, A.B.C. Montessori Infant/Toddler Center",
-    "address": "737 Poirier St",
-    "city": "Coquitlam",
-    "lat": 49.2837,
-    "lng": -122.7932,
-    "ageGroups": [
-      "infant",
-      "toddler"
-    ],
-    "languages": [
-      "English"
-    ],
-    "scheduleType": "full-time",
-    "tenDollarDay": false,
-    "spotsAvailable": 0,
-    "phone": "(604)931-7206",
-    "email": "",
-    "description": "Montessori infant and toddler care in Coquitlam. Serving children under 36 months.",
-    "rating": 0,
-    "manager": "Alicia Wozniak",
-    "capacity": 12
-  },
-  {
-    "id": "12",
-    "name": "Green Apple Daycare Coquitlam",
-    "address": "1504 Sprice Ave",
-    "city": "Coquitlam",
-    "lat": 49.2837,
-    "lng": -122.7932,
-    "ageGroups": [
-      "toddler",
-      "preschool"
-    ],
-    "languages": [
-      "English"
-    ],
-    "scheduleType": "full-time",
-    "tenDollarDay": false,
-    "spotsAvailable": 0,
-    "phone": "(604)931-5595",
-    "email": "",
-    "description": "Licensed Group Child Care for children 30 months to school age in Coquitlam.",
-    "rating": 0,
-    "manager": "Jeanette Henderson",
-    "capacity": 45
-  },
-  {
-    "id": "13",
-    "name": "Wind and Tide - Eagle Ridge",
-    "address": "1160 Lansdowne Dr",
-    "city": "Coquitlam",
-    "lat": 49.2837,
-    "lng": -122.7932,
-    "ageGroups": [
-      "toddler",
-      "preschool"
-    ],
-    "languages": [
-      "English"
-    ],
-    "scheduleType": "full-time",
-    "tenDollarDay": false,
-    "spotsAvailable": 0,
-    "phone": "(604)464-1817",
-    "email": "",
-    "description": "Wind and Tide childcare at Eagle Ridge in Coquitlam. Licensed Group Child Care for toddlers and preschool children.",
-    "rating": 0,
-    "manager": "Sylvia Bauman",
-    "capacity": 40
-  },
-  {
-    "id": "14",
-    "name": "Glen Childcare",
-    "address": "2977 Glen Dr",
-    "city": "Coquitlam",
-    "lat": 49.2837,
-    "lng": -122.7932,
-    "ageGroups": [
-      "toddler",
-      "preschool"
-    ],
-    "languages": [
-      "English"
-    ],
-    "scheduleType": "full-time",
-    "tenDollarDay": false,
-    "spotsAvailable": 0,
-    "phone": "(604)618-8303",
-    "email": "",
-    "description": "Licensed Group Child Care for toddlers and preschool-age children in Coquitlam.",
-    "rating": 0,
-    "manager": "Zang Li Wang",
-    "capacity": 38
-  },
-  {
-    "id": "15",
-    "name": "Westwood Montessori",
-    "address": "1438 Pinetree Way",
-    "city": "Coquitlam",
-    "lat": 49.2837,
-    "lng": -122.7932,
-    "ageGroups": [
-      "infant",
-      "toddler",
-      "preschool",
-      "schoolAge"
-    ],
-    "languages": [
-      "English"
-    ],
-    "scheduleType": "full-time",
-    "tenDollarDay": false,
-    "spotsAvailable": 0,
-    "phone": "(604)942-3688",
-    "email": "",
-    "description": "Full-service Montessori childcare in Coquitlam with programs for infants through school-age children.",
-    "rating": 0,
-    "manager": "Stephanie Malysz",
-    "capacity": 122
-  },
-  {
-    "id": "16",
-    "name": "Shining Star Daycare",
-    "address": "2665 Runnel Dr",
-    "city": "Coquitlam",
-    "lat": 49.2837,
-    "lng": -122.7932,
-    "ageGroups": [
-      "infant",
-      "toddler",
-      "preschool",
-      "schoolAge"
-    ],
-    "languages": [
-      "English"
-    ],
-    "scheduleType": "full-time",
-    "tenDollarDay": false,
-    "spotsAvailable": 0,
-    "phone": "(604)944-0420",
-    "email": "",
-    "description": "Large licensed childcare facility in Coquitlam with programs for all ages from infants to school-age.",
-    "rating": 0,
-    "manager": "Michelle Johnson",
-    "capacity": 150
-  },
-  {
-    "id": "17",
-    "name": "Wind and Tide - Maple Ridge",
-    "address": "20639 123rd Ave",
-    "city": "Maple Ridge",
-    "lat": 49.2192,
-    "lng": -122.5981,
-    "ageGroups": [
-      "toddler",
-      "preschool"
-    ],
-    "languages": [
-      "English"
-    ],
-    "scheduleType": "full-time",
-    "tenDollarDay": false,
-    "spotsAvailable": 0,
-    "phone": "(604)465-8650",
-    "email": "",
-    "description": "Wind and Tide childcare in Maple Ridge. Licensed Group Child Care for toddlers and preschool children.",
-    "rating": 0,
-    "manager": "Amanda Petrie",
-    "capacity": 25
-  },
-  {
-    "id": "18",
-    "name": "BrightPath Maple Ridge Meadows",
-    "address": "11918 207th St",
-    "city": "Maple Ridge",
-    "lat": 49.2192,
-    "lng": -122.5981,
-    "ageGroups": [
-      "infant",
-      "toddler",
-      "preschool",
-      "schoolAge"
-    ],
-    "languages": [
-      "English"
-    ],
-    "scheduleType": "full-time",
-    "tenDollarDay": false,
-    "spotsAvailable": 0,
-    "phone": "(604)380-0336",
-    "email": "",
-    "description": "BrightPath childcare at Maple Ridge Meadows. Full-service programs for infants through school-age children.",
-    "rating": 0,
-    "manager": "Amanda Bullock",
-    "capacity": 173
-  },
-  {
-    "id": "19",
-    "name": "Cambridge Montessori Children's Centre",
-    "address": "57 7th Ave",
-    "city": "New Westminster",
-    "lat": 49.206,
-    "lng": -122.9109,
-    "ageGroups": [
-      "toddler",
-      "preschool"
-    ],
-    "languages": [
-      "English"
-    ],
-    "scheduleType": "full-time",
-    "tenDollarDay": false,
-    "spotsAvailable": 0,
-    "phone": "(778)668-7188",
-    "email": "",
-    "description": "Montessori childcare in New Westminster for toddlers and preschool-age children.",
-    "rating": 0,
-    "manager": "Sujin Jeong",
-    "capacity": 41
-  },
-  {
-    "id": "20",
-    "name": "Polka Dot Early Learning",
-    "address": "10 - 800 McBride Blvd",
-    "city": "New Westminster",
-    "lat": 49.206,
-    "lng": -122.9109,
-    "ageGroups": [
-      "infant",
-      "toddler"
-    ],
-    "languages": [
-      "English"
-    ],
-    "scheduleType": "full-time",
-    "tenDollarDay": false,
-    "spotsAvailable": 0,
-    "phone": "(604)724-4328",
-    "email": "",
-    "description": "Licensed infant and toddler care in New Westminster.",
-    "rating": 0,
-    "manager": "Ravinder Kaur",
-    "capacity": 24
-  },
-  {
-    "id": "21",
-    "name": "Mongio Early Learning Center",
-    "address": "600 Royal Ave",
-    "city": "New Westminster",
-    "lat": 49.206,
-    "lng": -122.9109,
-    "ageGroups": [
-      "infant",
-      "toddler",
-      "preschool",
-      "schoolAge"
-    ],
-    "languages": [
-      "English"
-    ],
-    "scheduleType": "full-time",
-    "tenDollarDay": false,
-    "spotsAvailable": 0,
-    "phone": "(604)553-8988",
-    "email": "",
-    "description": "Large licensed childcare in New Westminster with programs for infants through school-age children.",
-    "rating": 0,
-    "manager": "Alexis Alblas",
-    "capacity": 163
-  },
-  {
-    "id": "22",
-    "name": "CEFA Meadowtown",
-    "address": "115 - 19800 Lougheed Hwy",
-    "city": "Pitt Meadows",
-    "lat": 49.217,
-    "lng": -122.6879,
-    "ageGroups": [
-      "infant",
-      "toddler",
-      "preschool"
-    ],
-    "languages": [
-      "English"
-    ],
-    "scheduleType": "full-time",
-    "tenDollarDay": false,
-    "spotsAvailable": 0,
-    "phone": "(604)459-9990",
-    "email": "",
-    "description": "CEFA Early Learning at Meadowtown in Pitt Meadows. Programs for infants, toddlers and preschool children.",
-    "rating": 0,
-    "manager": "Jiaojie Yang",
-    "capacity": 152
-  },
-  {
-    "id": "23",
-    "name": "Canyon Springs Montessori Academy",
-    "address": "18477 Old Dewdney Trunk Rd",
-    "city": "Pitt Meadows",
-    "lat": 49.217,
-    "lng": -122.6879,
-    "ageGroups": [
-      "infant",
-      "toddler",
-      "preschool",
-      "schoolAge"
-    ],
-    "languages": [
-      "English"
-    ],
-    "scheduleType": "full-time",
-    "tenDollarDay": false,
-    "spotsAvailable": 0,
-    "phone": "(604)465-0597",
-    "email": "",
-    "description": "Montessori academy in Pitt Meadows with full programs for infants through school-age children.",
-    "rating": 0,
-    "manager": "Mayra Diaz",
-    "capacity": 172
-  },
-  {
-    "id": "24",
+    "id": "3",
     "name": "Early Learning Childcare Centre",
-    "address": "101 - 3200 Westwood St",
-    "city": "Port Coquitlam",
-    "lat": 49.2627,
-    "lng": -122.7814,
+    "address": "6619 Brantford Ave",
+    "city": "Burnaby",
+    "lat": 49.2488,
+    "lng": -122.9805,
     "ageGroups": [
       "infant",
       "toddler"
@@ -580,796 +64,15 @@
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
-    "phone": "(604)475-7800",
+    "phone": "(778)898-9593",
     "email": "",
-    "description": "Licensed infant and toddler care in Port Coquitlam.",
+    "description": "Licensed infant and toddler care in Burnaby.",
     "rating": 0,
-    "manager": "Jungsun Lee",
-    "capacity": 12
+    "manager": "Jiani (Angel) Li",
+    "capacity": 8
   },
   {
-    "id": "25",
-    "name": "Birchland Tree House Play Care Ltd",
-    "address": "1331 Fraser Ave",
-    "city": "Port Coquitlam",
-    "lat": 49.2627,
-    "lng": -122.7814,
-    "ageGroups": [
-      "infant",
-      "toddler",
-      "preschool",
-      "schoolAge"
-    ],
-    "languages": [
-      "English"
-    ],
-    "scheduleType": "full-time",
-    "tenDollarDay": false,
-    "spotsAvailable": 0,
-    "phone": "(604)945-0002",
-    "email": "",
-    "description": "Full-service licensed childcare in Port Coquitlam with programs for all ages from infants to school-age.",
-    "rating": 0,
-    "manager": "Madina Osmanzai",
-    "capacity": 99
-  },
-  {
-    "id": "26",
-    "name": "Bramblewood Montessori Child Care Center Ltd",
-    "address": "201 - 2255 Wilson Ave",
-    "city": "Port Coquitlam",
-    "lat": 49.2627,
-    "lng": -122.7814,
-    "ageGroups": [
-      "infant",
-      "toddler",
-      "preschool",
-      "schoolAge"
-    ],
-    "languages": [
-      "English"
-    ],
-    "scheduleType": "full-time",
-    "tenDollarDay": false,
-    "spotsAvailable": 0,
-    "phone": "(604)942-5432",
-    "email": "",
-    "description": "Montessori childcare in Port Coquitlam with programs for infants through school-age children.",
-    "rating": 0,
-    "manager": "Sanjit Dhudwal",
-    "capacity": 119
-  },
-  {
-    "id": "27",
-    "name": "BCCA Kids Club",
-    "address": "1019 Fernwood Ave",
-    "city": "Port Coquitlam",
-    "lat": 49.2627,
-    "lng": -122.7814,
-    "ageGroups": [
-      "infant",
-      "toddler",
-      "preschool",
-      "schoolAge"
-    ],
-    "languages": [
-      "English"
-    ],
-    "scheduleType": "full-time",
-    "tenDollarDay": false,
-    "spotsAvailable": 0,
-    "phone": "(604)942-3746",
-    "email": "",
-    "description": "Large licensed childcare facility in Port Coquitlam with programs for all ages.",
-    "rating": 0,
-    "manager": "Theresa Lee",
-    "capacity": 352
-  },
-  {
-    "id": "28",
-    "name": "A Wave of Stars Childcare",
-    "address": "1821 Barnet Hwy",
-    "city": "Port Moody",
-    "lat": 49.2828,
-    "lng": -122.8317,
-    "ageGroups": [
-      "infant",
-      "toddler"
-    ],
-    "languages": [
-      "English"
-    ],
-    "scheduleType": "full-time",
-    "tenDollarDay": false,
-    "spotsAvailable": 0,
-    "phone": "(604)715-7548",
-    "email": "",
-    "description": "Licensed infant and toddler care in Port Moody.",
-    "rating": 0,
-    "manager": "Maryam Hosseini",
-    "capacity": 10
-  },
-  {
-    "id": "29",
-    "name": "Kids & Company Port Moody",
-    "address": "220 Brew St",
-    "city": "Port Moody",
-    "lat": 49.2828,
-    "lng": -122.8317,
-    "ageGroups": [
-      "infant",
-      "toddler",
-      "preschool"
-    ],
-    "languages": [
-      "English"
-    ],
-    "scheduleType": "full-time",
-    "tenDollarDay": false,
-    "spotsAvailable": 0,
-    "phone": "(604)492-1075",
-    "email": "",
-    "description": "Kids and Company licensed childcare in Port Moody. Programs for infants, toddlers and preschool children.",
-    "rating": 0,
-    "manager": "Sukhpreet Kaur Brar",
-    "capacity": 117
-  },
-  {
-    "id": "30",
-    "name": "Glenayre Montessori Centre",
-    "address": "495 Glencoe Dr",
-    "city": "Port Moody",
-    "lat": 49.2828,
-    "lng": -122.8317,
-    "ageGroups": [
-      "toddler",
-      "preschool"
-    ],
-    "languages": [
-      "English"
-    ],
-    "scheduleType": "full-time",
-    "tenDollarDay": false,
-    "spotsAvailable": 0,
-    "phone": "(604)937-0084",
-    "email": "",
-    "description": "Montessori childcare in Port Moody for toddlers and preschool-age children.",
-    "rating": 0,
-    "manager": "Darcie M. Esau",
-    "capacity": 40
-  },
-  {
-    "id": "31",
-    "name": "CEFA - Fleetwood",
-    "address": "1 - 16050 Fraser Hwy",
-    "city": "Surrey",
-    "lat": 49.1913,
-    "lng": -122.849,
-    "ageGroups": [
-      "infant",
-      "toddler",
-      "preschool"
-    ],
-    "languages": [
-      "English"
-    ],
-    "scheduleType": "full-time",
-    "tenDollarDay": false,
-    "spotsAvailable": 0,
-    "phone": "(604)593-2650",
-    "email": "",
-    "description": "CEFA Early Learning at Fleetwood in Surrey. Programs for infants, toddlers and preschool children.",
-    "rating": 0,
-    "manager": "Rosy Jain",
-    "capacity": 84
-  },
-  {
-    "id": "32",
-    "name": "CEFA Campbell Heights",
-    "address": "200 - 19255 28th Ave",
-    "city": "Surrey",
-    "lat": 49.0234,
-    "lng": -122.801,
-    "ageGroups": [
-      "infant",
-      "toddler",
-      "preschool"
-    ],
-    "languages": [
-      "English"
-    ],
-    "scheduleType": "full-time",
-    "tenDollarDay": false,
-    "spotsAvailable": 0,
-    "phone": "(778)609-2299",
-    "email": "",
-    "description": "CEFA Early Learning at Campbell Heights in Surrey. Programs for infants, toddlers and preschool children.",
-    "rating": 0,
-    "manager": "Anne Monahan",
-    "capacity": 112
-  },
-  {
-    "id": "33",
-    "name": "Brightpath Clayton Hills",
-    "address": "7239 192nd St",
-    "city": "Surrey",
-    "lat": 49.14,
-    "lng": -122.72,
-    "ageGroups": [
-      "infant",
-      "toddler",
-      "preschool"
-    ],
-    "languages": [
-      "English"
-    ],
-    "scheduleType": "full-time",
-    "tenDollarDay": false,
-    "spotsAvailable": 0,
-    "phone": "(778)571-4734",
-    "email": "",
-    "description": "BrightPath childcare at Clayton Hills in Surrey. Programs for infants, toddlers and preschool children.",
-    "rating": 0,
-    "manager": "Robyn Burnett",
-    "capacity": 210
-  },
-  {
-    "id": "34",
-    "name": "Creative Kids Learning Centers - Morgan Crossing",
-    "address": "100-106 - 15850 24th Ave",
-    "city": "Surrey",
-    "lat": 49.0234,
-    "lng": -122.801,
-    "ageGroups": [
-      "infant",
-      "toddler",
-      "preschool",
-      "schoolAge"
-    ],
-    "languages": [
-      "English"
-    ],
-    "scheduleType": "full-time",
-    "tenDollarDay": false,
-    "spotsAvailable": 0,
-    "phone": "(604)542-4222",
-    "email": "",
-    "description": "Full-service licensed childcare at Morgan Crossing in Surrey with programs for all ages.",
-    "rating": 0,
-    "manager": "Reena Brar",
-    "capacity": 120
-  },
-  {
-    "id": "35",
-    "name": "Kids & Company Morgan Crossing South Surrey",
-    "address": "Unit AB102 - 15715 Croydon Dr",
-    "city": "Surrey",
-    "lat": 49.0234,
-    "lng": -122.801,
-    "ageGroups": [
-      "infant",
-      "toddler",
-      "preschool"
-    ],
-    "languages": [
-      "English"
-    ],
-    "scheduleType": "full-time",
-    "tenDollarDay": false,
-    "spotsAvailable": 0,
-    "phone": "(778)294-2262",
-    "email": "",
-    "description": "Kids and Company licensed childcare in South Surrey. Programs for infants, toddlers and preschool children.",
-    "rating": 0,
-    "manager": "Ramneet Kaur",
-    "capacity": 105
-  },
-  {
-    "id": "36",
-    "name": "Little Footprints Academy (Guildford)",
-    "address": "101 - 15326 103A Ave",
-    "city": "Surrey",
-    "lat": 49.1913,
-    "lng": -122.849,
-    "ageGroups": [
-      "infant",
-      "toddler",
-      "preschool"
-    ],
-    "languages": [
-      "English"
-    ],
-    "scheduleType": "full-time",
-    "tenDollarDay": false,
-    "spotsAvailable": 0,
-    "phone": "(778)323-9901",
-    "email": "",
-    "description": "Licensed childcare at Guildford in Surrey with programs for infants, toddlers and preschool children.",
-    "rating": 0,
-    "manager": "Ashwathi Janardhanan",
-    "capacity": 106
-  },
-  {
-    "id": "37",
-    "name": "Sandbox Early Learning (Cedar Hills)",
-    "address": "100 - 9648 128th St",
-    "city": "Surrey",
-    "lat": 49.1913,
-    "lng": -122.849,
-    "ageGroups": [
-      "infant",
-      "toddler",
-      "preschool"
-    ],
-    "languages": [
-      "English"
-    ],
-    "scheduleType": "full-time",
-    "tenDollarDay": false,
-    "spotsAvailable": 0,
-    "phone": "(778)761-1555",
-    "email": "",
-    "description": "Sandbox Early Learning at Cedar Hills in Surrey. Programs for infants, toddlers and preschool children.",
-    "rating": 0,
-    "manager": "Elizabeth Pineda",
-    "capacity": 148
-  },
-  {
-    "id": "38",
-    "name": "Willowbrae Academy Guildford",
-    "address": "201 - 15679 104th Ave",
-    "city": "Surrey",
-    "lat": 49.1913,
-    "lng": -122.849,
-    "ageGroups": [
-      "infant",
-      "toddler",
-      "preschool"
-    ],
-    "languages": [
-      "English"
-    ],
-    "scheduleType": "full-time",
-    "tenDollarDay": false,
-    "spotsAvailable": 0,
-    "phone": "(778)368-1042",
-    "email": "",
-    "description": "Willowbrae Academy at Guildford in Surrey. Licensed programs for infants, toddlers and preschool children.",
-    "rating": 0,
-    "manager": "Jessica Heo",
-    "capacity": 164
-  },
-  {
-    "id": "39",
-    "name": "CEFA Walnut Grove",
-    "address": "100 - 19950 88th Ave",
-    "city": "Langley",
-    "lat": 49.16,
-    "lng": -122.68,
-    "ageGroups": [
-      "infant",
-      "toddler",
-      "preschool"
-    ],
-    "languages": [
-      "English"
-    ],
-    "scheduleType": "full-time",
-    "tenDollarDay": false,
-    "spotsAvailable": 0,
-    "phone": "(604)881-2332",
-    "email": "",
-    "description": "CEFA Early Learning at Walnut Grove in Langley. Programs for infants, toddlers and preschool children.",
-    "rating": 0,
-    "manager": "Leila Omran",
-    "capacity": 167
-  },
-  {
-    "id": "40",
-    "name": "Jellybean Park - Langley Campus",
-    "address": "2 - 19615 Willowbrook Dr",
-    "city": "Langley",
-    "lat": 49.1044,
-    "lng": -122.6604,
-    "ageGroups": [
-      "infant",
-      "toddler",
-      "preschool"
-    ],
-    "languages": [
-      "English"
-    ],
-    "scheduleType": "full-time",
-    "tenDollarDay": false,
-    "spotsAvailable": 0,
-    "phone": "(604)539-9898",
-    "email": "",
-    "description": "Jellybean Park childcare at the Langley Campus. Programs for infants, toddlers and preschool children.",
-    "rating": 0,
-    "manager": "Robyn Custeau",
-    "capacity": 160
-  },
-  {
-    "id": "41",
-    "name": "Kids & Company Langley",
-    "address": "8506 200th St",
-    "city": "Langley",
-    "lat": 49.1044,
-    "lng": -122.6604,
-    "ageGroups": [
-      "infant",
-      "toddler",
-      "preschool"
-    ],
-    "languages": [
-      "English"
-    ],
-    "scheduleType": "full-time",
-    "tenDollarDay": false,
-    "spotsAvailable": 0,
-    "phone": "(604)371-3134",
-    "email": "",
-    "description": "Kids and Company licensed childcare in Langley. Programs for infants, toddlers and preschool children.",
-    "rating": 0,
-    "manager": "Jyoti Judge",
-    "capacity": 120
-  },
-  {
-    "id": "42",
-    "name": "Nurturing Hearts Montessori Daycare - Newlands",
-    "address": "21025 48th Ave",
-    "city": "Langley",
-    "lat": 49.09,
-    "lng": -122.65,
-    "ageGroups": [
-      "infant",
-      "toddler",
-      "preschool",
-      "schoolAge"
-    ],
-    "languages": [
-      "English"
-    ],
-    "scheduleType": "full-time",
-    "tenDollarDay": false,
-    "spotsAvailable": 0,
-    "phone": "(604)533-1805",
-    "email": "",
-    "description": "Nurturing Hearts Montessori at Newlands in Langley. Full-service programs for infants through school-age children.",
-    "rating": 0,
-    "manager": "Ashley Brooks",
-    "capacity": 227
-  },
-  {
-    "id": "43",
-    "name": "CEFA Captain's Cove",
-    "address": "106 - 5519 Admiral Way",
-    "city": "Delta",
-    "lat": 49.0234,
-    "lng": -123.07,
-    "ageGroups": [
-      "infant",
-      "toddler",
-      "preschool"
-    ],
-    "languages": [
-      "English"
-    ],
-    "scheduleType": "full-time",
-    "tenDollarDay": false,
-    "spotsAvailable": 0,
-    "phone": "(778)620-3030",
-    "email": "",
-    "description": "CEFA Early Learning at Captain's Cove in Tsawwassen. Programs for infants, toddlers and preschool children.",
-    "rating": 0,
-    "manager": "Yasmin Poore",
-    "capacity": 150
-  },
-  {
-    "id": "44",
-    "name": "Willowbrae Academy Delta",
-    "address": "8375 120th St",
-    "city": "Delta",
-    "lat": 49.0839,
-    "lng": -123.0575,
-    "ageGroups": [
-      "infant",
-      "toddler",
-      "preschool"
-    ],
-    "languages": [
-      "English"
-    ],
-    "scheduleType": "full-time",
-    "tenDollarDay": false,
-    "spotsAvailable": 0,
-    "phone": "(604)832-8093",
-    "email": "",
-    "description": "Willowbrae Academy in Delta. Licensed programs for infants, toddlers and preschool children.",
-    "rating": 0,
-    "manager": "Poonam Chhabra",
-    "capacity": 166
-  },
-  {
-    "id": "45",
-    "name": "Brilliant Kids Montessori Childcare Centre",
-    "address": "11706 96th Ave",
-    "city": "Delta",
-    "lat": 49.0839,
-    "lng": -123.0575,
-    "ageGroups": [
-      "infant",
-      "toddler",
-      "preschool"
-    ],
-    "languages": [
-      "English"
-    ],
-    "scheduleType": "full-time",
-    "tenDollarDay": false,
-    "spotsAvailable": 0,
-    "phone": "(604)498-2128",
-    "email": "",
-    "description": "Montessori childcare in Delta with programs for infants, toddlers and preschool children.",
-    "rating": 0,
-    "manager": "Yu-Ling Wang",
-    "capacity": 74
-  },
-  {
-    "id": "46",
-    "name": "Angel Pines Center",
-    "address": "2826 Cambridge St",
-    "city": "Abbotsford",
-    "lat": 49.0504,
-    "lng": -122.3045,
-    "ageGroups": [
-      "infant",
-      "toddler"
-    ],
-    "languages": [
-      "English"
-    ],
-    "scheduleType": "full-time",
-    "tenDollarDay": false,
-    "spotsAvailable": 0,
-    "phone": "(778)929-0213",
-    "email": "",
-    "description": "Licensed infant and toddler care in Abbotsford.",
-    "rating": 0,
-    "manager": "Ly Yang Liu",
-    "capacity": 12
-  },
-  {
-    "id": "47",
-    "name": "New Beginnings Daycare Program - Mouat Drive",
-    "address": "32355 Mouat Drive",
-    "city": "Abbotsford",
-    "lat": 49.0504,
-    "lng": -122.3045,
-    "ageGroups": [
-      "infant",
-      "toddler"
-    ],
-    "languages": [
-      "English"
-    ],
-    "scheduleType": "full-time",
-    "tenDollarDay": false,
-    "spotsAvailable": 0,
-    "phone": "(604)850-7303",
-    "email": "",
-    "description": "Licensed Group Child Care for infants and toddlers in Abbotsford.",
-    "rating": 0,
-    "manager": "Stephanie Oldendorf",
-    "capacity": 32
-  },
-  {
-    "id": "48",
-    "name": "CEFA Early Learning Abbotsford - Highstreet",
-    "address": "B235 - 3122 Mt Lehman Road",
-    "city": "Abbotsford",
-    "lat": 49.0504,
-    "lng": -122.3045,
-    "ageGroups": [
-      "infant",
-      "toddler",
-      "preschool"
-    ],
-    "languages": [
-      "English"
-    ],
-    "scheduleType": "full-time",
-    "tenDollarDay": false,
-    "spotsAvailable": 0,
-    "phone": "(604)425-3800",
-    "email": "",
-    "description": "CEFA Early Learning at Highstreet in Abbotsford. Programs for infants, toddlers and preschool children.",
-    "rating": 0,
-    "manager": "Tanzeem Masroor Siddiqui",
-    "capacity": 142
-  },
-  {
-    "id": "49",
-    "name": "First Step Daycare Centre",
-    "address": "32659 South Fraser Way",
-    "city": "Abbotsford",
-    "lat": 49.0504,
-    "lng": -122.3045,
-    "ageGroups": [
-      "infant",
-      "toddler",
-      "preschool",
-      "schoolAge"
-    ],
-    "languages": [
-      "English"
-    ],
-    "scheduleType": "full-time",
-    "tenDollarDay": false,
-    "spotsAvailable": 0,
-    "phone": "(604)746-7837",
-    "email": "",
-    "description": "Licensed childcare in Abbotsford with full programs for infants through school-age children.",
-    "rating": 0,
-    "manager": "Aalia Rahguzar",
-    "capacity": 65
-  },
-  {
-    "id": "50",
-    "name": "Gladwin Childcare Centre",
-    "address": "3145 Gladwin Rd",
-    "city": "Abbotsford",
-    "lat": 49.0504,
-    "lng": -122.3045,
-    "ageGroups": [
-      "infant",
-      "toddler",
-      "preschool",
-      "schoolAge"
-    ],
-    "languages": [
-      "English"
-    ],
-    "scheduleType": "full-time",
-    "tenDollarDay": false,
-    "spotsAvailable": 0,
-    "phone": "(604)853-9084",
-    "email": "",
-    "description": "Gladwin Childcare Centre in Abbotsford. Licensed programs for infants, toddlers, preschool and school-age children.",
-    "rating": 0,
-    "manager": "Karen Fewings",
-    "capacity": 85
-  },
-  {
-    "id": "51",
-    "name": "CEFA Cottonwood",
-    "address": "7544 Vedder Rd",
-    "city": "Chilliwack",
-    "lat": 49.159,
-    "lng": -121.9544,
-    "ageGroups": [
-      "infant",
-      "toddler",
-      "preschool"
-    ],
-    "languages": [
-      "English"
-    ],
-    "scheduleType": "full-time",
-    "tenDollarDay": false,
-    "spotsAvailable": 0,
-    "phone": "(604)426-2662",
-    "email": "",
-    "description": "CEFA Early Learning at Cottonwood in Chilliwack. Programs for infants, toddlers and preschool children.",
-    "rating": 0,
-    "manager": "Ashpuneet Kaur",
-    "capacity": 98
-  },
-  {
-    "id": "52",
-    "name": "Central Village Childcare Society",
-    "address": "9391 College St",
-    "city": "Chilliwack",
-    "lat": 49.159,
-    "lng": -121.9544,
-    "ageGroups": [
-      "infant",
-      "toddler",
-      "preschool",
-      "schoolAge"
-    ],
-    "languages": [
-      "English"
-    ],
-    "scheduleType": "full-time",
-    "tenDollarDay": false,
-    "spotsAvailable": 0,
-    "phone": "(604)750-6365",
-    "email": "",
-    "description": "Licensed childcare in Chilliwack with programs for infants through school-age children.",
-    "rating": 0,
-    "manager": "Amandeep Kaur",
-    "capacity": 95
-  },
-  {
-    "id": "53",
-    "name": "Creative Kids Learning Centers - Chilliwack",
-    "address": "200 Building J - 6640 Vedder Rd",
-    "city": "Chilliwack",
-    "lat": 49.159,
-    "lng": -121.9544,
-    "ageGroups": [
-      "infant",
-      "toddler",
-      "preschool"
-    ],
-    "languages": [
-      "English"
-    ],
-    "scheduleType": "full-time",
-    "tenDollarDay": false,
-    "spotsAvailable": 0,
-    "phone": "(604)705-2017",
-    "email": "",
-    "description": "Creative Kids Learning Centers in Chilliwack. Programs for infants, toddlers and preschool children.",
-    "rating": 0,
-    "manager": "Kristen St. Denis",
-    "capacity": 114
-  },
-  {
-    "id": "54",
-    "name": "Little Footsteps Child Care Centre Society",
-    "address": "46510 1st Ave",
-    "city": "Chilliwack",
-    "lat": 49.159,
-    "lng": -121.9544,
-    "ageGroups": [
-      "infant",
-      "toddler",
-      "preschool",
-      "schoolAge"
-    ],
-    "languages": [
-      "English"
-    ],
-    "scheduleType": "full-time",
-    "tenDollarDay": false,
-    "spotsAvailable": 0,
-    "phone": "(604)792-0794",
-    "email": "",
-    "description": "Licensed childcare in Chilliwack with full programs for infants through school-age children.",
-    "rating": 0,
-    "manager": "Lynnette Switzer",
-    "capacity": 98
-  },
-  {
-    "id": "55",
-    "name": "Bloom Childcare Centre & Fine Arts Preschool",
-    "address": "32811 Dewdney Trunk Rd",
-    "city": "Mission",
-    "lat": 49.1344,
-    "lng": -122.3106,
-    "ageGroups": [
-      "infant",
-      "toddler",
-      "preschool",
-      "schoolAge"
-    ],
-    "languages": [
-      "English"
-    ],
-    "scheduleType": "full-time",
-    "tenDollarDay": false,
-    "spotsAvailable": 0,
-    "phone": "(604)820-8465",
-    "email": "",
-    "description": "Bloom Childcare Centre in Mission offering childcare and a fine arts preschool program. Programs for all ages.",
-    "rating": 0,
-    "manager": "Chamari Weerasinghe",
-    "capacity": 118
-  },
-  {
-    "id": "56",
+    "id": "4",
     "name": "A & B Daycare",
     "address": "6436 Malvern Ave",
     "city": "Burnaby",
@@ -1393,7 +96,7 @@
     "capacity": 8
   },
   {
-    "id": "57",
+    "id": "5",
     "name": "A & B Early Learning Centre",
     "address": "6327 Berwick Ct",
     "city": "Burnaby",
@@ -1417,7 +120,7 @@
     "capacity": 8
   },
   {
-    "id": "58",
+    "id": "6",
     "name": "A Miracle Childcare",
     "address": "6655 E Georgia St",
     "city": "Burnaby",
@@ -1441,7 +144,7 @@
     "capacity": 8
   },
   {
-    "id": "59",
+    "id": "7",
     "name": "A1 Suncrest Daycare",
     "address": "7907 Suncrest Dr",
     "city": "Burnaby",
@@ -1465,7 +168,7 @@
     "capacity": 8
   },
   {
-    "id": "60",
+    "id": "8",
     "name": "All Bright Early Learning Center Metro",
     "address": "5620 Oakglen Dr",
     "city": "Burnaby",
@@ -1489,7 +192,7 @@
     "capacity": 8
   },
   {
-    "id": "61",
+    "id": "9",
     "name": "Aloha Childcare Centre",
     "address": "6338 Neville St",
     "city": "Burnaby",
@@ -1513,7 +216,7 @@
     "capacity": 8
   },
   {
-    "id": "62",
+    "id": "10",
     "name": "Amazing Kidz Childcare",
     "address": "3780 Lozells Ave",
     "city": "Burnaby",
@@ -1537,7 +240,7 @@
     "capacity": 8
   },
   {
-    "id": "63",
+    "id": "11",
     "name": "Angel Smile Child Care",
     "address": "6969 Sussex Ave",
     "city": "Burnaby",
@@ -1561,7 +264,7 @@
     "capacity": 8
   },
   {
-    "id": "64",
+    "id": "12",
     "name": "Angels Playhouse Daycare Society (Clinton St)",
     "address": "5288 Clinton St",
     "city": "Burnaby",
@@ -1585,7 +288,7 @@
     "capacity": 8
   },
   {
-    "id": "65",
+    "id": "13",
     "name": "Angels Playhouse Daycare Society (Grafton St)",
     "address": "4529 Grafton St",
     "city": "Burnaby",
@@ -1609,7 +312,7 @@
     "capacity": 8
   },
   {
-    "id": "66",
+    "id": "14",
     "name": "Angels Playhouse Daycare Society (Kentwood St)",
     "address": "7650 Kentwood St",
     "city": "Burnaby",
@@ -1633,7 +336,7 @@
     "capacity": 8
   },
   {
-    "id": "67",
+    "id": "15",
     "name": "Angels Playhouse Daycare Society (Sherban Ct)",
     "address": "5798 Sherban Crt",
     "city": "Burnaby",
@@ -1657,7 +360,7 @@
     "capacity": 8
   },
   {
-    "id": "68",
+    "id": "16",
     "name": "Angels Playhouse Daycare Society (Sperling Ave)",
     "address": "6850 Sperling Ave",
     "city": "Burnaby",
@@ -1681,7 +384,7 @@
     "capacity": 8
   },
   {
-    "id": "69",
+    "id": "17",
     "name": "Angels Playhouse Infant & Toddler Child Care Centre",
     "address": "103 - 7339 MacPherson Ave",
     "city": "Burnaby",
@@ -1705,7 +408,7 @@
     "capacity": 8
   },
   {
-    "id": "70",
+    "id": "18",
     "name": "Angels Playhouse Infant & Toddler Childcare Centre (Crestlawn Dr)",
     "address": "1361 Crestlawn Dr",
     "city": "Burnaby",
@@ -1729,7 +432,7 @@
     "capacity": 8
   },
   {
-    "id": "71",
+    "id": "19",
     "name": "Angels Playhouse Infant And Toddler Childcare Centre(Rumble St)",
     "address": "5588 Rumble St",
     "city": "Burnaby",
@@ -1753,7 +456,7 @@
     "capacity": 8
   },
   {
-    "id": "72",
+    "id": "20",
     "name": "Ark and Rainbow Child Care",
     "address": "4869 Colbrook Crt",
     "city": "Burnaby",
@@ -1777,7 +480,7 @@
     "capacity": 8
   },
   {
-    "id": "73",
+    "id": "21",
     "name": "Astro Childcare",
     "address": "4108 Manor St",
     "city": "Burnaby",
@@ -1801,7 +504,7 @@
     "capacity": 8
   },
   {
-    "id": "74",
+    "id": "22",
     "name": "Aubrey Daycare Centre",
     "address": "949 Sperling Ave",
     "city": "Burnaby",
@@ -1825,7 +528,7 @@
     "capacity": 8
   },
   {
-    "id": "75",
+    "id": "23",
     "name": "Aubrey Daycare Centre",
     "address": "947 Sperling Ave",
     "city": "Burnaby",
@@ -1849,7 +552,7 @@
     "capacity": 8
   },
   {
-    "id": "76",
+    "id": "24",
     "name": "Aubrey Daycare Centre",
     "address": "6409 Aubrey St",
     "city": "Burnaby",
@@ -1873,7 +576,7 @@
     "capacity": 10
   },
   {
-    "id": "77",
+    "id": "25",
     "name": "Baby Angel Early Learning Inc",
     "address": "4536 Irmin St",
     "city": "Burnaby",
@@ -1897,7 +600,7 @@
     "capacity": 8
   },
   {
-    "id": "78",
+    "id": "26",
     "name": "Baby Beluga Early Learning & Play House",
     "address": "5450 Moreland Dr",
     "city": "Burnaby",
@@ -1921,7 +624,7 @@
     "capacity": 8
   },
   {
-    "id": "79",
+    "id": "27",
     "name": "Baby Club Childcare",
     "address": "7538 Tyndale Cres",
     "city": "Burnaby",
@@ -1945,7 +648,7 @@
     "capacity": 8
   },
   {
-    "id": "80",
+    "id": "28",
     "name": "Baby Smile Childcare",
     "address": "7348 Stride Ave",
     "city": "Burnaby",
@@ -1969,7 +672,7 @@
     "capacity": 8
   },
   {
-    "id": "81",
+    "id": "29",
     "name": "Baby Square Daycare",
     "address": "4045 Union St",
     "city": "Burnaby",
@@ -1993,7 +696,7 @@
     "capacity": 8
   },
   {
-    "id": "82",
+    "id": "30",
     "name": "Bear Cubs Childcare",
     "address": "3530 Colter Crt",
     "city": "Burnaby",
@@ -2014,6 +717,2022 @@
     "description": "Licensed infant and toddler care in Burnaby.",
     "rating": 0,
     "manager": "Meng Zhou",
+    "capacity": 8
+  },
+  {
+    "id": "31",
+    "name": "Bear Paws Child Care",
+    "address": "6842 Gilley Ave",
+    "city": "Burnaby",
+    "lat": 49.2488,
+    "lng": -122.9805,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(604)563-6825",
+    "email": "",
+    "description": "Licensed infant and toddler care in Burnaby.",
+    "rating": 0,
+    "manager": "Zi Shu Gao",
+    "capacity": 8
+  },
+  {
+    "id": "32",
+    "name": "Bear Paws Child Care Sperling",
+    "address": "6790 Sperling Ave",
+    "city": "Burnaby",
+    "lat": 49.2488,
+    "lng": -122.9805,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(604)777-3288",
+    "email": "",
+    "description": "Licensed infant and toddler care in Burnaby.",
+    "rating": 0,
+    "manager": "Lu You",
+    "capacity": 8
+  },
+  {
+    "id": "33",
+    "name": "Bear's House Child Care",
+    "address": "4609 Rumble St",
+    "city": "Burnaby",
+    "lat": 49.2488,
+    "lng": -122.9805,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(604)721-7488",
+    "email": "",
+    "description": "Licensed infant and toddler care in Burnaby.",
+    "rating": 0,
+    "manager": "Hui-Peng (Jenny) Lin",
+    "capacity": 8
+  },
+  {
+    "id": "34",
+    "name": "Bee Daycare Early Learning Ltd.",
+    "address": "8910 Monroe Ave",
+    "city": "Burnaby",
+    "lat": 49.2488,
+    "lng": -122.9805,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(604)802-2766",
+    "email": "",
+    "description": "Licensed infant and toddler care in Burnaby.",
+    "rating": 0,
+    "manager": "Jenny Ky Tran Bao",
+    "capacity": 8
+  },
+  {
+    "id": "35",
+    "name": "Broadway Bilingual Daycare",
+    "address": "6644 Broadway",
+    "city": "Burnaby",
+    "lat": 49.2488,
+    "lng": -122.9805,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(604)444-4706",
+    "email": "",
+    "description": "Licensed infant and toddler care in Burnaby.",
+    "rating": 0,
+    "manager": "Akram Komaijani",
+    "capacity": 8
+  },
+  {
+    "id": "36",
+    "name": "Buckingham Little Stars Childcare Center",
+    "address": "6130 Buckingham Pl",
+    "city": "Burnaby",
+    "lat": 49.2488,
+    "lng": -122.9805,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(778)898-6338",
+    "email": "",
+    "description": "Licensed infant and toddler care in Burnaby.",
+    "rating": 0,
+    "manager": "Yu Fu",
+    "capacity": 8
+  },
+  {
+    "id": "37",
+    "name": "Buckingham Tots Child Care Center",
+    "address": "7461 Stanley St",
+    "city": "Burnaby",
+    "lat": 49.2488,
+    "lng": -122.9805,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(778)829-9827",
+    "email": "",
+    "description": "Licensed infant and toddler care in Burnaby.",
+    "rating": 0,
+    "manager": "Tingting (Rita) Wu / Shumin Wang",
+    "capacity": 8
+  },
+  {
+    "id": "38",
+    "name": "Burnaby Lake Childcare",
+    "address": "4578 Brentlawn Dr",
+    "city": "Burnaby",
+    "lat": 49.2488,
+    "lng": -122.9805,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(604)728-0613",
+    "email": "",
+    "description": "Licensed infant and toddler care in Burnaby.",
+    "rating": 0,
+    "manager": "Kerrie Lang",
+    "capacity": 8
+  },
+  {
+    "id": "39",
+    "name": "Burnaby Lakeview Daycare",
+    "address": "7020 Sperling Ave",
+    "city": "Burnaby",
+    "lat": 49.2488,
+    "lng": -122.9805,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(778)990-3981",
+    "email": "",
+    "description": "Licensed infant and toddler care in Burnaby.",
+    "rating": 0,
+    "manager": "Xiao Li Qin",
+    "capacity": 8
+  },
+  {
+    "id": "40",
+    "name": "'CCAA' Infant and Toddler Child Care Centre",
+    "address": "3978 Brandon St",
+    "city": "Burnaby",
+    "lat": 49.2488,
+    "lng": -122.9805,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(604)322-0288",
+    "email": "",
+    "description": "Licensed infant and toddler care in Burnaby.",
+    "rating": 0,
+    "manager": "Mo (Jessica) Zhou",
+    "capacity": 8
+  },
+  {
+    "id": "41",
+    "name": "Children's Reef Learning Center Ltd.",
+    "address": "3722 Frances St",
+    "city": "Burnaby",
+    "lat": 49.2488,
+    "lng": -122.9805,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(778)837-4672",
+    "email": "",
+    "description": "Licensed infant and toddler care in Burnaby.",
+    "rating": 0,
+    "manager": "Isela Veronica McDougall",
+    "capacity": 8
+  },
+  {
+    "id": "42",
+    "name": "Cozy Corner Tots",
+    "address": "4842 Brentlawn Dr",
+    "city": "Burnaby",
+    "lat": 49.2488,
+    "lng": -122.9805,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(604)629-3555",
+    "email": "",
+    "description": "Licensed infant and toddler care in Burnaby.",
+    "rating": 0,
+    "manager": "Han Yue Xu",
+    "capacity": 8
+  },
+  {
+    "id": "43",
+    "name": "Dandelion Daycare Centre",
+    "address": "5870 Rumble St",
+    "city": "Burnaby",
+    "lat": 49.2488,
+    "lng": -122.9805,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(604)566-2666",
+    "email": "",
+    "description": "Licensed infant and toddler care in Burnaby.",
+    "rating": 0,
+    "manager": "Xin (Maggie) Zhong",
+    "capacity": 8
+  },
+  {
+    "id": "44",
+    "name": "Dreamland Infant and Toddler Daycare Center",
+    "address": "5365 Venables St",
+    "city": "Burnaby",
+    "lat": 49.2488,
+    "lng": -122.9805,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(604)298-7772",
+    "email": "",
+    "description": "Licensed infant and toddler care in Burnaby.",
+    "rating": 0,
+    "manager": "Qi Ting Ou",
+    "capacity": 8
+  },
+  {
+    "id": "45",
+    "name": "E2 Childcare",
+    "address": "4642 Irmin St",
+    "city": "Burnaby",
+    "lat": 49.2488,
+    "lng": -122.9805,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(604)658-0792",
+    "email": "",
+    "description": "Licensed infant and toddler care in Burnaby.",
+    "rating": 0,
+    "manager": "Yue Qin",
+    "capacity": 8
+  },
+  {
+    "id": "46",
+    "name": "Educare 2 Childcare Centre",
+    "address": "5988 Leibly Ave",
+    "city": "Burnaby",
+    "lat": 49.2488,
+    "lng": -122.9805,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(604)808-7623",
+    "email": "",
+    "description": "Licensed infant and toddler care in Burnaby.",
+    "rating": 0,
+    "manager": "Sungji Wong",
+    "capacity": 8
+  },
+  {
+    "id": "47",
+    "name": "Educare Children's Centre",
+    "address": "5715 Royal Oak Ave",
+    "city": "Burnaby",
+    "lat": 49.2488,
+    "lng": -122.9805,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(604)808-7623",
+    "email": "",
+    "description": "Licensed infant and toddler care in Burnaby.",
+    "rating": 0,
+    "manager": "Yeon Mi Kim",
+    "capacity": 8
+  },
+  {
+    "id": "48",
+    "name": "Fabulous Kidz Childcare",
+    "address": "4677 Northview Ct",
+    "city": "Burnaby",
+    "lat": 49.2488,
+    "lng": -122.9805,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(778)789-8178",
+    "email": "",
+    "description": "Licensed infant and toddler care in Burnaby.",
+    "rating": 0,
+    "manager": "Xiyao Ma",
+    "capacity": 8
+  },
+  {
+    "id": "49",
+    "name": "Fraser Montessori Daycare",
+    "address": "6269 14th Ave",
+    "city": "Burnaby",
+    "lat": 49.2488,
+    "lng": -122.9805,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(604)307-2949",
+    "email": "",
+    "description": "Licensed infant and toddler care in Burnaby.",
+    "rating": 0,
+    "manager": "Reeta Chand",
+    "capacity": 8
+  },
+  {
+    "id": "50",
+    "name": "Galaxy Daycare Centre Ltd",
+    "address": "8187 Woodlake Crt",
+    "city": "Burnaby",
+    "lat": 49.2488,
+    "lng": -122.9805,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(604)218-4961",
+    "email": "",
+    "description": "Licensed infant and toddler care in Burnaby.",
+    "rating": 0,
+    "manager": "Pareen Ranmall",
+    "capacity": 8
+  },
+  {
+    "id": "51",
+    "name": "Giraffe Childcare Center",
+    "address": "3925 Oxford St",
+    "city": "Burnaby",
+    "lat": 49.2488,
+    "lng": -122.9805,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(778)512-3678",
+    "email": "",
+    "description": "Licensed infant and toddler care in Burnaby.",
+    "rating": 0,
+    "manager": "Lina Huang",
+    "capacity": 8
+  },
+  {
+    "id": "52",
+    "name": "Grace Montessori Daycare",
+    "address": "7588 Cariboo Rd",
+    "city": "Burnaby",
+    "lat": 49.2488,
+    "lng": -122.9805,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(778)986-5168",
+    "email": "",
+    "description": "Licensed infant and toddler care in Burnaby.",
+    "rating": 0,
+    "manager": "Xiao Xiang Pei",
+    "capacity": 8
+  },
+  {
+    "id": "53",
+    "name": "Growing Minds Child Care Centre",
+    "address": "7456 19th Ave",
+    "city": "Burnaby",
+    "lat": 49.2488,
+    "lng": -122.9805,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(604)442-4917",
+    "email": "",
+    "description": "Licensed infant and toddler care in Burnaby.",
+    "rating": 0,
+    "manager": "Sukhwant Bal",
+    "capacity": 4
+  },
+  {
+    "id": "54",
+    "name": "Gummy Bears Child Care",
+    "address": "6288 Service St",
+    "city": "Burnaby",
+    "lat": 49.2488,
+    "lng": -122.9805,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(604)",
+    "email": "",
+    "description": "Licensed infant and toddler care in Burnaby.",
+    "rating": 0,
+    "manager": "Mo Yuan Ding",
+    "capacity": 8
+  },
+  {
+    "id": "55",
+    "name": "Gummy Bears Child Care",
+    "address": "6719 Brantford Ave",
+    "city": "Burnaby",
+    "lat": 49.2488,
+    "lng": -122.9805,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(778)927-8133",
+    "email": "",
+    "description": "Licensed infant and toddler care in Burnaby.",
+    "rating": 0,
+    "manager": "Jeehea Lee",
+    "capacity": 8
+  },
+  {
+    "id": "56",
+    "name": "Gym Bears Child Care",
+    "address": "6428 Selma Ave",
+    "city": "Burnaby",
+    "lat": 49.2488,
+    "lng": -122.9805,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(778)927-8133",
+    "email": "",
+    "description": "Licensed infant and toddler care in Burnaby.",
+    "rating": 0,
+    "manager": "Qin Xao",
+    "capacity": 8
+  },
+  {
+    "id": "57",
+    "name": "Hand In Hand Child Care",
+    "address": "5128 Sidley St",
+    "city": "Burnaby",
+    "lat": 49.2488,
+    "lng": -122.9805,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(778)858-5098",
+    "email": "",
+    "description": "Licensed infant and toddler care in Burnaby.",
+    "rating": 0,
+    "manager": "Pei Zou",
+    "capacity": 8
+  },
+  {
+    "id": "58",
+    "name": "Happy Bird Daycare",
+    "address": "7545 18th Ave",
+    "city": "Burnaby",
+    "lat": 49.2488,
+    "lng": -122.9805,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(778)903-4237",
+    "email": "",
+    "description": "Licensed infant and toddler care in Burnaby.",
+    "rating": 0,
+    "manager": "Xu Jie (Jane) Yang",
+    "capacity": 8
+  },
+  {
+    "id": "59",
+    "name": "Happy Feet Childcare Centre",
+    "address": "6550 Clinton St",
+    "city": "Burnaby",
+    "lat": 49.2488,
+    "lng": -122.9805,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(604)808-7623",
+    "email": "",
+    "description": "Licensed infant and toddler care in Burnaby.",
+    "rating": 0,
+    "manager": "You Hao Zhi",
+    "capacity": 8
+  },
+  {
+    "id": "60",
+    "name": "Happy Gogo Childcare Centre",
+    "address": "7928 14th Ave",
+    "city": "Burnaby",
+    "lat": 49.2488,
+    "lng": -122.9805,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(778)320-9988",
+    "email": "",
+    "description": "Licensed infant and toddler care in Burnaby.",
+    "rating": 0,
+    "manager": "Jing Wen",
+    "capacity": 8
+  },
+  {
+    "id": "61",
+    "name": "Happy Owls Childcare",
+    "address": "6355 Grant St",
+    "city": "Burnaby",
+    "lat": 49.2488,
+    "lng": -122.9805,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(778)862-0398",
+    "email": "",
+    "description": "Licensed infant and toddler care in Burnaby.",
+    "rating": 0,
+    "manager": "Chih-Chin Huang",
+    "capacity": 8
+  },
+  {
+    "id": "62",
+    "name": "Happy Smile Childcare Centre",
+    "address": "7615 17th Ave",
+    "city": "Burnaby",
+    "lat": 49.2488,
+    "lng": -122.9805,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(778)697-0998",
+    "email": "",
+    "description": "Licensed infant and toddler care in Burnaby.",
+    "rating": 0,
+    "manager": "Wongyan Chen",
+    "capacity": 8
+  },
+  {
+    "id": "63",
+    "name": "Happyland Infant and Toddler Daycare",
+    "address": "6295 Broadway",
+    "city": "Burnaby",
+    "lat": 49.2488,
+    "lng": -122.9805,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(778)883-9030",
+    "email": "",
+    "description": "Licensed infant and toddler care in Burnaby.",
+    "rating": 0,
+    "manager": "Yin Fang Chen",
+    "capacity": 8
+  },
+  {
+    "id": "64",
+    "name": "Happyland Infant and Toddler Daycare (Dundas)",
+    "address": "4212 Dundas St",
+    "city": "Burnaby",
+    "lat": 49.2488,
+    "lng": -122.9805,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(778)883-9030",
+    "email": "",
+    "description": "Licensed infant and toddler care in Burnaby.",
+    "rating": 0,
+    "manager": "Yu Dan Yao",
+    "capacity": 8
+  },
+  {
+    "id": "65",
+    "name": "Hula Bears Child Care",
+    "address": "4556 Clinton St",
+    "city": "Burnaby",
+    "lat": 49.2488,
+    "lng": -122.9805,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(778)239-8818",
+    "email": "",
+    "description": "Licensed infant and toddler care in Burnaby.",
+    "rating": 0,
+    "manager": "Jeesun Park",
+    "capacity": 8
+  },
+  {
+    "id": "66",
+    "name": "IC Early Learning Center",
+    "address": "6336 Royal Oak Ave",
+    "city": "Burnaby",
+    "lat": 49.2488,
+    "lng": -122.9805,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(604)500-5559",
+    "email": "",
+    "description": "Licensed infant and toddler care in Burnaby.",
+    "rating": 0,
+    "manager": "Hyerim Yoon",
+    "capacity": 8
+  },
+  {
+    "id": "67",
+    "name": "IC Early Learning Center (Metrotown)",
+    "address": "4721 Sardis St",
+    "city": "Burnaby",
+    "lat": 49.2488,
+    "lng": -122.9805,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(604)719-1111",
+    "email": "",
+    "description": "Licensed infant and toddler care in Burnaby.",
+    "rating": 0,
+    "manager": "Sisi Li",
+    "capacity": 8
+  },
+  {
+    "id": "68",
+    "name": "IC Early Learning Center (Morley)",
+    "address": "7726 Morley St",
+    "city": "Burnaby",
+    "lat": 49.2488,
+    "lng": -122.9805,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(604)719-1111",
+    "email": "",
+    "description": "Licensed infant and toddler care in Burnaby.",
+    "rating": 0,
+    "manager": "Miseung Kim",
+    "capacity": 8
+  },
+  {
+    "id": "69",
+    "name": "IC Early Learning Center (Nelson)",
+    "address": "5989 Nelson Ave",
+    "city": "Burnaby",
+    "lat": 49.2488,
+    "lng": -122.9805,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(604)719-1111",
+    "email": "",
+    "description": "Licensed infant and toddler care in Burnaby.",
+    "rating": 0,
+    "manager": "Yoon Hee Choi",
+    "capacity": 8
+  },
+  {
+    "id": "70",
+    "name": "IC Early Learning Center (Sardis B)",
+    "address": "4845 Sardis St",
+    "city": "Burnaby",
+    "lat": 49.2488,
+    "lng": -122.9805,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(604)",
+    "email": "",
+    "description": "Licensed infant and toddler care in Burnaby.",
+    "rating": 0,
+    "manager": "Hyeyeon Park",
+    "capacity": 8
+  },
+  {
+    "id": "71",
+    "name": "In-Joy Montessori Children's Center",
+    "address": "5375 Gilpin St",
+    "city": "Burnaby",
+    "lat": 49.2488,
+    "lng": -122.9805,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(778)688-4585",
+    "email": "",
+    "description": "Licensed infant and toddler care in Burnaby.",
+    "rating": 0,
+    "manager": "Ya-Han (Michelle) Kao",
+    "capacity": 10
+  },
+  {
+    "id": "72",
+    "name": "Inspirations Montessori School",
+    "address": "7980 Gray Ave",
+    "city": "Burnaby",
+    "lat": 49.2488,
+    "lng": -122.9805,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(604)",
+    "email": "",
+    "description": "Licensed infant and toddler care in Burnaby.",
+    "rating": 0,
+    "manager": "Szu-Yi (Zoey) Kuo",
+    "capacity": 8
+  },
+  {
+    "id": "73",
+    "name": "Jessie's Tots Educare Centre",
+    "address": "4836 Brentlawn Dr",
+    "city": "Burnaby",
+    "lat": 49.2488,
+    "lng": -122.9805,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(778)928-9995",
+    "email": "",
+    "description": "Licensed infant and toddler care in Burnaby.",
+    "rating": 0,
+    "manager": "Yun Shu Teng",
+    "capacity": 8
+  },
+  {
+    "id": "74",
+    "name": "Jessie's Tots Educare Centre A",
+    "address": "4871 Highlawn Dr",
+    "city": "Burnaby",
+    "lat": 49.2488,
+    "lng": -122.9805,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(778)928-9995",
+    "email": "",
+    "description": "Licensed infant and toddler care in Burnaby.",
+    "rating": 0,
+    "manager": "Yun Shu Teng",
+    "capacity": 8
+  },
+  {
+    "id": "75",
+    "name": "Jessie's Tots Educare Centre B",
+    "address": "4630 Northlawn Dr",
+    "city": "Burnaby",
+    "lat": 49.2488,
+    "lng": -122.9805,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(778)928-9995",
+    "email": "",
+    "description": "Licensed infant and toddler care in Burnaby.",
+    "rating": 0,
+    "manager": "Bin Ran Xu",
+    "capacity": 8
+  },
+  {
+    "id": "76",
+    "name": "Joyful Adventure Child Care",
+    "address": "5532 Cedardale Ct",
+    "city": "Burnaby",
+    "lat": 49.2488,
+    "lng": -122.9805,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(778)967-2749",
+    "email": "",
+    "description": "Licensed infant and toddler care in Burnaby.",
+    "rating": 0,
+    "manager": "Dahae Song",
+    "capacity": 8
+  },
+  {
+    "id": "77",
+    "name": "Kiddie Club Childcare Center",
+    "address": "6686 Stanley St",
+    "city": "Burnaby",
+    "lat": 49.2488,
+    "lng": -122.9805,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(604)438-5686",
+    "email": "",
+    "description": "Licensed infant and toddler care in Burnaby.",
+    "rating": 0,
+    "manager": "Jing Wang",
+    "capacity": 8
+  },
+  {
+    "id": "78",
+    "name": "Kiddie Club Infant Toddler Childcare",
+    "address": "6177 Leibly Ave",
+    "city": "Burnaby",
+    "lat": 49.2488,
+    "lng": -122.9805,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(778)968-7274",
+    "email": "",
+    "description": "Licensed infant and toddler care in Burnaby.",
+    "rating": 0,
+    "manager": "Juyeon Oh",
+    "capacity": 8
+  },
+  {
+    "id": "79",
+    "name": "Kiddocare Infant/Toddler Centre",
+    "address": "7595 10th Ave",
+    "city": "Burnaby",
+    "lat": 49.2488,
+    "lng": -122.9805,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(604)524-6422",
+    "email": "",
+    "description": "Licensed infant and toddler care in Burnaby.",
+    "rating": 0,
+    "manager": "Raluca Bolohan",
+    "capacity": 8
+  },
+  {
+    "id": "80",
+    "name": "Kids View Studio",
+    "address": "4610 Northlawn Dr",
+    "city": "Burnaby",
+    "lat": 49.2488,
+    "lng": -122.9805,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(604)629-3555",
+    "email": "",
+    "description": "Licensed infant and toddler care in Burnaby.",
+    "rating": 0,
+    "manager": "Hanna Jung",
+    "capacity": 8
+  },
+  {
+    "id": "81",
+    "name": "Kidz Adventure Learning Centre",
+    "address": "5165 Hardwick St",
+    "city": "Burnaby",
+    "lat": 49.2488,
+    "lng": -122.9805,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(778)773-9997",
+    "email": "",
+    "description": "Licensed infant and toddler care in Burnaby.",
+    "rating": 0,
+    "manager": "Donna Noorian",
+    "capacity": 8
+  },
+  {
+    "id": "82",
+    "name": "Kidz Adventure Learning Centre (Parkcrest)",
+    "address": "6138 Parkcrest Dr",
+    "city": "Burnaby",
+    "lat": 49.2488,
+    "lng": -122.9805,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(778)872-3992",
+    "email": "",
+    "description": "Licensed infant and toddler care in Burnaby.",
+    "rating": 0,
+    "manager": "Sin Ching Wong",
+    "capacity": 8
+  },
+  {
+    "id": "83",
+    "name": "LAEL ACADEMY",
+    "address": "5467 Hardy Ct",
+    "city": "Burnaby",
+    "lat": 49.2488,
+    "lng": -122.9805,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(236)521-6951",
+    "email": "",
+    "description": "Licensed infant and toddler care in Burnaby.",
+    "rating": 0,
+    "manager": "Anushka Lakhani",
+    "capacity": 8
+  },
+  {
+    "id": "84",
+    "name": "Little Blossom Daycare - I/T Program",
+    "address": "7128 Nelson Ave",
+    "city": "Burnaby",
+    "lat": 49.2488,
+    "lng": -122.9805,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(778)926-2821",
+    "email": "",
+    "description": "Licensed infant and toddler care in Burnaby.",
+    "rating": 0,
+    "manager": "LinQian Wei",
+    "capacity": 8
+  },
+  {
+    "id": "85",
+    "name": "Little Charm Daycare",
+    "address": "4650 Neville St",
+    "city": "Burnaby",
+    "lat": 49.2488,
+    "lng": -122.9805,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(778)302-6919",
+    "email": "",
+    "description": "Licensed infant and toddler care in Burnaby.",
+    "rating": 0,
+    "manager": "Su-Fei Kao",
+    "capacity": 8
+  },
+  {
+    "id": "86",
+    "name": "Little Dino Childcare Centre",
+    "address": "7929 19th Ave",
+    "city": "Burnaby",
+    "lat": 49.2488,
+    "lng": -122.9805,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(778)885-9160",
+    "email": "",
+    "description": "Licensed infant and toddler care in Burnaby.",
+    "rating": 0,
+    "manager": "Ling Li",
+    "capacity": 8
+  },
+  {
+    "id": "87",
+    "name": "Little House Child Care",
+    "address": "3849 Parker St",
+    "city": "Burnaby",
+    "lat": 49.2488,
+    "lng": -122.9805,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(778)319-5951",
+    "email": "",
+    "description": "Licensed infant and toddler care in Burnaby.",
+    "rating": 0,
+    "manager": "Fariba Faridi",
+    "capacity": 8
+  },
+  {
+    "id": "88",
+    "name": "Little Masters Childcare Center",
+    "address": "1322 Whitsell Ave",
+    "city": "Burnaby",
+    "lat": 49.2488,
+    "lng": -122.9805,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(778)316-5010",
+    "email": "",
+    "description": "Licensed infant and toddler care in Burnaby.",
+    "rating": 0,
+    "manager": "Meifang Tu",
+    "capacity": 8
+  },
+  {
+    "id": "89",
+    "name": "Little Oak Childcare Centre (Stride Burnaby)",
+    "address": "7171 Stride Ave",
+    "city": "Burnaby",
+    "lat": 49.2488,
+    "lng": -122.9805,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(778)898-6338",
+    "email": "",
+    "description": "Licensed infant and toddler care in Burnaby.",
+    "rating": 0,
+    "manager": "Shunrei Nakahira",
+    "capacity": 8
+  },
+  {
+    "id": "90",
+    "name": "Little Seedlings Daycare Centre",
+    "address": "7352 12th Ave",
+    "city": "Burnaby",
+    "lat": 49.2488,
+    "lng": -122.9805,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(675)272-8568",
+    "email": "",
+    "description": "Licensed infant and toddler care in Burnaby.",
+    "rating": 0,
+    "manager": "Qingyuan Zhong",
+    "capacity": 8
+  },
+  {
+    "id": "91",
+    "name": "Little Sparrows Academy Corporation",
+    "address": "8049 Gilley Ave",
+    "city": "Burnaby",
+    "lat": 49.2488,
+    "lng": -122.9805,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(778)865-7198",
+    "email": "",
+    "description": "Licensed infant and toddler care in Burnaby.",
+    "rating": 0,
+    "manager": "Faith Abi Cenon Dawa",
+    "capacity": 8
+  },
+  {
+    "id": "92",
+    "name": "Little Stars Daycare Centre",
+    "address": "7760 Lawrence Dr",
+    "city": "Burnaby",
+    "lat": 49.2488,
+    "lng": -122.9805,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(236)518-8745",
+    "email": "",
+    "description": "Licensed infant and toddler care in Burnaby.",
+    "rating": 0,
+    "manager": "Kyuri (Casey) Lee",
+    "capacity": 8
+  },
+  {
+    "id": "93",
+    "name": "Little Wonderland Childcare",
+    "address": "7767 12th Ave",
+    "city": "Burnaby",
+    "lat": 49.2488,
+    "lng": -122.9805,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(778)558-9386",
+    "email": "",
+    "description": "Licensed infant and toddler care in Burnaby.",
+    "rating": 0,
+    "manager": "Menghan Wang",
+    "capacity": 8
+  },
+  {
+    "id": "94",
+    "name": "Merry Land Child Care",
+    "address": "4475 Pandora St",
+    "city": "Burnaby",
+    "lat": 49.2488,
+    "lng": -122.9805,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(604)657-8133",
+    "email": "",
+    "description": "Licensed infant and toddler care in Burnaby.",
+    "rating": 0,
+    "manager": "Mei Ling Mai",
+    "capacity": 8
+  },
+  {
+    "id": "95",
+    "name": "Momentos de Ninos Childcare - Brentwood",
+    "address": "1741 Springer Ave",
+    "city": "Burnaby",
+    "lat": 49.2488,
+    "lng": -122.9805,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(778)956-4667",
+    "email": "",
+    "description": "Licensed infant and toddler care in Burnaby.",
+    "rating": 0,
+    "manager": "Yuan Yuan Wang",
+    "capacity": 8
+  },
+  {
+    "id": "96",
+    "name": "Momentos de Ninos Childcare Ltd",
+    "address": "5875 McKee St",
+    "city": "Burnaby",
+    "lat": 49.2488,
+    "lng": -122.9805,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(778)865-9183",
+    "email": "",
+    "description": "Licensed infant and toddler care in Burnaby.",
+    "rating": 0,
+    "manager": "Qingyan Liang",
+    "capacity": 8
+  },
+  {
+    "id": "97",
+    "name": "Mulberry Tree Infant and Toddler Childcare",
+    "address": "3784 Frances St",
+    "city": "Burnaby",
+    "lat": 49.2488,
+    "lng": -122.9805,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(778)318-6657",
+    "email": "",
+    "description": "Licensed infant and toddler care in Burnaby.",
+    "rating": 0,
+    "manager": "Yimji Yang",
+    "capacity": 8
+  },
+  {
+    "id": "98",
+    "name": "Opus Daycare - Brentwood",
+    "address": "1562 Taralawn Ct",
+    "city": "Burnaby",
+    "lat": 49.2488,
+    "lng": -122.9805,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(604)",
+    "email": "",
+    "description": "Licensed infant and toddler care in Burnaby.",
+    "rating": 0,
+    "manager": "Sooa Oh",
+    "capacity": 8
+  },
+  {
+    "id": "99",
+    "name": "Opus Daycare - Nelson",
+    "address": "8358 Nelson Ave",
+    "city": "Burnaby",
+    "lat": 49.2488,
+    "lng": -122.9805,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(778)727-5057",
+    "email": "",
+    "description": "Licensed infant and toddler care in Burnaby.",
+    "rating": 0,
+    "manager": "Christine Mah",
+    "capacity": 8
+  },
+  {
+    "id": "100",
+    "name": "Pioneering Minds Childcare Ltd",
+    "address": "6079 Marine Dr",
+    "city": "Burnaby",
+    "lat": 49.2488,
+    "lng": -122.9805,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(778)865-9183",
+    "email": "",
+    "description": "Licensed infant and toddler care in Burnaby.",
+    "rating": 0,
+    "manager": "Shengya Huang (Celine)",
+    "capacity": 8
+  },
+  {
+    "id": "101",
+    "name": "Play and Learn Childcare Centre",
+    "address": "4425 Saratoga Ct",
+    "city": "Burnaby",
+    "lat": 49.2488,
+    "lng": -122.9805,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(604)258-9727",
+    "email": "",
+    "description": "Licensed infant and toddler care in Burnaby.",
+    "rating": 0,
+    "manager": "Xiaolan Zhong",
+    "capacity": 8
+  },
+  {
+    "id": "102",
+    "name": "Play N Learn Daycare",
+    "address": "3839 Thurston St",
+    "city": "Burnaby",
+    "lat": 49.2488,
+    "lng": -122.9805,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(604)617-8355",
+    "email": "",
+    "description": "Licensed infant and toddler care in Burnaby.",
+    "rating": 0,
+    "manager": "Zhao Pu",
+    "capacity": 8
+  },
+  {
+    "id": "103",
+    "name": "Pretty Angels Daycare",
+    "address": "8148 18th Ave",
+    "city": "Burnaby",
+    "lat": 49.2488,
+    "lng": -122.9805,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(236)862-5435",
+    "email": "",
+    "description": "Licensed infant and toddler care in Burnaby.",
+    "rating": 0,
+    "manager": "Ola Il Alkishawi",
+    "capacity": 8
+  },
+  {
+    "id": "104",
+    "name": "Rhema Childcare Centre Ltd",
+    "address": "7381 Curtis St",
+    "city": "Burnaby",
+    "lat": 49.2488,
+    "lng": -122.9805,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(604)299-4817",
+    "email": "",
+    "description": "Licensed infant and toddler care in Burnaby.",
+    "rating": 0,
+    "manager": "Ivy Owusu-Manu",
+    "capacity": 8
+  },
+  {
+    "id": "105",
+    "name": "Rising Gems Early Learning Centre",
+    "address": "5237 Carleton Ct",
+    "city": "Burnaby",
+    "lat": 49.2488,
+    "lng": -122.9805,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(604)726-7870",
+    "email": "",
+    "description": "Licensed infant and toddler care in Burnaby.",
+    "rating": 0,
+    "manager": "Qian Liu",
+    "capacity": 8
+  },
+  {
+    "id": "106",
+    "name": "SFU Childcare Society (Bright Clouds)",
+    "address": "8888 University Dr",
+    "city": "Burnaby",
+    "lat": 49.2488,
+    "lng": -122.9805,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(778)782-6781",
+    "email": "",
+    "description": "Licensed infant and toddler care in Burnaby.",
+    "rating": 0,
+    "manager": "Marta Pineda",
+    "capacity": 12
+  },
+  {
+    "id": "107",
+    "name": "SFU Childcare Society (Espuleta)",
+    "address": "8888 University Dr",
+    "city": "Burnaby",
+    "lat": 49.2488,
+    "lng": -122.9805,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(778)782-4033",
+    "email": "",
+    "description": "Licensed infant and toddler care in Burnaby.",
+    "rating": 0,
+    "manager": "Paz Rodriguez Loyola",
+    "capacity": 12
+  },
+  {
+    "id": "108",
+    "name": "SFU Childcare Society (IT Program)",
+    "address": "8888 University Dr",
+    "city": "Burnaby",
+    "lat": 49.2488,
+    "lng": -122.9805,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(778)782-4759",
+    "email": "",
+    "description": "Licensed infant and toddler care in Burnaby.",
+    "rating": 0,
+    "manager": "Yu Jin Oh",
+    "capacity": 12
+  },
+  {
+    "id": "109",
+    "name": "SFU Childcare Society (Kahpoo Room)",
+    "address": "8888 University Dr",
+    "city": "Burnaby",
+    "lat": 49.2488,
+    "lng": -122.9805,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(778)782-4750",
+    "email": "",
+    "description": "Licensed infant and toddler care in Burnaby.",
+    "rating": 0,
+    "manager": "Katelyn Choy",
+    "capacity": 12
+  },
+  {
+    "id": "110",
+    "name": "SFU Childcare Society (Les Petits Room)",
+    "address": "8888 University Dr",
+    "city": "Burnaby",
+    "lat": 49.2488,
+    "lng": -122.9805,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(778)782-4460",
+    "email": "",
+    "description": "Licensed infant and toddler care in Burnaby.",
+    "rating": 0,
+    "manager": "Lisa Moore",
+    "capacity": 12
+  },
+  {
+    "id": "111",
+    "name": "SFU Childcare Society (Los Ninos Room)",
+    "address": "8888 University Dr",
+    "city": "Burnaby",
+    "lat": 49.2488,
+    "lng": -122.9805,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(778)782-4034",
+    "email": "",
+    "description": "Licensed infant and toddler care in Burnaby.",
+    "rating": 0,
+    "manager": "Sumedha Gupta",
+    "capacity": 12
+  },
+  {
+    "id": "112",
+    "name": "SFU Childcare Society (Malaika Toddler Centre)",
+    "address": "8888 University Dr",
+    "city": "Burnaby",
+    "lat": 49.2488,
+    "lng": -122.9805,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(778)782-4757",
+    "email": "",
+    "description": "Licensed infant and toddler care in Burnaby.",
+    "rating": 0,
+    "manager": "Rebecca Dunks",
+    "capacity": 12
+  },
+  {
+    "id": "113",
+    "name": "Smart Start Childcare Center",
+    "address": "2991 Noel Dr",
+    "city": "Burnaby",
+    "lat": 49.2488,
+    "lng": -122.9805,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(778)898-6338",
+    "email": "",
+    "description": "Licensed infant and toddler care in Burnaby.",
+    "rating": 0,
+    "manager": "Min Li",
+    "capacity": 8
+  },
+  {
+    "id": "114",
+    "name": "Starlight Child Care Centre",
+    "address": "8486 16th Ave",
+    "city": "Burnaby",
+    "lat": 49.2488,
+    "lng": -122.9805,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": false,
+    "spotsAvailable": 0,
+    "phone": "(778)389-9669",
+    "email": "",
+    "description": "Licensed infant and toddler care in Burnaby.",
+    "rating": 0,
+    "manager": "Eugenia Ghiocel",
     "capacity": 8
   }
 ]

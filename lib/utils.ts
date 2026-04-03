@@ -12,7 +12,6 @@ export const formatAgeGroups = (ageGroups: AgeGroup[]): string => {
     infant: "Infant (0–18 months)",
     toddler: "Toddler (18 months–3 years)",
     preschool: "Preschool (3–5 years)",
-    schoolAge: "School Age (5–12 years)",
   };
   return ageGroups.map((ag) => labels[ag]).join(", ");
 };
