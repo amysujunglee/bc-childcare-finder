@@ -142,7 +142,7 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
             {parentBenefits.map((b, i) => (
               <div key={i} className="rounded-card border border-neutral-border p-6 bg-background hover:shadow-md transition">
-                <span className="text-3xl mb-4 block">{b.icon}</span>
+                <span className="text-3xl mb-4 block" aria-hidden="true">{b.icon}</span>
                 <h3 className="font-serif font-bold text-primary-dark text-lg mb-2">{b.title}</h3>
                 <p className="text-neutral-muted text-sm leading-relaxed">{b.description}</p>
               </div>
@@ -175,7 +175,7 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
             {providerBenefits.map((b, i) => (
               <div key={i} className="rounded-card border border-neutral-border p-6 bg-white hover:shadow-md transition">
-                <span className="text-3xl mb-4 block">{b.icon}</span>
+                <span className="text-3xl mb-4 block" aria-hidden="true">{b.icon}</span>
                 <h3 className="font-serif font-bold text-primary-dark text-lg mb-2">{b.title}</h3>
                 <p className="text-neutral-muted text-sm leading-relaxed">{b.description}</p>
               </div>
@@ -209,7 +209,7 @@ export default function AboutPage() {
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
                   {phase.items.map((item, j) => (
                     <div key={j} className="bg-white/5 border border-white/10 rounded-card p-6 hover:bg-white/10 transition">
-                      <span className="text-2xl mb-3 block">{item.icon}</span>
+                      <span className="text-2xl mb-3 block" aria-hidden="true">{item.icon}</span>
                       <h3 className="font-serif font-bold text-white text-lg mb-2">{item.title}</h3>
                       <p className="text-gray-400 text-sm leading-relaxed">{item.description}</p>
                     </div>

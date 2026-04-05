@@ -23,6 +23,8 @@ export default function AIChatPanel({ isOpen, onClose, context = '' }: AIChatPan
   const [input, setInput] = useState('');
   const [loading, setLoading] = useState(false);
   const messagesEndRef = useRef<HTMLDivElement>(null);
+  const panelRef = useRef<HTMLDivElement>(null);
+  const closeButtonRef = useRef<HTMLButtonElement>(null);
 
   const scrollToBottom = () => {
     messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
@@ -31,6 +33,26 @@ export default function AIChatPanel({ isOpen, onClose, context = '' }: AIChatPan
   useEffect(() => {
     scrollToBottom();
   }, [messages]);
+
+  useEffect(() => {
+    if (isOpen) closeButtonRef.current?.focus();
+  }, [isOpen]);
+
+  const handleKeyDown = (e: React.KeyboardEvent) => {
+    if (e.key === 'Escape') { onClose(); return; }
+    if (e.key !== 'Tab' || !panelRef.current) return;
+    const focusable = panelRef.current.querySelectorAll<HTMLElement>(
+      'button, input, [tabindex]:not([tabindex="-1"])'
+    );
+    const first = focusable[0];
+    const last = focusable[focusable.length - 1];
+    if (!first || !last) return;
+    if (e.shiftKey) {
+      if (document.activeElement === first) { e.preventDefault(); last.focus(); }
+    } else {
+      if (document.activeElement === last) { e.preventDefault(); first.focus(); }
+    }
+  };
 
   const handleSendMessage = async () => {
     if (!input.trim()) return;
@@ -76,11 +98,18 @@ export default function AIChatPanel({ isOpen, onClose, context = '' }: AIChatPan
 
   return (
     <div className="fixed inset-0 z-50">
-      <div className="absolute inset-0 bg-black bg-opacity-50" onClick={onClose} />
-      <div className="absolute right-0 top-0 bottom-0 w-full sm:w-96 bg-white shadow-lg flex flex-col rounded-l-card">
+      <div className="absolute inset-0 bg-black bg-opacity-50" onClick={onClose} aria-hidden="true" />
+      <div
+        ref={panelRef}
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="ai-chat-title"
+        onKeyDown={handleKeyDown}
+        className="absolute right-0 top-0 bottom-0 w-full sm:w-96 bg-white shadow-lg flex flex-col rounded-l-card"
+      >
         <div className="flex items-center justify-between p-4 border-b border-neutral-border bg-primary-green text-white">
-          <h2 className="font-serif font-bold">Ask AI Assistant</h2>
-          <button onClick={onClose} className="text-white hover:opacity-80 text-lg">
+          <h2 id="ai-chat-title" className="font-serif font-bold">Ask AI Assistant</h2>
+          <button ref={closeButtonRef} onClick={onClose} aria-label="Close chat" className="text-white hover:opacity-80 text-lg">
             ✕
           </button>
         </div>
@@ -94,7 +123,7 @@ export default function AIChatPanel({ isOpen, onClose, context = '' }: AIChatPan
           ))}
           {loading && (
             <div className="flex justify-start">
-              <div className="bg-neutral-border text-primary-dark px-4 py-2 rounded-card flex gap-1">
+              <div className="bg-neutral-border text-primary-dark px-4 py-2 rounded-card flex gap-1" aria-label="Loading response">
                 <div className="w-2 h-2 bg-primary-green rounded-full animate-bounce" />
                 <div className="w-2 h-2 bg-primary-green rounded-full animate-bounce" style={{ animationDelay: '0.1s' }} />
                 <div className="w-2 h-2 bg-primary-green rounded-full animate-bounce" style={{ animationDelay: '0.2s' }} />
@@ -109,8 +138,9 @@ export default function AIChatPanel({ isOpen, onClose, context = '' }: AIChatPan
               type="text"
               value={input}
               onChange={(e) => setInput(e.target.value)}
-              onKeyPress={(e) => e.key === 'Enter' && handleSendMessage()}
+              onKeyDown={(e) => e.key === 'Enter' && handleSendMessage()}
               placeholder="Ask a question..."
+              aria-label="Your message"
               className="flex-1 px-3 py-2 border border-neutral-border rounded-card text-sm focus:outline-none focus:ring-2 focus:ring-primary-green"
               disabled={loading}
             />

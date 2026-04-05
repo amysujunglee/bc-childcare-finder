@@ -34,7 +34,9 @@ export default function HomePage() {
           {/* Search Bar */}
           <form onSubmit={handleSearch} className="max-w-md mx-auto mb-6">
             <div className="flex gap-2">
+              <label htmlFor="hero-search" className="sr-only">Search by name, city, or postal code</label>
               <input
+                id="hero-search"
                 type="text"
                 value={searchInput}
                 onChange={(e) => setSearchInput(e.target.value)}
@@ -106,19 +108,19 @@ export default function HomePage() {
       <section className="bg-white py-12 md:py-20 px-4 sm:px-6 lg:px-8 border-t border-neutral-border">
         <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-3 gap-8">
           <div>
-            <h3 className="text-lg font-serif font-bold text-primary-dark mb-3">🏠 Home Daycares</h3>
+            <h3 className="text-lg font-serif font-bold text-primary-dark mb-3"><span aria-hidden="true">🏠 </span>Home Daycares</h3>
             <p className="text-neutral-muted text-sm">
               Small, intimate settings with licensed caregivers providing family-style care in home environments.
             </p>
           </div>
           <div>
-            <h3 className="text-lg font-serif font-bold text-primary-dark mb-3">🏢 Licensed Centres</h3>
+            <h3 className="text-lg font-serif font-bold text-primary-dark mb-3"><span aria-hidden="true">🏢 </span>Licensed Centres</h3>
             <p className="text-neutral-muted text-sm">
               Modern centres with professional staff, varied activities, and structured learning programs.
             </p>
           </div>
           <div>
-            <h3 className="text-lg font-serif font-bold text-primary-dark mb-3">💚 $10/Day Programs</h3>
+            <h3 className="text-lg font-serif font-bold text-primary-dark mb-3"><span aria-hidden="true">💚 </span>$10/Day Programs</h3>
             <p className="text-neutral-muted text-sm">
               BC's affordable childcare program makes quality care accessible to all families.
             </p>
