@@ -1,6 +1,6 @@
 [
   {
-    "id": "BU001",
+    "id": "1",
     "name": "A & B Daycare",
     "address": "6436 Malvern Ave",
     "city": "Burnaby",
@@ -23,7 +23,7 @@
     "capacity": 8
   },
   {
-    "id": "BU002",
+    "id": "2",
     "name": "A & B Early Learning Centre",
     "address": "6327 Berwick Ct",
     "city": "Burnaby",
@@ -46,7 +46,7 @@
     "capacity": 8
   },
   {
-    "id": "BU003",
+    "id": "3",
     "name": "A Miracle Childcare",
     "address": "6655 E Georgia St",
     "city": "Burnaby",
@@ -69,7 +69,7 @@
     "capacity": 8
   },
   {
-    "id": "BU004",
+    "id": "4",
     "name": "Angels Playhouse Infant & Toddler Child Care Centre",
     "address": "103 - 7339 MacPherson Ave",
     "city": "Burnaby",
@@ -92,7 +92,7 @@
     "capacity": 8
   },
   {
-    "id": "BU005",
+    "id": "5",
     "name": "Burnaby Lake Childcare",
     "address": "4578 Brentlawn Dr",
     "city": "Burnaby",
@@ -115,7 +115,7 @@
     "capacity": 8
   },
   {
-    "id": "BU006",
+    "id": "6",
     "name": "SFU Childcare Society (IT Program)",
     "address": "8888 University Dr",
     "city": "Burnaby",
@@ -138,7 +138,7 @@
     "capacity": 12
   },
   {
-    "id": "BU007",
+    "id": "7",
     "name": "Weave Childcare Centre",
     "address": "3905 Norland Ave",
     "city": "Burnaby",
@@ -161,7 +161,7 @@
     "capacity": 12
   },
   {
-    "id": "BU008",
+    "id": "8",
     "name": "ABC Academy - Children's Learning Center Ltd",
     "address": "3830 Sunset St",
     "city": "Burnaby",
@@ -183,7 +183,7 @@
     "capacity": 32
   },
   {
-    "id": "BU009",
+    "id": "9",
     "name": "Burnaby Montessori School Ltd",
     "address": "5489 Kingsway",
     "city": "Burnaby",
@@ -205,7 +205,7 @@
     "capacity": 47
   },
   {
-    "id": "BU010",
+    "id": "10",
     "name": "Capitol Hill Children's Centre",
     "address": "5750 Pandora St",
     "city": "Burnaby",
@@ -227,7 +227,7 @@
     "capacity": 25
   },
   {
-    "id": "BU011",
+    "id": "11",
     "name": "Cariboo Kids Daycare",
     "address": "7200 Cariboo Rd",
     "city": "Burnaby",
@@ -249,7 +249,7 @@
     "capacity": 42
   },
   {
-    "id": "BU012",
+    "id": "12",
     "name": "Jellybean Park Junior Campus",
     "address": "2110 - 4700 Kingsway",
     "city": "Burnaby",
@@ -271,7 +271,7 @@
     "capacity": 75
   },
   {
-    "id": "BU013",
+    "id": "13",
     "name": "Next Prep Academy",
     "address": "4838 Hastings St",
     "city": "Burnaby",
@@ -293,7 +293,7 @@
     "capacity": 102
   },
   {
-    "id": "BU014",
+    "id": "14",
     "name": "UniverCity Childcare",
     "address": "9075 Highland Ct",
     "city": "Burnaby",
@@ -315,7 +315,7 @@
     "capacity": 50
   },
   {
-    "id": "BU015",
+    "id": "15",
     "name": "Brentwood Preschool Society",
     "address": "1455A Delta Ave",
     "city": "Burnaby",
@@ -337,7 +337,7 @@
     "capacity": 20
   },
   {
-    "id": "BU016",
+    "id": "16",
     "name": "Burnaby French Language Preschool",
     "address": "6060 Marlborough Ave",
     "city": "Burnaby",
@@ -360,7 +360,7 @@
     "capacity": 15
   },
   {
-    "id": "BU019",
+    "id": "17",
     "name": "A & B Childcare Centre",
     "address": "6620 Colborne Ave",
     "city": "Burnaby",
@@ -384,7 +384,7 @@
     "capacity": 7
   },
   {
-    "id": "BU020",
+    "id": "18",
     "name": "Harmony Family Childcare",
     "address": "7750 Newcombe St",
     "city": "Burnaby",
@@ -408,7 +408,7 @@
     "capacity": 7
   },
   {
-    "id": "BU021",
+    "id": "19",
     "name": "BCIT Student Association Childcare Centre",
     "address": "4703 Wayburne Dr",
     "city": "Burnaby",
@@ -432,7 +432,7 @@
     "capacity": 62
   },
   {
-    "id": "BU022",
+    "id": "20",
     "name": "Brightstart Children's Academy Ltd",
     "address": "2830 Bainbridge Ave",
     "city": "Burnaby",
@@ -456,7 +456,7 @@
     "capacity": 73
   },
   {
-    "id": "BU023",
+    "id": "21",
     "name": "CEFA Early Learning Brentwood",
     "address": "LM100 - 4664 Lougheed Hwy",
     "city": "Burnaby",
@@ -480,7 +480,7 @@
     "capacity": 152
   },
   {
-    "id": "BU024",
+    "id": "22",
     "name": "Wonderworld Montessori Academy - Metrotown",
     "address": "6390 Silver Ave",
     "city": "Burnaby",
@@ -504,7 +504,7 @@
     "capacity": 148
   },
   {
-    "id": "BU025",
+    "id": "23",
     "name": "St. Matthews Day Care Society",
     "address": "103 - 7355 Canada Way",
     "city": "Burnaby",
@@ -528,7 +528,7 @@
     "capacity": 101
   },
   {
-    "id": "CO001",
+    "id": "24",
     "name": "1,2,3, A.B.C. Montessori Infant/Toddler Center",
     "address": "737 Poirier St",
     "city": "Coquitlam",
@@ -551,7 +551,7 @@
     "capacity": 12
   },
   {
-    "id": "CO002",
+    "id": "25",
     "name": "Bright Beginnings Infant / Child Care",
     "address": "1393 Austin Ave",
     "city": "Coquitlam",
@@ -574,7 +574,7 @@
     "capacity": 12
   },
   {
-    "id": "CO003",
+    "id": "26",
     "name": "DreamKids Childcare",
     "address": "207 - 1194 Lansdowne Dr",
     "city": "Coquitlam",
@@ -597,7 +597,7 @@
     "capacity": 20
   },
   {
-    "id": "CO004",
+    "id": "27",
     "name": "Blue Mountain Kids Academy Ltd",
     "address": "1045 Ridgeway Ave",
     "city": "Coquitlam",
@@ -619,7 +619,7 @@
     "capacity": 41
   },
   {
-    "id": "CO005",
+    "id": "28",
     "name": "Green Apple Daycare Coquitlam",
     "address": "1504 Sprice Ave",
     "city": "Coquitlam",
@@ -641,7 +641,7 @@
     "capacity": 45
   },
   {
-    "id": "CO006",
+    "id": "29",
     "name": "Little Dolphins Daycare Ltd",
     "address": "103 & 107 - 1135 Pipeline Rd",
     "city": "Coquitlam",
@@ -663,7 +663,7 @@
     "capacity": 41
   },
   {
-    "id": "CO007",
+    "id": "30",
     "name": "Wind and Tide - Eagle Ridge",
     "address": "1160 Lansdowne Dr",
     "city": "Coquitlam",
@@ -685,7 +685,7 @@
     "capacity": 40
   },
   {
-    "id": "CO008",
+    "id": "31",
     "name": "Douglas College Early Childhood Education Centre",
     "address": "1250 Pinetree Way",
     "city": "Coquitlam",
@@ -707,7 +707,7 @@
     "capacity": 25
   },
   {
-    "id": "CO009",
+    "id": "32",
     "name": "Shining Star Daycare",
     "address": "2665 Runnel Dr",
     "city": "Coquitlam",
@@ -731,7 +731,7 @@
     "capacity": 150
   },
   {
-    "id": "CO010",
+    "id": "33",
     "name": "Westwood Montessori",
     "address": "1438 Pinetree Way",
     "city": "Coquitlam",
@@ -755,7 +755,7 @@
     "capacity": 122
   },
   {
-    "id": "CO011",
+    "id": "34",
     "name": "Academics preKindergarten Westwood Inc",
     "address": "501 - 1123 Westwood St",
     "city": "Coquitlam",
@@ -779,7 +779,7 @@
     "capacity": 124
   },
   {
-    "id": "CO012",
+    "id": "35",
     "name": "Willowbrae Academy Sunwood",
     "address": "910 - 3025 Lougheed Hwy",
     "city": "Coquitlam",
@@ -803,7 +803,7 @@
     "capacity": 137
   },
   {
-    "id": "CO013",
+    "id": "36",
     "name": "Emerald Hills Montessori",
     "address": "1501 Bramble Lane",
     "city": "Coquitlam",
@@ -827,7 +827,7 @@
     "capacity": 86
   },
   {
-    "id": "CO014",
+    "id": "37",
     "name": "Canyon Springs Montessori School & Childcare Centre",
     "address": "2910 Walton Ave",
     "city": "Coquitlam",
@@ -849,7 +849,7 @@
     "capacity": 50
   },
   {
-    "id": "CO015",
+    "id": "38",
     "name": "Parkland Players",
     "address": "1563 Regan Ave",
     "city": "Coquitlam",
@@ -873,7 +873,7 @@
     "capacity": 95
   },
   {
-    "id": "CO016",
+    "id": "39",
     "name": "Baker's Corner Preschool Society",
     "address": "1563 Regan Ave",
     "city": "Coquitlam",
@@ -895,7 +895,7 @@
     "capacity": 16
   },
   {
-    "id": "CO018",
+    "id": "40",
     "name": "Caterpillar Montessori Daycare",
     "address": "599 Chapman Ave",
     "city": "Coquitlam",
@@ -919,7 +919,7 @@
     "capacity": 8
   },
   {
-    "id": "CO019",
+    "id": "41",
     "name": "Little Butterflies Daycare",
     "address": "16, 20 & 24 - 2773 Barnet Hwy",
     "city": "Coquitlam",
@@ -943,7 +943,7 @@
     "capacity": 71
   },
   {
-    "id": "CO020",
+    "id": "42",
     "name": "Ranch Park Kids Place Inc.",
     "address": "2701 Spuraway Ave",
     "city": "Coquitlam",
@@ -965,7 +965,7 @@
     "capacity": 82
   },
   {
-    "id": "MR001",
+    "id": "43",
     "name": "Curious Minds Learning Centre Ltd - MRSS",
     "address": "21911 122nd Ave",
     "city": "Maple Ridge",
@@ -989,7 +989,7 @@
     "capacity": 24
   },
   {
-    "id": "MR002",
+    "id": "44",
     "name": "Wind and Tide - Maple Ridge",
     "address": "20639 123rd Ave",
     "city": "Maple Ridge",
@@ -1011,7 +1011,7 @@
     "capacity": 25
   },
   {
-    "id": "MR003",
+    "id": "45",
     "name": "BrightPath Maple Ridge",
     "address": "21593 Dewdney Trunk Rd",
     "city": "Maple Ridge",
@@ -1035,7 +1035,7 @@
     "capacity": 67
   },
   {
-    "id": "MR004",
+    "id": "46",
     "name": "BrightPath Maple Ridge Meadows",
     "address": "11918 207th St",
     "city": "Maple Ridge",
@@ -1059,7 +1059,7 @@
     "capacity": 173
   },
   {
-    "id": "MR005",
+    "id": "47",
     "name": "Puddle Hoppers Childcare HP Inc",
     "address": "11900 Haney Pl",
     "city": "Maple Ridge",
@@ -1083,7 +1083,7 @@
     "capacity": 118
   },
   {
-    "id": "MR006",
+    "id": "48",
     "name": "Little Willows Dewdney House",
     "address": "23550 Dewdney Trunk Rd",
     "city": "Maple Ridge",
@@ -1107,7 +1107,7 @@
     "capacity": 48
   },
   {
-    "id": "MR007",
+    "id": "49",
     "name": "Start Smart Childcare Center",
     "address": "22610 Dewdney Trunk Rd",
     "city": "Maple Ridge",
@@ -1131,7 +1131,7 @@
     "capacity": 80
   },
   {
-    "id": "MR008",
+    "id": "50",
     "name": "Hava Childcare Academy",
     "address": "113 - 11300 Pazarena Pl",
     "city": "Maple Ridge",
@@ -1155,7 +1155,7 @@
     "capacity": 98
   },
   {
-    "id": "MR009",
+    "id": "51",
     "name": "Happy Hearts Childcare Centre Inc",
     "address": "22315 McIntosh Ave",
     "city": "Maple Ridge",
@@ -1177,7 +1177,7 @@
     "capacity": 19
   },
   {
-    "id": "MR010",
+    "id": "52",
     "name": "Blessed Generations Academy - Maple Ridge",
     "address": "22311 119th Ave",
     "city": "Maple Ridge",
@@ -1201,7 +1201,7 @@
     "capacity": 88
   },
   {
-    "id": "NW001",
+    "id": "53",
     "name": "Starlight Child Care LTD.",
     "address": "1 - 1001 Royal Ave",
     "city": "New Westminster",
@@ -1224,7 +1224,7 @@
     "capacity": 48
   },
   {
-    "id": "NW002",
+    "id": "54",
     "name": "Blessed Generations Academy in Royal City",
     "address": "501 4th Ave",
     "city": "New Westminster",
@@ -1247,7 +1247,7 @@
     "capacity": 22
   },
   {
-    "id": "NW003",
+    "id": "55",
     "name": "Polka Dot Early Learning",
     "address": "10 - 800 McBride Blvd",
     "city": "New Westminster",
@@ -1270,7 +1270,7 @@
     "capacity": 24
   },
   {
-    "id": "NW004",
+    "id": "56",
     "name": "Cambridge Montessori Children's Centre",
     "address": "57 7th Ave",
     "city": "New Westminster",
@@ -1292,7 +1292,7 @@
     "capacity": 41
   },
   {
-    "id": "NW005",
+    "id": "57",
     "name": "Tulip Childcare Center",
     "address": "427 E Columbia St",
     "city": "New Westminster",
@@ -1314,7 +1314,7 @@
     "capacity": 43
   },
   {
-    "id": "NW006",
+    "id": "58",
     "name": "Little Footprints Academy (New West)",
     "address": "200 - 505 6th St",
     "city": "New Westminster",
@@ -1338,7 +1338,7 @@
     "capacity": 158
   },
   {
-    "id": "NW007",
+    "id": "59",
     "name": "Mongio Early Learning Center",
     "address": "600 Royal Ave",
     "city": "New Westminster",
@@ -1362,7 +1362,7 @@
     "capacity": 163
   },
   {
-    "id": "NW008",
+    "id": "60",
     "name": "Tiny Hoppers Early Learning Queensborough",
     "address": "F120 - 805 Boyd St",
     "city": "New Westminster",
@@ -1386,7 +1386,7 @@
     "capacity": 159
   },
   {
-    "id": "NW009",
+    "id": "61",
     "name": "Fraser Montessori Daycare",
     "address": "1408 5th Ave",
     "city": "New Westminster",
@@ -1408,7 +1408,7 @@
     "capacity": 70
   },
   {
-    "id": "NW010",
+    "id": "62",
     "name": "CEFA Early Learning New Westminster",
     "address": "243 - 610 6th St",
     "city": "New Westminster",
@@ -1432,7 +1432,7 @@
     "capacity": 76
   },
   {
-    "id": "NW011",
+    "id": "63",
     "name": "Urban Academy",
     "address": "466 Rousseau St",
     "city": "New Westminster",
@@ -1454,7 +1454,7 @@
     "capacity": 133
   },
   {
-    "id": "NW012",
+    "id": "64",
     "name": "Willowbrae Childcare Academy",
     "address": "211 - 800 McBride Blvd",
     "city": "New Westminster",
@@ -1478,7 +1478,7 @@
     "capacity": 86
   },
   {
-    "id": "PM001",
+    "id": "65",
     "name": "Canyon Springs Montessori Academy",
     "address": "18477 Old Dewdney Trunk Rd",
     "city": "Pitt Meadows",
@@ -1502,7 +1502,7 @@
     "capacity": 172
   },
   {
-    "id": "PM002",
+    "id": "66",
     "name": "CEFA Meadowtown",
     "address": "115 - 19800 Lougheed Hwy",
     "city": "Pitt Meadows",
@@ -1526,7 +1526,7 @@
     "capacity": 152
   },
   {
-    "id": "PM003",
+    "id": "67",
     "name": "Best Friends Children's Centre Inc",
     "address": "106 & 201 - 19141 Ford Rd",
     "city": "Pitt Meadows",
@@ -1550,7 +1550,7 @@
     "capacity": 123
   },
   {
-    "id": "PM004",
+    "id": "68",
     "name": "Stardom Childcare",
     "address": "11435 Bonson Rd",
     "city": "Pitt Meadows",
@@ -1574,7 +1574,7 @@
     "capacity": 84
   },
   {
-    "id": "PM005",
+    "id": "69",
     "name": "Little Meadows Academy",
     "address": "11887 Bonson Rd",
     "city": "Pitt Meadows",
@@ -1598,7 +1598,7 @@
     "capacity": 52
   },
   {
-    "id": "PM006",
+    "id": "70",
     "name": "Hundred Languages Childcare Inc",
     "address": "110 - 12409 Harris Rd",
     "city": "Pitt Meadows",
@@ -1620,7 +1620,7 @@
     "capacity": 18
   },
   {
-    "id": "PM007",
+    "id": "71",
     "name": "Windy Willows Environmental Centre Inc",
     "address": "19089 Advent Rd",
     "city": "Pitt Meadows",
@@ -1642,7 +1642,7 @@
     "capacity": 50
   },
   {
-    "id": "PC001",
+    "id": "72",
     "name": "BCCA Kids Club",
     "address": "1019 Fernwood Ave",
     "city": "Port Coquitlam",
@@ -1666,7 +1666,7 @@
     "capacity": 352
   },
   {
-    "id": "PC002",
+    "id": "73",
     "name": "Bramblewood Montessori Child Care Center Ltd.",
     "address": "201 - 2255 Wilson Ave",
     "city": "Port Coquitlam",
@@ -1690,7 +1690,7 @@
     "capacity": 119
   },
   {
-    "id": "PC003",
+    "id": "74",
     "name": "The Learning Experience Children's Centre Ltd.",
     "address": "3862 Wellington St",
     "city": "Port Coquitlam",
@@ -1712,7 +1712,7 @@
     "capacity": 124
   },
   {
-    "id": "PC004",
+    "id": "75",
     "name": "Dream Builders Early Learning Centre",
     "address": "1116 - 1470 Prairie Ave",
     "city": "Port Coquitlam",
@@ -1736,7 +1736,7 @@
     "capacity": 72
   },
   {
-    "id": "PC005",
+    "id": "76",
     "name": "Honeybees Child Care Center",
     "address": "A121 - 2099 Lougheed Hwy",
     "city": "Port Coquitlam",
@@ -1760,7 +1760,7 @@
     "capacity": 102
   },
   {
-    "id": "PC006",
+    "id": "77",
     "name": "BrightPath Port Coquitlam North",
     "address": "3610 Hastings St",
     "city": "Port Coquitlam",
@@ -1784,7 +1784,7 @@
     "capacity": 68
   },
   {
-    "id": "PC007",
+    "id": "78",
     "name": "Lions Park Montessori",
     "address": "50 - 2789 Shaughnessy St",
     "city": "Port Coquitlam",
@@ -1808,7 +1808,7 @@
     "capacity": 49
   },
   {
-    "id": "PC008",
+    "id": "79",
     "name": "Green Planet Daycare",
     "address": "2435 Lobb Ave",
     "city": "Port Coquitlam",
@@ -1831,7 +1831,7 @@
     "capacity": 12
   },
   {
-    "id": "PC009",
+    "id": "80",
     "name": "Stay 'N' Play Group Daycare",
     "address": "3260 Coast Meridian Rd",
     "city": "Port Coquitlam",
@@ -1854,7 +1854,7 @@
     "capacity": 20
   },
   {
-    "id": "PC010",
+    "id": "81",
     "name": "Pure Play Child Care Shaughnessy",
     "address": "6108 - 2850 Shaughnessy St",
     "city": "Port Coquitlam",
@@ -1878,7 +1878,7 @@
     "capacity": 83
   },
   {
-    "id": "PO001",
+    "id": "82",
     "name": "Kids & Company Port Moody",
     "address": "220 Brew St",
     "city": "Port Moody",
@@ -1902,7 +1902,7 @@
     "capacity": 117
   },
   {
-    "id": "PO002",
+    "id": "83",
     "name": "Kinder Kampus - Heritage Mountain",
     "address": "103 - 300 Panorama Pl",
     "city": "Port Moody",
@@ -1926,7 +1926,7 @@
     "capacity": 54
   },
   {
-    "id": "PO003",
+    "id": "84",
     "name": "BrightPath St Johns Street",
     "address": "2750 St Johns St",
     "city": "Port Moody",
@@ -1950,7 +1950,7 @@
     "capacity": 60
   },
   {
-    "id": "PO004",
+    "id": "85",
     "name": "Kids Academy Port Moody",
     "address": "2610 St Johns St",
     "city": "Port Moody",
@@ -1974,7 +1974,7 @@
     "capacity": 73
   },
   {
-    "id": "PO005",
+    "id": "86",
     "name": "Glenayre Montessori Centre",
     "address": "495 Glencoe Dr",
     "city": "Port Moody",
@@ -1996,7 +1996,7 @@
     "capacity": 40
   },
   {
-    "id": "PO006",
+    "id": "87",
     "name": "Rocky Point Montessori",
     "address": "2709 Clarke St",
     "city": "Port Moody",
@@ -2020,7 +2020,7 @@
     "capacity": 24
   },
   {
-    "id": "PO007",
+    "id": "88",
     "name": "Junior Citizens Care Center",
     "address": "999 Noons Creek Dr",
     "city": "Port Moody",
@@ -2042,7 +2042,7 @@
     "capacity": 44
   },
   {
-    "id": "AN001",
+    "id": "89",
     "name": "Kinder Kampus - Eagle Mountain Middle School",
     "address": "110 Dogwood Dr",
     "city": "Anmore",
@@ -2066,7 +2066,7 @@
     "capacity": 63
   },
   {
-    "id": "AN002",
+    "id": "90",
     "name": "Anmore Kidos",
     "address": "1005 Robin Way",
     "city": "Anmore",
@@ -2090,7 +2090,7 @@
     "capacity": 7
   },
   {
-    "id": "AB001",
+    "id": "91",
     "name": "Eagle's Nest Early Learning Centre",
     "address": "Abbotsford, BC",
     "city": "Abbotsford",
@@ -2114,7 +2114,7 @@
     "capacity": 98
   },
   {
-    "id": "AB002",
+    "id": "92",
     "name": "First Step Daycare Centre",
     "address": "Abbotsford, BC",
     "city": "Abbotsford",
@@ -2138,7 +2138,7 @@
     "capacity": 65
   },
   {
-    "id": "AB003",
+    "id": "93",
     "name": "New Beginnings Daycare \u2013 Mouat Drive",
     "address": "Abbotsford, BC",
     "city": "Abbotsford",
@@ -2161,7 +2161,7 @@
     "capacity": 32
   },
   {
-    "id": "CW001",
+    "id": "94",
     "name": "ELCC One Village Childcare",
     "address": "Chilliwack, BC",
     "city": "Chilliwack",
@@ -2185,7 +2185,7 @@
     "capacity": 46
   },
   {
-    "id": "CW002",
+    "id": "95",
     "name": "Elm Drive YMCA Child Care",
     "address": "Chilliwack, BC",
     "city": "Chilliwack",
@@ -2209,7 +2209,7 @@
     "capacity": 37
   },
   {
-    "id": "CW003",
+    "id": "96",
     "name": "Growing Naturally In-Home Multi-Age",
     "address": "Chilliwack, BC",
     "city": "Chilliwack",
@@ -2233,7 +2233,7 @@
     "capacity": 7
   },
   {
-    "id": "LA001",
+    "id": "97",
     "name": "Covenant Kids Christian Daycare",
     "address": "Langley, BC",
     "city": "Langley",
@@ -2257,7 +2257,7 @@
     "capacity": 46
   },
   {
-    "id": "LA002",
+    "id": "98",
     "name": "Donna Gabriel Robins YMCA",
     "address": "Langley, BC",
     "city": "Langley",
@@ -2279,7 +2279,7 @@
     "capacity": 79
   },
   {
-    "id": "LA003",
+    "id": "99",
     "name": "Fort Langley Learning Centre",
     "address": "Langley, BC",
     "city": "Langley",
@@ -2301,7 +2301,7 @@
     "capacity": 58
   },
   {
-    "id": "LA004",
+    "id": "100",
     "name": "New Generations Early Learning",
     "address": "Langley, BC",
     "city": "Langley",
@@ -2325,7 +2325,7 @@
     "capacity": 28
   },
   {
-    "id": "LA005",
+    "id": "101",
     "name": "Sonshine Street Preschool",
     "address": "Langley, BC",
     "city": "Langley",
@@ -2349,7 +2349,7 @@
     "capacity": 70
   },
   {
-    "id": "MR011",
+    "id": "102",
     "name": "Albion Good Beginnings",
     "address": "Maple Ridge, BC",
     "city": "Maple Ridge",
@@ -2373,7 +2373,7 @@
     "capacity": 7
   },
   {
-    "id": "MR012",
+    "id": "103",
     "name": "Albion YMCA",
     "address": "Maple Ridge, BC",
     "city": "Maple Ridge",
@@ -2395,7 +2395,7 @@
     "capacity": 24
   },
   {
-    "id": "MR013",
+    "id": "104",
     "name": "Under the Tree Childcare",
     "address": "Maple Ridge, BC",
     "city": "Maple Ridge",
@@ -2419,7 +2419,7 @@
     "capacity": 76
   },
   {
-    "id": "MI001",
+    "id": "105",
     "name": "Heritage Park Childcare",
     "address": "Mission, BC",
     "city": "Mission",
@@ -2443,7 +2443,7 @@
     "capacity": 37
   },
   {
-    "id": "PM008",
+    "id": "106",
     "name": "Discovery Playhouse",
     "address": "Pitt Meadows, BC",
     "city": "Pitt Meadows",
@@ -2465,7 +2465,7 @@
     "capacity": 107
   },
   {
-    "id": "BU026",
+    "id": "107",
     "name": "Bee Daycare",
     "address": "Burnaby, BC",
     "city": "Burnaby",
@@ -2488,7 +2488,7 @@
     "capacity": 8
   },
   {
-    "id": "BU027",
+    "id": "108",
     "name": "Brentwood Nursery School",
     "address": "Burnaby, BC",
     "city": "Burnaby",
@@ -2510,7 +2510,7 @@
     "capacity": 80
   },
   {
-    "id": "BU028",
+    "id": "109",
     "name": "Burnaby South Child Care",
     "address": "Burnaby, BC",
     "city": "Burnaby",
@@ -2533,7 +2533,7 @@
     "capacity": 24
   },
   {
-    "id": "BU029",
+    "id": "110",
     "name": "Cascade Heights YMCA",
     "address": "Burnaby, BC",
     "city": "Burnaby",
@@ -2557,7 +2557,7 @@
     "capacity": 91
   },
   {
-    "id": "BU030",
+    "id": "111",
     "name": "Fairhaven Children's Centre",
     "address": "Burnaby, BC",
     "city": "Burnaby",
@@ -2581,7 +2581,7 @@
     "capacity": 37
   },
   {
-    "id": "BU031",
+    "id": "112",
     "name": "Animal Crackers #7",
     "address": "Burnaby, BC",
     "city": "Burnaby",
@@ -2603,7 +2603,7 @@
     "capacity": 34
   },
   {
-    "id": "BU032",
+    "id": "113",
     "name": "Animal Crackers #9",
     "address": "Burnaby, BC",
     "city": "Burnaby",
@@ -2625,7 +2625,7 @@
     "capacity": 56
   },
   {
-    "id": "BU033",
+    "id": "114",
     "name": "Happy Castle Child Care",
     "address": "Burnaby, BC",
     "city": "Burnaby",
@@ -2649,7 +2649,7 @@
     "capacity": 8
   },
   {
-    "id": "BU034",
+    "id": "115",
     "name": "Little Bright Minds",
     "address": "Burnaby, BC",
     "city": "Burnaby",
@@ -2671,7 +2671,7 @@
     "capacity": 36
   },
   {
-    "id": "NW013",
+    "id": "116",
     "name": "K.I.D.S. Childcare \u2013 Victoria Hill",
     "address": "New Westminster, BC",
     "city": "New Westminster",
@@ -2695,7 +2695,7 @@
     "capacity": 62
   },
   {
-    "id": "NW014",
+    "id": "117",
     "name": "Kids Zone Family Daycare",
     "address": "New Westminster, BC",
     "city": "New Westminster",
@@ -2719,7 +2719,7 @@
     "capacity": 7
   },
   {
-    "id": "NW015",
+    "id": "118",
     "name": "Queensborough Kids Child Care",
     "address": "New Westminster, BC",
     "city": "New Westminster",
@@ -2743,7 +2743,7 @@
     "capacity": 0
   },
   {
-    "id": "SU001",
+    "id": "119",
     "name": "Cloverdale Mini-Rec",
     "address": "Surrey, BC",
     "city": "Surrey",
@@ -2765,7 +2765,7 @@
     "capacity": 16
   },
   {
-    "id": "SU002",
+    "id": "120",
     "name": "GCA Montessori",
     "address": "Surrey, BC",
     "city": "Surrey",
@@ -2789,7 +2789,7 @@
     "capacity": 62
   },
   {
-    "id": "SU003",
+    "id": "121",
     "name": "YMCA City Hall Child Care",
     "address": "Surrey, BC",
     "city": "Surrey",
@@ -2813,7 +2813,7 @@
     "capacity": 37
   },
   {
-    "id": "SU004",
+    "id": "122",
     "name": "Young Climbers Childcare",
     "address": "Surrey, BC",
     "city": "Surrey",
@@ -2837,7 +2837,7 @@
     "capacity": 108
   },
   {
-    "id": "VA001",
+    "id": "123",
     "name": "Acadia Day Care",
     "address": "Vancouver, BC",
     "city": "Vancouver",
@@ -2859,7 +2859,7 @@
     "capacity": 25
   },
   {
-    "id": "VA002",
+    "id": "124",
     "name": "Atelier Children's Centre",
     "address": "Vancouver, BC",
     "city": "Vancouver",
@@ -2883,7 +2883,7 @@
     "capacity": 37
   },
   {
-    "id": "VA003",
+    "id": "125",
     "name": "Bayshore Gardens",
     "address": "Vancouver, BC",
     "city": "Vancouver",
@@ -2907,7 +2907,7 @@
     "capacity": 49
   },
   {
-    "id": "VA004",
+    "id": "126",
     "name": "Beach YMCA",
     "address": "Vancouver, BC",
     "city": "Vancouver",
@@ -2931,7 +2931,7 @@
     "capacity": 37
   },
   {
-    "id": "VA005",
+    "id": "127",
     "name": "Berwick Child Development",
     "address": "Vancouver, BC",
     "city": "Vancouver",
@@ -2953,7 +2953,7 @@
     "capacity": 80
   },
   {
-    "id": "VA006",
+    "id": "128",
     "name": "Emma's Early Learning",
     "address": "Vancouver, BC",
     "city": "Vancouver",
@@ -2976,7 +2976,7 @@
     "capacity": 26
   },
   {
-    "id": "VA007",
+    "id": "129",
     "name": "Fraserview Child Development",
     "address": "Vancouver, BC",
     "city": "Vancouver",
@@ -3000,7 +3000,7 @@
     "capacity": 68
   },
   {
-    "id": "VA008",
+    "id": "130",
     "name": "Charleson Children's Centre",
     "address": "Vancouver, BC",
     "city": "Vancouver",
@@ -3024,7 +3024,7 @@
     "capacity": 37
   },
   {
-    "id": "VA009",
+    "id": "131",
     "name": "Collingwood Neighbourhood House",
     "address": "Vancouver, BC",
     "city": "Vancouver",
@@ -3048,7 +3048,7 @@
     "capacity": 87
   },
   {
-    "id": "VA010",
+    "id": "132",
     "name": "Creekside Child Development Centre",
     "address": "Vancouver, BC",
     "city": "Vancouver",
@@ -3072,7 +3072,7 @@
     "capacity": 49
   },
   {
-    "id": "VA011",
+    "id": "133",
     "name": "Mount Pleasant Child Care Society",
     "address": "Vancouver, BC",
     "city": "Vancouver",
@@ -3094,7 +3094,7 @@
     "capacity": 37
   },
   {
-    "id": "VA012",
+    "id": "134",
     "name": "Renfrew Park Childcare Centre",
     "address": "Vancouver, BC",
     "city": "Vancouver",
@@ -3118,7 +3118,7 @@
     "capacity": 87
   },
   {
-    "id": "VA013",
+    "id": "135",
     "name": "South Vancouver Family Place",
     "address": "Vancouver, BC",
     "city": "Vancouver",
@@ -3142,7 +3142,7 @@
     "capacity": 37
   },
   {
-    "id": "VA015",
+    "id": "136",
     "name": "UBC Child Care Services",
     "address": "2125 Main Mall, Vancouver, BC",
     "city": "Vancouver",
@@ -3166,7 +3166,7 @@
     "capacity": 100
   },
   {
-    "id": "RI001",
+    "id": "137",
     "name": "Brighouse Child Care Centre",
     "address": "Richmond, BC",
     "city": "Richmond",
@@ -3190,7 +3190,7 @@
     "capacity": 37
   },
   {
-    "id": "RI002",
+    "id": "138",
     "name": "Richmond Caring Place Child Care",
     "address": "Richmond, BC",
     "city": "Richmond",
@@ -3212,7 +3212,7 @@
     "capacity": 37
   },
   {
-    "id": "NV001",
+    "id": "139",
     "name": "Parkgate Community Centre Child Care",
     "address": "North Vancouver, BC",
     "city": "North Vancouver",
@@ -3236,7 +3236,7 @@
     "capacity": 87
   },
   {
-    "id": "NV002",
+    "id": "140",
     "name": "Capilano University Children's Centre",
     "address": "North Vancouver, BC",
     "city": "North Vancouver",
@@ -3258,7 +3258,7 @@
     "capacity": 37
   },
   {
-    "id": "VI001",
+    "id": "141",
     "name": "Arbutus Grove Children's Centre",
     "address": "Victoria, BC",
     "city": "Victoria",
@@ -3282,7 +3282,7 @@
     "capacity": 49
   },
   {
-    "id": "VI002",
+    "id": "142",
     "name": "Fairfield Place Childcare",
     "address": "Victoria, BC",
     "city": "Victoria",
@@ -3306,7 +3306,7 @@
     "capacity": 37
   },
   {
-    "id": "VI003",
+    "id": "143",
     "name": "Parkdale Early Childhood Centre",
     "address": "Victoria, BC",
     "city": "Victoria",
@@ -3330,7 +3330,7 @@
     "capacity": 49
   },
   {
-    "id": "VI004",
+    "id": "144",
     "name": "Mary's Place Childcare Centre",
     "address": "Victoria, BC",
     "city": "Victoria",
@@ -3352,7 +3352,7 @@
     "capacity": 37
   },
   {
-    "id": "NA001",
+    "id": "145",
     "name": "Nanaimo Child Development Centre",
     "address": "Nanaimo, BC",
     "city": "Nanaimo",
@@ -3376,7 +3376,7 @@
     "capacity": 49
   },
   {
-    "id": "CR001",
+    "id": "146",
     "name": "Christian Life Children's Centre",
     "address": "Campbell River, BC",
     "city": "Campbell River",
@@ -3400,7 +3400,7 @@
     "capacity": 37
   },
   {
-    "id": "CR002",
+    "id": "147",
     "name": "Cari's Infant & Toddler Centre",
     "address": "Campbell River, BC",
     "city": "Campbell River",
@@ -3423,7 +3423,7 @@
     "capacity": 24
   },
   {
-    "id": "KE001",
+    "id": "148",
     "name": "Okanagan Boys and Girls Club Child Care",
     "address": "Kelowna, BC",
     "city": "Kelowna",
@@ -3447,7 +3447,7 @@
     "capacity": 109
   },
   {
-    "id": "KA001",
+    "id": "149",
     "name": "YMCA Child Care Kamloops",
     "address": "Kamloops, BC",
     "city": "Kamloops",
@@ -3471,7 +3471,7 @@
     "capacity": 87
   },
   {
-    "id": "VE001",
+    "id": "150",
     "name": "Okanagan Boys and Girls Club Vernon",
     "address": "Vernon, BC",
     "city": "Vernon",
@@ -3495,7 +3495,7 @@
     "capacity": 49
   },
   {
-    "id": "PG001",
+    "id": "151",
     "name": "Prince George YMCA Child Care",
     "address": "Prince George, BC",
     "city": "Prince George",
@@ -3519,7 +3519,7 @@
     "capacity": 87
   },
   {
-    "id": "TE001",
+    "id": "152",
     "name": "Terrace Child Development Centre",
     "address": "Terrace, BC",
     "city": "Terrace",
