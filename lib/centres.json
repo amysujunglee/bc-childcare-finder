@@ -6,8 +6,13 @@
     "city": "Burnaby",
     "lat": 49.2488,
     "lng": -122.9805,
-    "ageGroups": ["infant", "toddler"],
-    "languages": ["English"],
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -24,8 +29,13 @@
     "city": "Burnaby",
     "lat": 49.2488,
     "lng": -122.9805,
-    "ageGroups": ["infant", "toddler"],
-    "languages": ["English"],
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -42,8 +52,13 @@
     "city": "Burnaby",
     "lat": 49.2488,
     "lng": -122.9805,
-    "ageGroups": ["infant", "toddler"],
-    "languages": ["English"],
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -60,8 +75,13 @@
     "city": "Burnaby",
     "lat": 49.2488,
     "lng": -122.9805,
-    "ageGroups": ["infant", "toddler"],
-    "languages": ["English"],
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -78,8 +98,13 @@
     "city": "Burnaby",
     "lat": 49.2488,
     "lng": -122.9805,
-    "ageGroups": ["infant", "toddler"],
-    "languages": ["English"],
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -96,8 +121,13 @@
     "city": "Burnaby",
     "lat": 49.2788,
     "lng": -122.9197,
-    "ageGroups": ["infant", "toddler"],
-    "languages": ["English"],
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -114,8 +144,13 @@
     "city": "Burnaby",
     "lat": 49.2488,
     "lng": -122.9805,
-    "ageGroups": ["infant", "toddler"],
-    "languages": ["English"],
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -132,8 +167,12 @@
     "city": "Burnaby",
     "lat": 49.2488,
     "lng": -122.9805,
-    "ageGroups": ["preschool"],
-    "languages": ["English"],
+    "ageGroups": [
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -150,8 +189,12 @@
     "city": "Burnaby",
     "lat": 49.2488,
     "lng": -122.9805,
-    "ageGroups": ["preschool"],
-    "languages": ["English"],
+    "ageGroups": [
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -168,8 +211,12 @@
     "city": "Burnaby",
     "lat": 49.2488,
     "lng": -122.9805,
-    "ageGroups": ["preschool"],
-    "languages": ["English"],
+    "ageGroups": [
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -186,8 +233,12 @@
     "city": "Burnaby",
     "lat": 49.2488,
     "lng": -122.9805,
-    "ageGroups": ["preschool"],
-    "languages": ["English"],
+    "ageGroups": [
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -204,8 +255,12 @@
     "city": "Burnaby",
     "lat": 49.2488,
     "lng": -122.9805,
-    "ageGroups": ["preschool"],
-    "languages": ["English"],
+    "ageGroups": [
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -222,8 +277,12 @@
     "city": "Burnaby",
     "lat": 49.2488,
     "lng": -122.9805,
-    "ageGroups": ["preschool"],
-    "languages": ["English"],
+    "ageGroups": [
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -240,8 +299,12 @@
     "city": "Burnaby",
     "lat": 49.2788,
     "lng": -122.9197,
-    "ageGroups": ["preschool"],
-    "languages": ["English"],
+    "ageGroups": [
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -258,8 +321,12 @@
     "city": "Burnaby",
     "lat": 49.2488,
     "lng": -122.9805,
-    "ageGroups": ["preschool"],
-    "languages": ["English"],
+    "ageGroups": [
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "part-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -276,8 +343,13 @@
     "city": "Burnaby",
     "lat": 49.2488,
     "lng": -122.9805,
-    "ageGroups": ["preschool"],
-    "languages": ["English", "French"],
+    "ageGroups": [
+      "preschool"
+    ],
+    "languages": [
+      "English",
+      "French"
+    ],
     "scheduleType": "part-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -294,8 +366,14 @@
     "city": "Burnaby",
     "lat": 49.2488,
     "lng": -122.9805,
-    "ageGroups": ["infant", "toddler", "preschool"],
-    "languages": ["English"],
+    "ageGroups": [
+      "infant",
+      "toddler",
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -312,8 +390,14 @@
     "city": "Burnaby",
     "lat": 49.2488,
     "lng": -122.9805,
-    "ageGroups": ["infant", "toddler", "preschool"],
-    "languages": ["English"],
+    "ageGroups": [
+      "infant",
+      "toddler",
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -330,8 +414,14 @@
     "city": "Burnaby",
     "lat": 49.2488,
     "lng": -122.9805,
-    "ageGroups": ["infant", "toddler", "preschool"],
-    "languages": ["English"],
+    "ageGroups": [
+      "infant",
+      "toddler",
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -348,8 +438,14 @@
     "city": "Burnaby",
     "lat": 49.2488,
     "lng": -122.9805,
-    "ageGroups": ["infant", "toddler", "preschool"],
-    "languages": ["English"],
+    "ageGroups": [
+      "infant",
+      "toddler",
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -366,8 +462,14 @@
     "city": "Burnaby",
     "lat": 49.2488,
     "lng": -122.9805,
-    "ageGroups": ["infant", "toddler", "preschool"],
-    "languages": ["English"],
+    "ageGroups": [
+      "infant",
+      "toddler",
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -384,8 +486,14 @@
     "city": "Burnaby",
     "lat": 49.2488,
     "lng": -122.9805,
-    "ageGroups": ["infant", "toddler", "preschool"],
-    "languages": ["English"],
+    "ageGroups": [
+      "infant",
+      "toddler",
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -402,8 +510,14 @@
     "city": "Burnaby",
     "lat": 49.2488,
     "lng": -122.9805,
-    "ageGroups": ["infant", "toddler", "preschool"],
-    "languages": ["English"],
+    "ageGroups": [
+      "infant",
+      "toddler",
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -420,8 +534,13 @@
     "city": "Coquitlam",
     "lat": 49.2838,
     "lng": -122.7932,
-    "ageGroups": ["infant", "toddler"],
-    "languages": ["English"],
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -438,8 +557,13 @@
     "city": "Coquitlam",
     "lat": 49.2838,
     "lng": -122.7932,
-    "ageGroups": ["infant", "toddler"],
-    "languages": ["English"],
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -456,8 +580,13 @@
     "city": "Coquitlam",
     "lat": 49.2838,
     "lng": -122.7932,
-    "ageGroups": ["infant", "toddler"],
-    "languages": ["English"],
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -474,8 +603,12 @@
     "city": "Coquitlam",
     "lat": 49.2838,
     "lng": -122.7932,
-    "ageGroups": ["preschool"],
-    "languages": ["English"],
+    "ageGroups": [
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -492,8 +625,12 @@
     "city": "Coquitlam",
     "lat": 49.2838,
     "lng": -122.7932,
-    "ageGroups": ["preschool"],
-    "languages": ["English"],
+    "ageGroups": [
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -510,8 +647,12 @@
     "city": "Coquitlam",
     "lat": 49.2838,
     "lng": -122.7932,
-    "ageGroups": ["preschool"],
-    "languages": ["English"],
+    "ageGroups": [
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -528,8 +669,12 @@
     "city": "Coquitlam",
     "lat": 49.2838,
     "lng": -122.7932,
-    "ageGroups": ["preschool"],
-    "languages": ["English"],
+    "ageGroups": [
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -546,8 +691,12 @@
     "city": "Coquitlam",
     "lat": 49.2838,
     "lng": -122.7932,
-    "ageGroups": ["preschool"],
-    "languages": ["English"],
+    "ageGroups": [
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -564,8 +713,14 @@
     "city": "Coquitlam",
     "lat": 49.2838,
     "lng": -122.7932,
-    "ageGroups": ["infant", "toddler", "preschool"],
-    "languages": ["English"],
+    "ageGroups": [
+      "infant",
+      "toddler",
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -582,8 +737,14 @@
     "city": "Coquitlam",
     "lat": 49.2838,
     "lng": -122.7932,
-    "ageGroups": ["infant", "toddler", "preschool"],
-    "languages": ["English"],
+    "ageGroups": [
+      "infant",
+      "toddler",
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -600,8 +761,14 @@
     "city": "Coquitlam",
     "lat": 49.2838,
     "lng": -122.7932,
-    "ageGroups": ["infant", "toddler", "preschool"],
-    "languages": ["English"],
+    "ageGroups": [
+      "infant",
+      "toddler",
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -618,8 +785,14 @@
     "city": "Coquitlam",
     "lat": 49.2838,
     "lng": -122.7932,
-    "ageGroups": ["infant", "toddler", "preschool"],
-    "languages": ["English"],
+    "ageGroups": [
+      "infant",
+      "toddler",
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -636,8 +809,14 @@
     "city": "Coquitlam",
     "lat": 49.2838,
     "lng": -122.7932,
-    "ageGroups": ["infant", "toddler", "preschool"],
-    "languages": ["English"],
+    "ageGroups": [
+      "infant",
+      "toddler",
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -654,8 +833,12 @@
     "city": "Coquitlam",
     "lat": 49.2838,
     "lng": -122.7932,
-    "ageGroups": ["preschool"],
-    "languages": ["English"],
+    "ageGroups": [
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -672,8 +855,14 @@
     "city": "Coquitlam",
     "lat": 49.2838,
     "lng": -122.7932,
-    "ageGroups": ["infant", "toddler", "preschool"],
-    "languages": ["English"],
+    "ageGroups": [
+      "infant",
+      "toddler",
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -690,8 +879,12 @@
     "city": "Coquitlam",
     "lat": 49.2838,
     "lng": -122.7932,
-    "ageGroups": ["preschool"],
-    "languages": ["English"],
+    "ageGroups": [
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "part-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -708,8 +901,14 @@
     "city": "Coquitlam",
     "lat": 49.2838,
     "lng": -122.7932,
-    "ageGroups": ["infant", "toddler", "preschool"],
-    "languages": ["English"],
+    "ageGroups": [
+      "infant",
+      "toddler",
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -726,8 +925,14 @@
     "city": "Coquitlam",
     "lat": 49.2838,
     "lng": -122.7932,
-    "ageGroups": ["infant", "toddler", "preschool"],
-    "languages": ["English"],
+    "ageGroups": [
+      "infant",
+      "toddler",
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -744,8 +949,12 @@
     "city": "Coquitlam",
     "lat": 49.2838,
     "lng": -122.7932,
-    "ageGroups": ["preschool"],
-    "languages": ["English"],
+    "ageGroups": [
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -762,8 +971,14 @@
     "city": "Maple Ridge",
     "lat": 49.2196,
     "lng": -122.5984,
-    "ageGroups": ["infant", "toddler", "preschool"],
-    "languages": ["English"],
+    "ageGroups": [
+      "infant",
+      "toddler",
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -780,8 +995,12 @@
     "city": "Maple Ridge",
     "lat": 49.2196,
     "lng": -122.5984,
-    "ageGroups": ["preschool"],
-    "languages": ["English"],
+    "ageGroups": [
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -798,8 +1017,14 @@
     "city": "Maple Ridge",
     "lat": 49.2196,
     "lng": -122.5984,
-    "ageGroups": ["infant", "toddler", "preschool"],
-    "languages": ["English"],
+    "ageGroups": [
+      "infant",
+      "toddler",
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -816,8 +1041,14 @@
     "city": "Maple Ridge",
     "lat": 49.2196,
     "lng": -122.5984,
-    "ageGroups": ["infant", "toddler", "preschool"],
-    "languages": ["English"],
+    "ageGroups": [
+      "infant",
+      "toddler",
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -834,8 +1065,14 @@
     "city": "Maple Ridge",
     "lat": 49.2196,
     "lng": -122.5984,
-    "ageGroups": ["infant", "toddler", "preschool"],
-    "languages": ["English"],
+    "ageGroups": [
+      "infant",
+      "toddler",
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -852,8 +1089,14 @@
     "city": "Maple Ridge",
     "lat": 49.2196,
     "lng": -122.5984,
-    "ageGroups": ["infant", "toddler", "preschool"],
-    "languages": ["English"],
+    "ageGroups": [
+      "infant",
+      "toddler",
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -870,8 +1113,14 @@
     "city": "Maple Ridge",
     "lat": 49.2196,
     "lng": -122.5984,
-    "ageGroups": ["infant", "toddler", "preschool"],
-    "languages": ["English"],
+    "ageGroups": [
+      "infant",
+      "toddler",
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -888,8 +1137,14 @@
     "city": "Maple Ridge",
     "lat": 49.2196,
     "lng": -122.5984,
-    "ageGroups": ["infant", "toddler", "preschool"],
-    "languages": ["English"],
+    "ageGroups": [
+      "infant",
+      "toddler",
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -906,8 +1161,12 @@
     "city": "Maple Ridge",
     "lat": 49.2196,
     "lng": -122.5984,
-    "ageGroups": ["preschool"],
-    "languages": ["English"],
+    "ageGroups": [
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -924,8 +1183,14 @@
     "city": "Maple Ridge",
     "lat": 49.2196,
     "lng": -122.5984,
-    "ageGroups": ["infant", "toddler", "preschool"],
-    "languages": ["English"],
+    "ageGroups": [
+      "infant",
+      "toddler",
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -941,9 +1206,14 @@
     "address": "1 - 1001 Royal Ave",
     "city": "New Westminster",
     "lat": 49.2057,
-    "lng": -122.9110,
-    "ageGroups": ["infant", "toddler"],
-    "languages": ["English"],
+    "lng": -122.911,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -959,9 +1229,14 @@
     "address": "501 4th Ave",
     "city": "New Westminster",
     "lat": 49.2057,
-    "lng": -122.9110,
-    "ageGroups": ["infant", "toddler"],
-    "languages": ["English"],
+    "lng": -122.911,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -977,9 +1252,14 @@
     "address": "10 - 800 McBride Blvd",
     "city": "New Westminster",
     "lat": 49.2057,
-    "lng": -122.9110,
-    "ageGroups": ["infant", "toddler"],
-    "languages": ["English"],
+    "lng": -122.911,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -995,9 +1275,13 @@
     "address": "57 7th Ave",
     "city": "New Westminster",
     "lat": 49.2057,
-    "lng": -122.9110,
-    "ageGroups": ["preschool"],
-    "languages": ["English"],
+    "lng": -122.911,
+    "ageGroups": [
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -1013,9 +1297,13 @@
     "address": "427 E Columbia St",
     "city": "New Westminster",
     "lat": 49.2057,
-    "lng": -122.9110,
-    "ageGroups": ["preschool"],
-    "languages": ["English"],
+    "lng": -122.911,
+    "ageGroups": [
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -1031,9 +1319,15 @@
     "address": "200 - 505 6th St",
     "city": "New Westminster",
     "lat": 49.2057,
-    "lng": -122.9110,
-    "ageGroups": ["infant", "toddler", "preschool"],
-    "languages": ["English"],
+    "lng": -122.911,
+    "ageGroups": [
+      "infant",
+      "toddler",
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -1049,9 +1343,15 @@
     "address": "600 Royal Ave",
     "city": "New Westminster",
     "lat": 49.2057,
-    "lng": -122.9110,
-    "ageGroups": ["infant", "toddler", "preschool"],
-    "languages": ["English"],
+    "lng": -122.911,
+    "ageGroups": [
+      "infant",
+      "toddler",
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -1067,9 +1367,15 @@
     "address": "F120 - 805 Boyd St",
     "city": "New Westminster",
     "lat": 49.2057,
-    "lng": -122.9110,
-    "ageGroups": ["infant", "toddler", "preschool"],
-    "languages": ["English"],
+    "lng": -122.911,
+    "ageGroups": [
+      "infant",
+      "toddler",
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -1085,9 +1391,13 @@
     "address": "1408 5th Ave",
     "city": "New Westminster",
     "lat": 49.2057,
-    "lng": -122.9110,
-    "ageGroups": ["preschool"],
-    "languages": ["English"],
+    "lng": -122.911,
+    "ageGroups": [
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -1103,9 +1413,15 @@
     "address": "243 - 610 6th St",
     "city": "New Westminster",
     "lat": 49.2057,
-    "lng": -122.9110,
-    "ageGroups": ["infant", "toddler", "preschool"],
-    "languages": ["English"],
+    "lng": -122.911,
+    "ageGroups": [
+      "infant",
+      "toddler",
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -1121,9 +1437,13 @@
     "address": "466 Rousseau St",
     "city": "New Westminster",
     "lat": 49.2057,
-    "lng": -122.9110,
-    "ageGroups": ["preschool"],
-    "languages": ["English"],
+    "lng": -122.911,
+    "ageGroups": [
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -1139,9 +1459,15 @@
     "address": "211 - 800 McBride Blvd",
     "city": "New Westminster",
     "lat": 49.2057,
-    "lng": -122.9110,
-    "ageGroups": ["infant", "toddler", "preschool"],
-    "languages": ["English"],
+    "lng": -122.911,
+    "ageGroups": [
+      "infant",
+      "toddler",
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -1158,8 +1484,14 @@
     "city": "Pitt Meadows",
     "lat": 49.2213,
     "lng": -122.6892,
-    "ageGroups": ["infant", "toddler", "preschool"],
-    "languages": ["English"],
+    "ageGroups": [
+      "infant",
+      "toddler",
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -1176,8 +1508,14 @@
     "city": "Pitt Meadows",
     "lat": 49.2213,
     "lng": -122.6892,
-    "ageGroups": ["infant", "toddler", "preschool"],
-    "languages": ["English"],
+    "ageGroups": [
+      "infant",
+      "toddler",
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -1194,8 +1532,14 @@
     "city": "Pitt Meadows",
     "lat": 49.2213,
     "lng": -122.6892,
-    "ageGroups": ["infant", "toddler", "preschool"],
-    "languages": ["English"],
+    "ageGroups": [
+      "infant",
+      "toddler",
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -1212,8 +1556,14 @@
     "city": "Pitt Meadows",
     "lat": 49.2213,
     "lng": -122.6892,
-    "ageGroups": ["infant", "toddler", "preschool"],
-    "languages": ["English"],
+    "ageGroups": [
+      "infant",
+      "toddler",
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -1230,8 +1580,14 @@
     "city": "Pitt Meadows",
     "lat": 49.2213,
     "lng": -122.6892,
-    "ageGroups": ["infant", "toddler", "preschool"],
-    "languages": ["English"],
+    "ageGroups": [
+      "infant",
+      "toddler",
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -1248,8 +1604,12 @@
     "city": "Pitt Meadows",
     "lat": 49.2213,
     "lng": -122.6892,
-    "ageGroups": ["preschool"],
-    "languages": ["English"],
+    "ageGroups": [
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -1266,8 +1626,12 @@
     "city": "Pitt Meadows",
     "lat": 49.2213,
     "lng": -122.6892,
-    "ageGroups": ["preschool"],
-    "languages": ["English"],
+    "ageGroups": [
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -1284,8 +1648,14 @@
     "city": "Port Coquitlam",
     "lat": 49.2627,
     "lng": -122.7811,
-    "ageGroups": ["infant", "toddler", "preschool"],
-    "languages": ["English"],
+    "ageGroups": [
+      "infant",
+      "toddler",
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -1302,8 +1672,14 @@
     "city": "Port Coquitlam",
     "lat": 49.2627,
     "lng": -122.7811,
-    "ageGroups": ["infant", "toddler", "preschool"],
-    "languages": ["English"],
+    "ageGroups": [
+      "infant",
+      "toddler",
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -1320,8 +1696,12 @@
     "city": "Port Coquitlam",
     "lat": 49.2627,
     "lng": -122.7811,
-    "ageGroups": ["preschool"],
-    "languages": ["English"],
+    "ageGroups": [
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -1338,8 +1718,14 @@
     "city": "Port Coquitlam",
     "lat": 49.2627,
     "lng": -122.7811,
-    "ageGroups": ["infant", "toddler", "preschool"],
-    "languages": ["English"],
+    "ageGroups": [
+      "infant",
+      "toddler",
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -1356,8 +1742,14 @@
     "city": "Port Coquitlam",
     "lat": 49.2627,
     "lng": -122.7811,
-    "ageGroups": ["infant", "toddler", "preschool"],
-    "languages": ["English"],
+    "ageGroups": [
+      "infant",
+      "toddler",
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -1374,8 +1766,14 @@
     "city": "Port Coquitlam",
     "lat": 49.2627,
     "lng": -122.7811,
-    "ageGroups": ["infant", "toddler", "preschool"],
-    "languages": ["English"],
+    "ageGroups": [
+      "infant",
+      "toddler",
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -1392,8 +1790,14 @@
     "city": "Port Coquitlam",
     "lat": 49.2627,
     "lng": -122.7811,
-    "ageGroups": ["infant", "toddler", "preschool"],
-    "languages": ["English"],
+    "ageGroups": [
+      "infant",
+      "toddler",
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -1410,8 +1814,13 @@
     "city": "Port Coquitlam",
     "lat": 49.2627,
     "lng": -122.7811,
-    "ageGroups": ["infant", "toddler"],
-    "languages": ["English"],
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -1428,8 +1837,13 @@
     "city": "Port Coquitlam",
     "lat": 49.2627,
     "lng": -122.7811,
-    "ageGroups": ["infant", "toddler"],
-    "languages": ["English"],
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -1446,8 +1860,14 @@
     "city": "Port Coquitlam",
     "lat": 49.2627,
     "lng": -122.7811,
-    "ageGroups": ["infant", "toddler", "preschool"],
-    "languages": ["English"],
+    "ageGroups": [
+      "infant",
+      "toddler",
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -1464,8 +1884,14 @@
     "city": "Port Moody",
     "lat": 49.2834,
     "lng": -122.8317,
-    "ageGroups": ["infant", "toddler", "preschool"],
-    "languages": ["English"],
+    "ageGroups": [
+      "infant",
+      "toddler",
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -1482,8 +1908,14 @@
     "city": "Port Moody",
     "lat": 49.2834,
     "lng": -122.8317,
-    "ageGroups": ["infant", "toddler", "preschool"],
-    "languages": ["English"],
+    "ageGroups": [
+      "infant",
+      "toddler",
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -1500,8 +1932,14 @@
     "city": "Port Moody",
     "lat": 49.2834,
     "lng": -122.8317,
-    "ageGroups": ["infant", "toddler", "preschool"],
-    "languages": ["English"],
+    "ageGroups": [
+      "infant",
+      "toddler",
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -1518,8 +1956,14 @@
     "city": "Port Moody",
     "lat": 49.2834,
     "lng": -122.8317,
-    "ageGroups": ["infant", "toddler", "preschool"],
-    "languages": ["English"],
+    "ageGroups": [
+      "infant",
+      "toddler",
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -1536,8 +1980,12 @@
     "city": "Port Moody",
     "lat": 49.2834,
     "lng": -122.8317,
-    "ageGroups": ["preschool"],
-    "languages": ["English"],
+    "ageGroups": [
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -1554,8 +2002,14 @@
     "city": "Port Moody",
     "lat": 49.2834,
     "lng": -122.8317,
-    "ageGroups": ["infant", "toddler", "preschool"],
-    "languages": ["English"],
+    "ageGroups": [
+      "infant",
+      "toddler",
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -1572,8 +2026,12 @@
     "city": "Port Moody",
     "lat": 49.2834,
     "lng": -122.8317,
-    "ageGroups": ["preschool"],
-    "languages": ["English"],
+    "ageGroups": [
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -1590,8 +2048,14 @@
     "city": "Anmore",
     "lat": 49.3213,
     "lng": -122.8113,
-    "ageGroups": ["infant", "toddler", "preschool"],
-    "languages": ["English"],
+    "ageGroups": [
+      "infant",
+      "toddler",
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -1608,8 +2072,14 @@
     "city": "Anmore",
     "lat": 49.3213,
     "lng": -122.8113,
-    "ageGroups": ["infant", "toddler", "preschool"],
-    "languages": ["English"],
+    "ageGroups": [
+      "infant",
+      "toddler",
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
     "scheduleType": "full-time",
     "tenDollarDay": false,
     "spotsAvailable": 0,
@@ -1618,5 +2088,1458 @@
     "description": "Small licensed family childcare in Anmore serving infants, toddlers, and preschoolers.",
     "rating": 0,
     "capacity": 7
+  },
+  {
+    "id": "AB001",
+    "name": "Eagle's Nest Early Learning Centre",
+    "address": "Abbotsford, BC",
+    "city": "Abbotsford",
+    "lat": 49.0504,
+    "lng": -122.3045,
+    "ageGroups": [
+      "infant",
+      "toddler",
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": true,
+    "spotsAvailable": 0,
+    "phone": "",
+    "email": "",
+    "description": "Licensed $10/day childcare in Abbotsford serving infants, toddlers, and preschoolers.",
+    "rating": 0,
+    "capacity": 98
+  },
+  {
+    "id": "AB002",
+    "name": "First Step Daycare Centre",
+    "address": "Abbotsford, BC",
+    "city": "Abbotsford",
+    "lat": 49.0504,
+    "lng": -122.3045,
+    "ageGroups": [
+      "infant",
+      "toddler",
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": true,
+    "spotsAvailable": 0,
+    "phone": "",
+    "email": "",
+    "description": "Licensed $10/day childcare in Abbotsford serving infants, toddlers, and preschoolers.",
+    "rating": 0,
+    "capacity": 65
+  },
+  {
+    "id": "AB003",
+    "name": "New Beginnings Daycare \u2013 Mouat Drive",
+    "address": "Abbotsford, BC",
+    "city": "Abbotsford",
+    "lat": 49.0504,
+    "lng": -122.3045,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": true,
+    "spotsAvailable": 0,
+    "phone": "",
+    "email": "",
+    "description": "Licensed $10/day infant and toddler care in Abbotsford.",
+    "rating": 0,
+    "capacity": 32
+  },
+  {
+    "id": "CW001",
+    "name": "ELCC One Village Childcare",
+    "address": "Chilliwack, BC",
+    "city": "Chilliwack",
+    "lat": 49.1579,
+    "lng": -121.9514,
+    "ageGroups": [
+      "infant",
+      "toddler",
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": true,
+    "spotsAvailable": 0,
+    "phone": "",
+    "email": "",
+    "description": "Licensed $10/day childcare in Chilliwack serving infants, toddlers, and preschoolers.",
+    "rating": 0,
+    "capacity": 46
+  },
+  {
+    "id": "CW002",
+    "name": "Elm Drive YMCA Child Care",
+    "address": "Chilliwack, BC",
+    "city": "Chilliwack",
+    "lat": 49.1579,
+    "lng": -121.9514,
+    "ageGroups": [
+      "infant",
+      "toddler",
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": true,
+    "spotsAvailable": 0,
+    "phone": "",
+    "email": "",
+    "description": "YMCA-operated $10/day childcare in Chilliwack.",
+    "rating": 0,
+    "capacity": 37
+  },
+  {
+    "id": "CW003",
+    "name": "Growing Naturally In-Home Multi-Age",
+    "address": "Chilliwack, BC",
+    "city": "Chilliwack",
+    "lat": 49.1579,
+    "lng": -121.9514,
+    "ageGroups": [
+      "infant",
+      "toddler",
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": true,
+    "spotsAvailable": 0,
+    "phone": "",
+    "email": "",
+    "description": "Licensed $10/day in-home multi-age childcare in Chilliwack.",
+    "rating": 0,
+    "capacity": 7
+  },
+  {
+    "id": "LA001",
+    "name": "Covenant Kids Christian Daycare",
+    "address": "Langley, BC",
+    "city": "Langley",
+    "lat": 49.1042,
+    "lng": -122.6604,
+    "ageGroups": [
+      "infant",
+      "toddler",
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": true,
+    "spotsAvailable": 0,
+    "phone": "",
+    "email": "",
+    "description": "Licensed $10/day Christian childcare in Langley.",
+    "rating": 0,
+    "capacity": 46
+  },
+  {
+    "id": "LA002",
+    "name": "Donna Gabriel Robins YMCA",
+    "address": "Langley, BC",
+    "city": "Langley",
+    "lat": 49.1042,
+    "lng": -122.6604,
+    "ageGroups": [
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": true,
+    "spotsAvailable": 0,
+    "phone": "",
+    "email": "",
+    "description": "YMCA-operated $10/day childcare in Langley.",
+    "rating": 0,
+    "capacity": 79
+  },
+  {
+    "id": "LA003",
+    "name": "Fort Langley Learning Centre",
+    "address": "Langley, BC",
+    "city": "Langley",
+    "lat": 49.1042,
+    "lng": -122.6604,
+    "ageGroups": [
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": true,
+    "spotsAvailable": 0,
+    "phone": "",
+    "email": "",
+    "description": "Licensed $10/day learning centre in Fort Langley.",
+    "rating": 0,
+    "capacity": 58
+  },
+  {
+    "id": "LA004",
+    "name": "New Generations Early Learning",
+    "address": "Langley, BC",
+    "city": "Langley",
+    "lat": 49.1042,
+    "lng": -122.6604,
+    "ageGroups": [
+      "infant",
+      "toddler",
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": true,
+    "spotsAvailable": 0,
+    "phone": "",
+    "email": "",
+    "description": "Licensed $10/day early learning in Langley.",
+    "rating": 0,
+    "capacity": 28
+  },
+  {
+    "id": "LA005",
+    "name": "Sonshine Street Preschool",
+    "address": "Langley, BC",
+    "city": "Langley",
+    "lat": 49.1042,
+    "lng": -122.6604,
+    "ageGroups": [
+      "infant",
+      "toddler",
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": true,
+    "spotsAvailable": 0,
+    "phone": "",
+    "email": "",
+    "description": "Licensed $10/day preschool in Langley.",
+    "rating": 0,
+    "capacity": 70
+  },
+  {
+    "id": "MR011",
+    "name": "Albion Good Beginnings",
+    "address": "Maple Ridge, BC",
+    "city": "Maple Ridge",
+    "lat": 49.2193,
+    "lng": -122.5969,
+    "ageGroups": [
+      "infant",
+      "toddler",
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": true,
+    "spotsAvailable": 0,
+    "phone": "",
+    "email": "",
+    "description": "Licensed $10/day family childcare in Maple Ridge.",
+    "rating": 0,
+    "capacity": 7
+  },
+  {
+    "id": "MR012",
+    "name": "Albion YMCA",
+    "address": "Maple Ridge, BC",
+    "city": "Maple Ridge",
+    "lat": 49.2193,
+    "lng": -122.5969,
+    "ageGroups": [
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": true,
+    "spotsAvailable": 0,
+    "phone": "",
+    "email": "",
+    "description": "YMCA-operated $10/day childcare in Maple Ridge.",
+    "rating": 0,
+    "capacity": 24
+  },
+  {
+    "id": "MR013",
+    "name": "Under the Tree Childcare",
+    "address": "Maple Ridge, BC",
+    "city": "Maple Ridge",
+    "lat": 49.2193,
+    "lng": -122.5969,
+    "ageGroups": [
+      "infant",
+      "toddler",
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": true,
+    "spotsAvailable": 0,
+    "phone": "",
+    "email": "",
+    "description": "Licensed $10/day childcare in Maple Ridge.",
+    "rating": 0,
+    "capacity": 76
+  },
+  {
+    "id": "MI001",
+    "name": "Heritage Park Childcare",
+    "address": "Mission, BC",
+    "city": "Mission",
+    "lat": 49.1326,
+    "lng": -122.3109,
+    "ageGroups": [
+      "infant",
+      "toddler",
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": true,
+    "spotsAvailable": 0,
+    "phone": "",
+    "email": "",
+    "description": "Licensed $10/day childcare in Mission.",
+    "rating": 0,
+    "capacity": 37
+  },
+  {
+    "id": "PM008",
+    "name": "Discovery Playhouse",
+    "address": "Pitt Meadows, BC",
+    "city": "Pitt Meadows",
+    "lat": 49.229,
+    "lng": -122.6896,
+    "ageGroups": [
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": true,
+    "spotsAvailable": 0,
+    "phone": "",
+    "email": "",
+    "description": "Licensed $10/day childcare in Pitt Meadows.",
+    "rating": 0,
+    "capacity": 107
+  },
+  {
+    "id": "BU026",
+    "name": "Bee Daycare",
+    "address": "Burnaby, BC",
+    "city": "Burnaby",
+    "lat": 49.2488,
+    "lng": -122.9805,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": true,
+    "spotsAvailable": 0,
+    "phone": "",
+    "email": "",
+    "description": "Licensed $10/day infant and toddler care in Burnaby.",
+    "rating": 0,
+    "capacity": 8
+  },
+  {
+    "id": "BU027",
+    "name": "Brentwood Nursery School",
+    "address": "Burnaby, BC",
+    "city": "Burnaby",
+    "lat": 49.2488,
+    "lng": -122.9805,
+    "ageGroups": [
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": true,
+    "spotsAvailable": 0,
+    "phone": "",
+    "email": "",
+    "description": "Licensed $10/day preschool in Burnaby.",
+    "rating": 0,
+    "capacity": 80
+  },
+  {
+    "id": "BU028",
+    "name": "Burnaby South Child Care",
+    "address": "Burnaby, BC",
+    "city": "Burnaby",
+    "lat": 49.2488,
+    "lng": -122.9805,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": true,
+    "spotsAvailable": 0,
+    "phone": "",
+    "email": "",
+    "description": "Licensed $10/day infant and toddler care in south Burnaby.",
+    "rating": 0,
+    "capacity": 24
+  },
+  {
+    "id": "BU029",
+    "name": "Cascade Heights YMCA",
+    "address": "Burnaby, BC",
+    "city": "Burnaby",
+    "lat": 49.2488,
+    "lng": -122.9805,
+    "ageGroups": [
+      "infant",
+      "toddler",
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": true,
+    "spotsAvailable": 0,
+    "phone": "",
+    "email": "",
+    "description": "YMCA-operated $10/day childcare in Burnaby.",
+    "rating": 0,
+    "capacity": 91
+  },
+  {
+    "id": "BU030",
+    "name": "Fairhaven Children's Centre",
+    "address": "Burnaby, BC",
+    "city": "Burnaby",
+    "lat": 49.2488,
+    "lng": -122.9805,
+    "ageGroups": [
+      "infant",
+      "toddler",
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": true,
+    "spotsAvailable": 0,
+    "phone": "",
+    "email": "",
+    "description": "Licensed $10/day children's centre in Burnaby.",
+    "rating": 0,
+    "capacity": 37
+  },
+  {
+    "id": "BU031",
+    "name": "Animal Crackers #7",
+    "address": "Burnaby, BC",
+    "city": "Burnaby",
+    "lat": 49.2488,
+    "lng": -122.9805,
+    "ageGroups": [
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": true,
+    "spotsAvailable": 0,
+    "phone": "",
+    "email": "",
+    "description": "Licensed $10/day childcare in Burnaby.",
+    "rating": 0,
+    "capacity": 34
+  },
+  {
+    "id": "BU032",
+    "name": "Animal Crackers #9",
+    "address": "Burnaby, BC",
+    "city": "Burnaby",
+    "lat": 49.2488,
+    "lng": -122.9805,
+    "ageGroups": [
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": true,
+    "spotsAvailable": 0,
+    "phone": "",
+    "email": "",
+    "description": "Licensed $10/day childcare in Burnaby.",
+    "rating": 0,
+    "capacity": 56
+  },
+  {
+    "id": "BU033",
+    "name": "Happy Castle Child Care",
+    "address": "Burnaby, BC",
+    "city": "Burnaby",
+    "lat": 49.2488,
+    "lng": -122.9805,
+    "ageGroups": [
+      "infant",
+      "toddler",
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": true,
+    "spotsAvailable": 0,
+    "phone": "",
+    "email": "",
+    "description": "Licensed $10/day multi-age childcare in Burnaby.",
+    "rating": 0,
+    "capacity": 8
+  },
+  {
+    "id": "BU034",
+    "name": "Little Bright Minds",
+    "address": "Burnaby, BC",
+    "city": "Burnaby",
+    "lat": 49.2488,
+    "lng": -122.9805,
+    "ageGroups": [
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": true,
+    "spotsAvailable": 0,
+    "phone": "",
+    "email": "",
+    "description": "Licensed $10/day childcare in Burnaby.",
+    "rating": 0,
+    "capacity": 36
+  },
+  {
+    "id": "NW013",
+    "name": "K.I.D.S. Childcare \u2013 Victoria Hill",
+    "address": "New Westminster, BC",
+    "city": "New Westminster",
+    "lat": 49.2063,
+    "lng": -122.9112,
+    "ageGroups": [
+      "infant",
+      "toddler",
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": true,
+    "spotsAvailable": 0,
+    "phone": "",
+    "email": "",
+    "description": "Licensed $10/day childcare at Victoria Hill in New Westminster.",
+    "rating": 0,
+    "capacity": 62
+  },
+  {
+    "id": "NW014",
+    "name": "Kids Zone Family Daycare",
+    "address": "New Westminster, BC",
+    "city": "New Westminster",
+    "lat": 49.2063,
+    "lng": -122.9112,
+    "ageGroups": [
+      "infant",
+      "toddler",
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": true,
+    "spotsAvailable": 0,
+    "phone": "",
+    "email": "",
+    "description": "Licensed $10/day family daycare in New Westminster.",
+    "rating": 0,
+    "capacity": 7
+  },
+  {
+    "id": "NW015",
+    "name": "Queensborough Kids Child Care",
+    "address": "New Westminster, BC",
+    "city": "New Westminster",
+    "lat": 49.2063,
+    "lng": -122.9112,
+    "ageGroups": [
+      "infant",
+      "toddler",
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": true,
+    "spotsAvailable": 0,
+    "phone": "",
+    "email": "",
+    "description": "Licensed $10/day childcare in Queensborough, New Westminster.",
+    "rating": 0,
+    "capacity": 0
+  },
+  {
+    "id": "SU001",
+    "name": "Cloverdale Mini-Rec",
+    "address": "Surrey, BC",
+    "city": "Surrey",
+    "lat": 49.1913,
+    "lng": -122.849,
+    "ageGroups": [
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": true,
+    "spotsAvailable": 0,
+    "phone": "",
+    "email": "",
+    "description": "Licensed $10/day childcare in Cloverdale, Surrey.",
+    "rating": 0,
+    "capacity": 16
+  },
+  {
+    "id": "SU002",
+    "name": "GCA Montessori",
+    "address": "Surrey, BC",
+    "city": "Surrey",
+    "lat": 49.1913,
+    "lng": -122.849,
+    "ageGroups": [
+      "infant",
+      "toddler",
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": true,
+    "spotsAvailable": 0,
+    "phone": "",
+    "email": "",
+    "description": "Licensed $10/day Montessori childcare in Surrey.",
+    "rating": 0,
+    "capacity": 62
+  },
+  {
+    "id": "SU003",
+    "name": "YMCA City Hall Child Care",
+    "address": "Surrey, BC",
+    "city": "Surrey",
+    "lat": 49.1913,
+    "lng": -122.849,
+    "ageGroups": [
+      "infant",
+      "toddler",
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": true,
+    "spotsAvailable": 0,
+    "phone": "",
+    "email": "",
+    "description": "YMCA-operated $10/day childcare at Surrey City Hall.",
+    "rating": 0,
+    "capacity": 37
+  },
+  {
+    "id": "SU004",
+    "name": "Young Climbers Childcare",
+    "address": "Surrey, BC",
+    "city": "Surrey",
+    "lat": 49.1913,
+    "lng": -122.849,
+    "ageGroups": [
+      "infant",
+      "toddler",
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": true,
+    "spotsAvailable": 0,
+    "phone": "",
+    "email": "",
+    "description": "Licensed $10/day childcare in Surrey.",
+    "rating": 0,
+    "capacity": 108
+  },
+  {
+    "id": "VA001",
+    "name": "Acadia Day Care",
+    "address": "Vancouver, BC",
+    "city": "Vancouver",
+    "lat": 49.2827,
+    "lng": -123.1207,
+    "ageGroups": [
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": true,
+    "spotsAvailable": 0,
+    "phone": "",
+    "email": "",
+    "description": "Licensed $10/day daycare in Vancouver.",
+    "rating": 0,
+    "capacity": 25
+  },
+  {
+    "id": "VA002",
+    "name": "Atelier Children's Centre",
+    "address": "Vancouver, BC",
+    "city": "Vancouver",
+    "lat": 49.2827,
+    "lng": -123.1207,
+    "ageGroups": [
+      "infant",
+      "toddler",
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": true,
+    "spotsAvailable": 0,
+    "phone": "",
+    "email": "",
+    "description": "Licensed $10/day children's centre in Vancouver.",
+    "rating": 0,
+    "capacity": 37
+  },
+  {
+    "id": "VA003",
+    "name": "Bayshore Gardens",
+    "address": "Vancouver, BC",
+    "city": "Vancouver",
+    "lat": 49.2827,
+    "lng": -123.1207,
+    "ageGroups": [
+      "infant",
+      "toddler",
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": true,
+    "spotsAvailable": 0,
+    "phone": "",
+    "email": "",
+    "description": "Licensed $10/day childcare in Vancouver.",
+    "rating": 0,
+    "capacity": 49
+  },
+  {
+    "id": "VA004",
+    "name": "Beach YMCA",
+    "address": "Vancouver, BC",
+    "city": "Vancouver",
+    "lat": 49.2764,
+    "lng": -123.1503,
+    "ageGroups": [
+      "infant",
+      "toddler",
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": true,
+    "spotsAvailable": 0,
+    "phone": "",
+    "email": "",
+    "description": "YMCA-operated $10/day childcare at Beach Avenue in Vancouver.",
+    "rating": 0,
+    "capacity": 37
+  },
+  {
+    "id": "VA005",
+    "name": "Berwick Child Development",
+    "address": "Vancouver, BC",
+    "city": "Vancouver",
+    "lat": 49.2827,
+    "lng": -123.1207,
+    "ageGroups": [
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": true,
+    "spotsAvailable": 0,
+    "phone": "",
+    "email": "",
+    "description": "Licensed $10/day child development centre in Vancouver.",
+    "rating": 0,
+    "capacity": 80
+  },
+  {
+    "id": "VA006",
+    "name": "Emma's Early Learning",
+    "address": "Vancouver, BC",
+    "city": "Vancouver",
+    "lat": 49.2827,
+    "lng": -123.1207,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": true,
+    "spotsAvailable": 0,
+    "phone": "",
+    "email": "",
+    "description": "Licensed $10/day early learning for infants and toddlers in Vancouver.",
+    "rating": 0,
+    "capacity": 26
+  },
+  {
+    "id": "VA007",
+    "name": "Fraserview Child Development",
+    "address": "Vancouver, BC",
+    "city": "Vancouver",
+    "lat": 49.2148,
+    "lng": -123.0724,
+    "ageGroups": [
+      "infant",
+      "toddler",
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": true,
+    "spotsAvailable": 0,
+    "phone": "",
+    "email": "",
+    "description": "Licensed $10/day child development centre in Fraserview, Vancouver.",
+    "rating": 0,
+    "capacity": 68
+  },
+  {
+    "id": "VA008",
+    "name": "Charleson Children's Centre",
+    "address": "Vancouver, BC",
+    "city": "Vancouver",
+    "lat": 49.2714,
+    "lng": -123.1278,
+    "ageGroups": [
+      "infant",
+      "toddler",
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": true,
+    "spotsAvailable": 0,
+    "phone": "",
+    "email": "",
+    "description": "Licensed $10/day children's centre in Vancouver.",
+    "rating": 0,
+    "capacity": 37
+  },
+  {
+    "id": "VA009",
+    "name": "Collingwood Neighbourhood House",
+    "address": "Vancouver, BC",
+    "city": "Vancouver",
+    "lat": 49.2365,
+    "lng": -123.0279,
+    "ageGroups": [
+      "infant",
+      "toddler",
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": true,
+    "spotsAvailable": 0,
+    "phone": "",
+    "email": "",
+    "description": "Licensed $10/day childcare at Collingwood Neighbourhood House in Vancouver.",
+    "rating": 0,
+    "capacity": 87
+  },
+  {
+    "id": "VA010",
+    "name": "Creekside Child Development Centre",
+    "address": "Vancouver, BC",
+    "city": "Vancouver",
+    "lat": 49.2714,
+    "lng": -123.105,
+    "ageGroups": [
+      "infant",
+      "toddler",
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": true,
+    "spotsAvailable": 0,
+    "phone": "",
+    "email": "",
+    "description": "Licensed $10/day child development centre in Vancouver.",
+    "rating": 0,
+    "capacity": 49
+  },
+  {
+    "id": "VA011",
+    "name": "Mount Pleasant Child Care Society",
+    "address": "Vancouver, BC",
+    "city": "Vancouver",
+    "lat": 49.2627,
+    "lng": -123.1009,
+    "ageGroups": [
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": true,
+    "spotsAvailable": 0,
+    "phone": "",
+    "email": "",
+    "description": "Licensed $10/day childcare in Mount Pleasant, Vancouver.",
+    "rating": 0,
+    "capacity": 37
+  },
+  {
+    "id": "VA012",
+    "name": "Renfrew Park Childcare Centre",
+    "address": "Vancouver, BC",
+    "city": "Vancouver",
+    "lat": 49.2605,
+    "lng": -123.0408,
+    "ageGroups": [
+      "infant",
+      "toddler",
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": true,
+    "spotsAvailable": 0,
+    "phone": "",
+    "email": "",
+    "description": "Licensed $10/day childcare in Renfrew Park, Vancouver.",
+    "rating": 0,
+    "capacity": 87
+  },
+  {
+    "id": "VA013",
+    "name": "South Vancouver Family Place",
+    "address": "Vancouver, BC",
+    "city": "Vancouver",
+    "lat": 49.2148,
+    "lng": -123.0724,
+    "ageGroups": [
+      "infant",
+      "toddler",
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": true,
+    "spotsAvailable": 0,
+    "phone": "",
+    "email": "",
+    "description": "Licensed $10/day childcare in south Vancouver.",
+    "rating": 0,
+    "capacity": 37
+  },
+  {
+    "id": "VA015",
+    "name": "UBC Child Care Services",
+    "address": "2125 Main Mall, Vancouver, BC",
+    "city": "Vancouver",
+    "lat": 49.2606,
+    "lng": -123.246,
+    "ageGroups": [
+      "infant",
+      "toddler",
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": true,
+    "spotsAvailable": 0,
+    "phone": "",
+    "email": "",
+    "description": "UBC-operated $10/day childcare across multiple campus centres.",
+    "rating": 0,
+    "capacity": 100
+  },
+  {
+    "id": "RI001",
+    "name": "Brighouse Child Care Centre",
+    "address": "Richmond, BC",
+    "city": "Richmond",
+    "lat": 49.1666,
+    "lng": -123.1336,
+    "ageGroups": [
+      "infant",
+      "toddler",
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": true,
+    "spotsAvailable": 0,
+    "phone": "",
+    "email": "",
+    "description": "Licensed $10/day childcare in Brighouse, Richmond.",
+    "rating": 0,
+    "capacity": 37
+  },
+  {
+    "id": "RI002",
+    "name": "Richmond Caring Place Child Care",
+    "address": "Richmond, BC",
+    "city": "Richmond",
+    "lat": 49.1666,
+    "lng": -123.1336,
+    "ageGroups": [
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": true,
+    "spotsAvailable": 0,
+    "phone": "",
+    "email": "",
+    "description": "Licensed $10/day childcare at Richmond Caring Place.",
+    "rating": 0,
+    "capacity": 37
+  },
+  {
+    "id": "NV001",
+    "name": "Parkgate Community Centre Child Care",
+    "address": "North Vancouver, BC",
+    "city": "North Vancouver",
+    "lat": 49.3201,
+    "lng": -123.0724,
+    "ageGroups": [
+      "infant",
+      "toddler",
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": true,
+    "spotsAvailable": 0,
+    "phone": "",
+    "email": "",
+    "description": "Licensed $10/day childcare at Parkgate Community Centre, North Vancouver.",
+    "rating": 0,
+    "capacity": 87
+  },
+  {
+    "id": "NV002",
+    "name": "Capilano University Children's Centre",
+    "address": "North Vancouver, BC",
+    "city": "North Vancouver",
+    "lat": 49.3604,
+    "lng": -123.0132,
+    "ageGroups": [
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": true,
+    "spotsAvailable": 0,
+    "phone": "",
+    "email": "",
+    "description": "Licensed $10/day children's centre at Capilano University.",
+    "rating": 0,
+    "capacity": 37
+  },
+  {
+    "id": "VI001",
+    "name": "Arbutus Grove Children's Centre",
+    "address": "Victoria, BC",
+    "city": "Victoria",
+    "lat": 48.4284,
+    "lng": -123.3656,
+    "ageGroups": [
+      "infant",
+      "toddler",
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": true,
+    "spotsAvailable": 0,
+    "phone": "",
+    "email": "",
+    "description": "Licensed $10/day children's centre in Victoria.",
+    "rating": 0,
+    "capacity": 49
+  },
+  {
+    "id": "VI002",
+    "name": "Fairfield Place Childcare",
+    "address": "Victoria, BC",
+    "city": "Victoria",
+    "lat": 48.422,
+    "lng": -123.349,
+    "ageGroups": [
+      "infant",
+      "toddler",
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": true,
+    "spotsAvailable": 0,
+    "phone": "",
+    "email": "",
+    "description": "Licensed $10/day childcare in Fairfield, Victoria.",
+    "rating": 0,
+    "capacity": 37
+  },
+  {
+    "id": "VI003",
+    "name": "Parkdale Early Childhood Centre",
+    "address": "Victoria, BC",
+    "city": "Victoria",
+    "lat": 48.4284,
+    "lng": -123.3656,
+    "ageGroups": [
+      "infant",
+      "toddler",
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": true,
+    "spotsAvailable": 0,
+    "phone": "",
+    "email": "",
+    "description": "Licensed $10/day early childhood centre in Victoria.",
+    "rating": 0,
+    "capacity": 49
+  },
+  {
+    "id": "VI004",
+    "name": "Mary's Place Childcare Centre",
+    "address": "Victoria, BC",
+    "city": "Victoria",
+    "lat": 48.4284,
+    "lng": -123.3656,
+    "ageGroups": [
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": true,
+    "spotsAvailable": 0,
+    "phone": "",
+    "email": "",
+    "description": "Licensed $10/day childcare in Victoria.",
+    "rating": 0,
+    "capacity": 37
+  },
+  {
+    "id": "NA001",
+    "name": "Nanaimo Child Development Centre",
+    "address": "Nanaimo, BC",
+    "city": "Nanaimo",
+    "lat": 49.1659,
+    "lng": -123.9401,
+    "ageGroups": [
+      "infant",
+      "toddler",
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": true,
+    "spotsAvailable": 0,
+    "phone": "",
+    "email": "",
+    "description": "Licensed $10/day child development centre in Nanaimo.",
+    "rating": 0,
+    "capacity": 49
+  },
+  {
+    "id": "CR001",
+    "name": "Christian Life Children's Centre",
+    "address": "Campbell River, BC",
+    "city": "Campbell River",
+    "lat": 50.0163,
+    "lng": -125.2445,
+    "ageGroups": [
+      "infant",
+      "toddler",
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": true,
+    "spotsAvailable": 0,
+    "phone": "",
+    "email": "",
+    "description": "Licensed $10/day childcare in Campbell River.",
+    "rating": 0,
+    "capacity": 37
+  },
+  {
+    "id": "CR002",
+    "name": "Cari's Infant & Toddler Centre",
+    "address": "Campbell River, BC",
+    "city": "Campbell River",
+    "lat": 50.0163,
+    "lng": -125.2445,
+    "ageGroups": [
+      "infant",
+      "toddler"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": true,
+    "spotsAvailable": 0,
+    "phone": "",
+    "email": "",
+    "description": "Licensed $10/day infant and toddler care in Campbell River.",
+    "rating": 0,
+    "capacity": 24
+  },
+  {
+    "id": "KE001",
+    "name": "Okanagan Boys and Girls Club Child Care",
+    "address": "Kelowna, BC",
+    "city": "Kelowna",
+    "lat": 49.888,
+    "lng": -119.496,
+    "ageGroups": [
+      "infant",
+      "toddler",
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": true,
+    "spotsAvailable": 0,
+    "phone": "",
+    "email": "",
+    "description": "Boys and Girls Club $10/day childcare in Kelowna.",
+    "rating": 0,
+    "capacity": 109
+  },
+  {
+    "id": "KA001",
+    "name": "YMCA Child Care Kamloops",
+    "address": "Kamloops, BC",
+    "city": "Kamloops",
+    "lat": 50.6745,
+    "lng": -120.3273,
+    "ageGroups": [
+      "infant",
+      "toddler",
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": true,
+    "spotsAvailable": 0,
+    "phone": "",
+    "email": "",
+    "description": "YMCA-operated $10/day childcare in Kamloops.",
+    "rating": 0,
+    "capacity": 87
+  },
+  {
+    "id": "VE001",
+    "name": "Okanagan Boys and Girls Club Vernon",
+    "address": "Vernon, BC",
+    "city": "Vernon",
+    "lat": 50.2674,
+    "lng": -119.272,
+    "ageGroups": [
+      "infant",
+      "toddler",
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": true,
+    "spotsAvailable": 0,
+    "phone": "",
+    "email": "",
+    "description": "Boys and Girls Club $10/day childcare in Vernon.",
+    "rating": 0,
+    "capacity": 49
+  },
+  {
+    "id": "PG001",
+    "name": "Prince George YMCA Child Care",
+    "address": "Prince George, BC",
+    "city": "Prince George",
+    "lat": 53.9171,
+    "lng": -122.7497,
+    "ageGroups": [
+      "infant",
+      "toddler",
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": true,
+    "spotsAvailable": 0,
+    "phone": "",
+    "email": "",
+    "description": "YMCA-operated $10/day childcare in Prince George.",
+    "rating": 0,
+    "capacity": 87
+  },
+  {
+    "id": "TE001",
+    "name": "Terrace Child Development Centre",
+    "address": "Terrace, BC",
+    "city": "Terrace",
+    "lat": 54.5164,
+    "lng": -128.5987,
+    "ageGroups": [
+      "infant",
+      "toddler",
+      "preschool"
+    ],
+    "languages": [
+      "English"
+    ],
+    "scheduleType": "full-time",
+    "tenDollarDay": true,
+    "spotsAvailable": 0,
+    "phone": "",
+    "email": "",
+    "description": "Licensed $10/day child development centre in Terrace.",
+    "rating": 0,
+    "capacity": 49
   }
 ]

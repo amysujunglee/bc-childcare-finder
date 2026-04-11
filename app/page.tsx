@@ -65,15 +65,15 @@ export default function HomePage() {
       <section className="bg-primary-dark text-white py-10 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto grid grid-cols-3 gap-4 text-center">
           <div>
-            <p className="text-2xl sm:text-4xl font-serif font-bold mb-1">320+</p>
+            <p className="text-2xl sm:text-4xl font-serif font-bold mb-1">152</p>
             <p className="text-xs sm:text-sm text-gray-300">Licensed Centres</p>
           </div>
           <div>
-            <p className="text-2xl sm:text-4xl font-serif font-bold mb-1">12+</p>
+            <p className="text-2xl sm:text-4xl font-serif font-bold mb-1">24</p>
             <p className="text-xs sm:text-sm text-gray-300">Cities Covered</p>
           </div>
           <div>
-            <p className="text-2xl sm:text-4xl font-serif font-bold mb-1">85%</p>
+            <p className="text-2xl sm:text-4xl font-serif font-bold mb-1">62</p>
             <p className="text-xs sm:text-sm text-gray-300">$10/Day Programs</p>
           </div>
         </div>

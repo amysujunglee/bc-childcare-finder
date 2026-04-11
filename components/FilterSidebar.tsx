@@ -211,17 +211,23 @@ export default function FilterSidebar({
 
       {/* $10/Day */}
       <div className="mb-6">
-        <label className="flex items-center gap-2 cursor-not-allowed opacity-50">
+        <label className="flex items-center gap-2 cursor-pointer">
           <input
             type="checkbox"
-            disabled
-            className="w-4 h-4 rounded accent-primary-green"
+            checked={selectedTenDollarDay === true}
+            onChange={(e) =>
+              onFilterChange({
+                city: selectedCity,
+                ageGroups: selectedAgeGroups.length > 0 ? selectedAgeGroups : undefined,
+                scheduleTypes: selectedScheduleTypes.length > 0 ? selectedScheduleTypes : undefined,
+                language: selectedLanguage,
+                tenDollarDay: e.target.checked ? true : undefined,
+              })
+            }
+            className="w-4 h-4 rounded accent-primary-green cursor-pointer"
           />
           <span className="text-sm font-bold text-primary-dark">
             $10/Day Program Only
-          </span>
-          <span className="text-xs font-medium text-neutral-muted bg-neutral-border px-1.5 py-0.5 rounded-full">
-            Coming soon
           </span>
         </label>
       </div>

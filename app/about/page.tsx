@@ -33,6 +33,7 @@ const parentBenefits = [
     icon: '🤖',
     title: 'AI-Powered Guidance',
     description: 'Ask our AI assistant anything — which centres suit your child\'s age, what $10/Day eligibility means, or how to compare schedules.',
+    comingSoon: true,
   },
 ];
 
@@ -41,21 +42,25 @@ const providerBenefits = [
     icon: '📣',
     title: 'Reach More Families',
     description: 'Get discovered by parents actively searching for care in your area. No more relying solely on word-of-mouth or outdated directories.',
+    comingSoon: true,
   },
   {
     icon: '🗓️',
     title: 'Manage Spot Availability',
     description: 'Update your available spots in real time so families see accurate, up-to-date information — reducing phone tag and missed inquiries.',
+    comingSoon: true,
   },
   {
     icon: '📊',
     title: 'Provider Dashboard',
-    description: 'Track profile views, manage inquiries, and update your programme details all in one place — coming soon.',
+    description: 'Track profile views, manage inquiries, and update your programme details all in one place.',
+    comingSoon: true,
   },
   {
     icon: '✉️',
     title: 'Automated Notifications',
-    description: 'Notify waitlisted families the moment a spot opens. Save time and fill vacancies faster with email alerts — coming soon.',
+    description: 'Notify waitlisted families the moment a spot opens. Save time and fill vacancies faster with email alerts.',
+    comingSoon: true,
   },
 ];
 
@@ -141,7 +146,12 @@ export default function AboutPage() {
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
             {parentBenefits.map((b, i) => (
-              <div key={i} className="rounded-card border border-neutral-border p-6 bg-background hover:shadow-md transition">
+              <div key={i} className={`rounded-card border p-6 bg-background hover:shadow-md transition relative ${b.comingSoon ? 'border-neutral-border opacity-70' : 'border-neutral-border'}`}>
+                {b.comingSoon && (
+                  <span className="absolute top-4 right-4 text-xs font-medium bg-neutral-border text-neutral-muted px-2 py-0.5 rounded-full">
+                    Coming Soon
+                  </span>
+                )}
                 <span className="text-3xl mb-4 block" aria-hidden="true">{b.icon}</span>
                 <h3 className="font-serif font-bold text-primary-dark text-lg mb-2">{b.title}</h3>
                 <p className="text-neutral-muted text-sm leading-relaxed">{b.description}</p>
@@ -174,7 +184,10 @@ export default function AboutPage() {
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
             {providerBenefits.map((b, i) => (
-              <div key={i} className="rounded-card border border-neutral-border p-6 bg-white hover:shadow-md transition">
+              <div key={i} className="rounded-card border border-neutral-border p-6 bg-white hover:shadow-md transition relative opacity-70">
+                <span className="absolute top-4 right-4 text-xs font-medium bg-neutral-border text-neutral-muted px-2 py-0.5 rounded-full">
+                  Coming Soon
+                </span>
                 <span className="text-3xl mb-4 block" aria-hidden="true">{b.icon}</span>
                 <h3 className="font-serif font-bold text-primary-dark text-lg mb-2">{b.title}</h3>
                 <p className="text-neutral-muted text-sm leading-relaxed">{b.description}</p>

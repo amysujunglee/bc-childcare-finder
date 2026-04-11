@@ -140,18 +140,6 @@ export default function CentreDetail({ centre }: CentreDetailProps) {
                 </div>
               )}
 
-              <div className="bg-white rounded-card p-4 border border-neutral-border">
-                <h3 className="font-serif font-bold text-primary-dark mb-1 text-sm">
-                  Pricing
-                </h3>
-                <p className="text-neutral-muted text-sm mb-3">
-                  Contact the centre directly for current fee information.
-                </p>
-                <button className="w-full bg-primary-green text-white px-4 py-2.5 rounded-card hover:bg-opacity-90 transition font-medium text-sm">
-                  Inquire About Rates
-                </button>
-              </div>
-
               {centre.tenDollarDay && (
                 <div className="bg-green-50 rounded-card p-4 border border-primary-green">
                   <h3 className="font-serif font-bold text-primary-green mb-1 text-sm">
@@ -161,6 +149,14 @@ export default function CentreDetail({ centre }: CentreDetailProps) {
                     This centre participates in BC's $10/Day Childcare Program.
                     Eligible families may qualify for reduced fees.
                   </p>
+                  <a
+                    href="https://www2.gov.bc.ca/gov/content/family-social-supports/caring-for-young-children/childcarebc-programs/10-a-day-childcarebc-centres/10-a-day-centres-list"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-sm underline hover:text-primary-green transition"
+                  >
+                    View the official $10/Day centres list.
+                  </a>
                 </div>
               )}
             </div>
