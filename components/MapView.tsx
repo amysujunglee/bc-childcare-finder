@@ -178,11 +178,13 @@ export default function MapView({ centres, selectedCentreId, onCentreSelect, sea
   return (
     <>
       <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-      <div
-        ref={mapRef}
-        className="w-full rounded-card border border-neutral-border shadow-soft overflow-hidden"
-        style={{ height: '420px' }}
-      />
+      <div style={{ isolation: 'isolate' }}>
+        <div
+          ref={mapRef}
+          className="w-full rounded-card border border-neutral-border shadow-soft overflow-hidden"
+          style={{ height: '420px' }}
+        />
+      </div>
     </>
   );
 }

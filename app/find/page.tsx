@@ -1,68 +1,90 @@
-'use client';
+"use client";
 
-import { useState, useEffect, Suspense } from 'react';
-import { useSearchParams, useRouter } from 'next/navigation';
-import CentreCard from '@/components/CentreCard';
-import FilterSidebar from '@/components/FilterSidebar';
-import MapView from '@/components/MapView';
-import { centres, searchCentres, AgeGroup, ScheduleType } from '@/lib/mock-data';
+import { useState, useEffect, Suspense } from "react";
+import { useSearchParams, useRouter } from "next/navigation";
+import CentreCard from "@/components/CentreCard";
+import FilterSidebar from "@/components/FilterSidebar";
+import MapView from "@/components/MapView";
+import {
+  centres,
+  searchCentres,
+  AgeGroup,
+  ScheduleType,
+} from "@/lib/mock-data";
 
 function FindPageInner() {
   const searchParams = useSearchParams();
   const router = useRouter();
   const [displayedCentres, setDisplayedCentres] = useState(centres);
   const [selectedCity, setSelectedCity] = useState<string>();
-  const [selectedAgeGroup, setSelectedAgeGroup] = useState<AgeGroup>();
-  const [selectedScheduleType, setSelectedScheduleType] = useState<ScheduleType>();
+  const [selectedAgeGroups, setSelectedAgeGroups] = useState<AgeGroup[]>([]);
+  const [selectedScheduleTypes, setSelectedScheduleTypes] = useState<ScheduleType[]>([]);
   const [selectedLanguage, setSelectedLanguage] = useState<string>();
   const [selectedTenDollarDay, setSelectedTenDollarDay] = useState<boolean>();
   const [selectedCentreId, setSelectedCentreId] = useState<string>();
   const [scrollToCard, setScrollToCard] = useState<string>();
   const [filtersOpen, setFiltersOpen] = useState(false);
   const [filterKey, setFilterKey] = useState(0);
-  const [searchInput, setSearchInput] = useState(searchParams.get('search') ?? '');
+  const [searchInput, setSearchInput] = useState(
+    searchParams.get("search") ?? "",
+  );
 
   // Keep search input in sync with URL param
   useEffect(() => {
-    setSearchInput(searchParams.get('search') ?? '');
+    setSearchInput(searchParams.get("search") ?? "");
   }, [searchParams]);
 
   // Auto-select city dropdown when search query matches a known city
   useEffect(() => {
-    const searchQuery = searchParams.get('search');
+    const searchQuery = searchParams.get("search");
     if (!searchQuery) return;
     const matched = centres.find(
-      (c) => c.city.toLowerCase() === searchQuery.toLowerCase()
+      (c) => c.city.toLowerCase() === searchQuery.toLowerCase(),
     );
     if (matched) setSelectedCity(matched.city);
   }, [searchParams]);
 
   useEffect(() => {
-    const searchQuery = searchParams.get('search');
+    const searchQuery = searchParams.get("search");
     let filtered = searchQuery ? searchCentres(searchQuery) : centres;
 
     filtered = filtered.filter((c) => {
-      if (selectedCity && c.city.toLowerCase() !== selectedCity.toLowerCase()) return false;
-      if (selectedAgeGroup && !c.ageGroups.includes(selectedAgeGroup)) return false;
-      if (selectedScheduleType && c.scheduleType !== selectedScheduleType) return false;
-      if (selectedTenDollarDay !== undefined && c.tenDollarDay !== selectedTenDollarDay) return false;
-      if (selectedLanguage && !c.languages.includes(selectedLanguage)) return false;
+      if (selectedCity && c.city.toLowerCase() !== selectedCity.toLowerCase())
+        return false;
+      if (selectedAgeGroups.length > 0 && !selectedAgeGroups.some((ag) => c.ageGroups.includes(ag)))
+        return false;
+      if (selectedScheduleTypes.length > 0 && !selectedScheduleTypes.includes(c.scheduleType))
+        return false;
+      if (
+        selectedTenDollarDay !== undefined &&
+        c.tenDollarDay !== selectedTenDollarDay
+      )
+        return false;
+      if (selectedLanguage && !c.languages.includes(selectedLanguage))
+        return false;
       return true;
     });
 
     setDisplayedCentres(filtered);
-  }, [selectedCity, selectedAgeGroup, selectedScheduleType, selectedLanguage, selectedTenDollarDay, searchParams]);
+  }, [
+    selectedCity,
+    selectedAgeGroups,
+    selectedScheduleTypes,
+    selectedLanguage,
+    selectedTenDollarDay,
+    searchParams,
+  ]);
 
   const handleFilterChange = (filters: {
     city?: string;
-    ageGroup?: AgeGroup;
-    scheduleType?: ScheduleType;
+    ageGroups?: AgeGroup[];
+    scheduleTypes?: ScheduleType[];
     language?: string;
     tenDollarDay?: boolean;
   }) => {
     setSelectedCity(filters.city);
-    setSelectedAgeGroup(filters.ageGroup);
-    setSelectedScheduleType(filters.scheduleType);
+    setSelectedAgeGroups(filters.ageGroups ?? []);
+    setSelectedScheduleTypes(filters.scheduleTypes ?? []);
     setSelectedLanguage(filters.language);
     setSelectedTenDollarDay(filters.tenDollarDay);
 
@@ -70,7 +92,7 @@ function FindPageInner() {
     if (isReset) {
       setFilterKey((k) => k + 1);
     }
-    router.replace('/find');
+    router.replace("/find");
   };
 
   const handleSearch = (query: string) => {
@@ -79,7 +101,7 @@ function FindPageInner() {
     if (q) {
       router.replace(`/find?search=${encodeURIComponent(q)}`);
     } else {
-      router.replace('/find');
+      router.replace("/find");
     }
   };
 
@@ -88,12 +110,18 @@ function FindPageInner() {
     setScrollToCard(centreId);
   };
 
-  const activeFilterCount = [selectedCity, selectedAgeGroup, selectedScheduleType, selectedLanguage, selectedTenDollarDay].filter(Boolean).length;
+  const activeFilterCount = [
+    selectedCity,
+    ...selectedAgeGroups,
+    ...selectedScheduleTypes,
+    selectedLanguage,
+    selectedTenDollarDay,
+  ].filter(Boolean).length;
 
   const sidebarProps = {
     selectedCity,
-    selectedAgeGroup,
-    selectedScheduleType,
+    selectedAgeGroups,
+    selectedScheduleTypes,
     selectedLanguage,
     selectedTenDollarDay,
     searchQuery: searchInput,
@@ -103,7 +131,7 @@ function FindPageInner() {
 
   return (
     <div className="py-6 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div className="flex items-center justify-between mb-4">
+      <div className="flex items-start justify-between mb-4">
         <h1 className="text-2xl sm:text-3xl font-serif font-bold text-primary-dark">
           Find Childcare
         </h1>
@@ -113,8 +141,18 @@ function FindPageInner() {
           className="md:hidden flex items-center gap-2 text-sm font-medium bg-white border border-neutral-border px-3 py-2 rounded-card shadow-soft"
           onClick={() => setFiltersOpen(!filtersOpen)}
         >
-          <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 4h18M6 8h12M9 12h6" />
+          <svg
+            className="w-4 h-4"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2}
+              d="M3 4h18M6 8h12M9 12h6"
+            />
           </svg>
           Filters
           {activeFilterCount > 0 && (
@@ -128,7 +166,14 @@ function FindPageInner() {
       {/* Mobile Filter Drawer */}
       {filtersOpen && (
         <div className="md:hidden mb-6">
-          <FilterSidebar key={filterKey} {...sidebarProps} onFilterChange={(f) => { handleFilterChange(f); setFiltersOpen(false); }} />
+          <FilterSidebar
+            key={filterKey}
+            {...sidebarProps}
+            onFilterChange={(f) => {
+              handleFilterChange(f);
+              setFiltersOpen(false);
+            }}
+          />
         </div>
       )}
 
@@ -148,18 +193,48 @@ function FindPageInner() {
               centres={displayedCentres}
               selectedCentreId={selectedCentreId}
               onCentreSelect={handleMapPinClick}
-              searchQuery={searchParams.get('search') ?? undefined}
+              searchQuery={searchParams.get("search") ?? undefined}
             />
           </div>
 
           <div>
-            <h2 className="text-base font-serif font-bold text-primary-dark mb-4">
-              Available Centres ({displayedCentres.length})
-            </h2>
+            <div className="mb-4">
+              <div className="flex items-baseline justify-between">
+                <h2 className="text-base font-serif font-bold text-primary-dark">
+                  Available Centres ({displayedCentres.length})
+                </h2>
+                <p className="hidden sm:block text-xs text-neutral-muted">
+                  Data from{" "}
+                  <a
+                    href="https://www.fraserhealth.ca/health-topics-a-to-z/child-care/find-a-licensed-child-care-facility-near-you"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="underline hover:text-primary-dark transition"
+                  >
+                    Fraser Health Authority
+                  </a>
+                  {" "}· Updated Jan 6, 2026
+                </p>
+              </div>
+              <p className="sm:hidden text-xs text-neutral-muted mt-0.5">
+                Data from{" "}
+                <a
+                  href="https://www.fraserhealth.ca/health-topics-a-to-z/child-care/find-a-licensed-child-care-facility-near-you"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="underline hover:text-primary-dark transition"
+                >
+                  Fraser Health Authority
+                </a>
+                {" "}· Updated Jan 6, 2026
+              </p>
+            </div>
 
             {displayedCentres.length === 0 ? (
               <div className="bg-white rounded-card border border-neutral-border p-8 text-center">
-                <p className="text-neutral-muted mb-4">No daycares found matching your filters.</p>
+                <p className="text-neutral-muted mb-4">
+                  No daycares found matching your filters.
+                </p>
                 <button
                   onClick={() => handleFilterChange({})}
                   className="bg-primary-green text-white px-6 py-2 rounded-card hover:bg-opacity-90 transition font-medium text-sm"
@@ -173,9 +248,12 @@ function FindPageInner() {
                   <div
                     key={centre.id}
                     id={`centre-${centre.id}`}
-                    className={`transition ${scrollToCard === centre.id ? 'ring-2 ring-primary-green rounded-card' : ''}`}
+                    className={`transition ${scrollToCard === centre.id ? "ring-2 ring-primary-green rounded-card" : ""}`}
                   >
-                    <CentreCard centre={centre} onClick={() => setSelectedCentreId(centre.id)} />
+                    <CentreCard
+                      centre={centre}
+                      onClick={() => setSelectedCentreId(centre.id)}
+                    />
                   </div>
                 ))}
               </div>
@@ -189,7 +267,11 @@ function FindPageInner() {
 
 export default function FindPage() {
   return (
-    <Suspense fallback={<div className="py-16 text-center text-neutral-muted">Loading…</div>}>
+    <Suspense
+      fallback={
+        <div className="py-16 text-center text-neutral-muted">Loading…</div>
+      }
+    >
       <FindPageInner />
     </Suspense>
   );

@@ -9,16 +9,16 @@ import {
 
 interface FilterSidebarProps {
   selectedCity?: string;
-  selectedAgeGroup?: AgeGroup;
-  selectedScheduleType?: ScheduleType;
+  selectedAgeGroups?: AgeGroup[];
+  selectedScheduleTypes?: ScheduleType[];
   selectedLanguage?: string;
   selectedTenDollarDay?: boolean;
   searchQuery?: string;
   onSearch?: (query: string) => void;
   onFilterChange: (filters: {
     city?: string;
-    ageGroup?: AgeGroup;
-    scheduleType?: ScheduleType;
+    ageGroups?: AgeGroup[];
+    scheduleTypes?: ScheduleType[];
     language?: string;
     tenDollarDay?: boolean;
   }) => void;
@@ -26,8 +26,8 @@ interface FilterSidebarProps {
 
 export default function FilterSidebar({
   selectedCity,
-  selectedAgeGroup,
-  selectedScheduleType,
+  selectedAgeGroups = [],
+  selectedScheduleTypes = [],
   selectedLanguage,
   selectedTenDollarDay,
   searchQuery = '',
@@ -52,8 +52,8 @@ export default function FilterSidebar({
   const handleReset = () => {
     onFilterChange({
       city: undefined,
-      ageGroup: undefined,
-      scheduleType: undefined,
+      ageGroups: undefined,
+      scheduleTypes: undefined,
       language: undefined,
       tenDollarDay: undefined,
     });
@@ -94,8 +94,8 @@ export default function FilterSidebar({
             onChange={(e) =>
               onFilterChange({
                 city: e.target.value || undefined,
-                ageGroup: selectedAgeGroup,
-                scheduleType: selectedScheduleType,
+                ageGroups: selectedAgeGroups.length > 0 ? selectedAgeGroups : undefined,
+                scheduleTypes: selectedScheduleTypes.length > 0 ? selectedScheduleTypes : undefined,
                 language: selectedLanguage,
                 tenDollarDay: selectedTenDollarDay,
               })
@@ -125,16 +125,19 @@ export default function FilterSidebar({
             <label key={value} className="flex items-center">
               <input
                 type="checkbox"
-                checked={selectedAgeGroup === value}
-                onChange={(e) =>
+                checked={selectedAgeGroups.includes(value)}
+                onChange={(e) => {
+                  const updated = e.target.checked
+                    ? [...selectedAgeGroups, value]
+                    : selectedAgeGroups.filter((ag) => ag !== value);
                   onFilterChange({
                     city: selectedCity,
-                    ageGroup: e.target.checked ? value : undefined,
-                    scheduleType: selectedScheduleType,
+                    ageGroups: updated.length > 0 ? updated : undefined,
+                    scheduleTypes: selectedScheduleTypes.length > 0 ? selectedScheduleTypes : undefined,
                     language: selectedLanguage,
                     tenDollarDay: selectedTenDollarDay,
-                  })
-                }
+                  });
+                }}
                 className="w-4 h-4 rounded accent-primary-green cursor-pointer"
               />
               <span className="ml-2 text-sm text-primary-dark">{label}</span>
@@ -153,16 +156,19 @@ export default function FilterSidebar({
             <label key={value} className="flex items-center">
               <input
                 type="checkbox"
-                checked={selectedScheduleType === value}
-                onChange={(e) =>
+                checked={selectedScheduleTypes.includes(value)}
+                onChange={(e) => {
+                  const updated = e.target.checked
+                    ? [...selectedScheduleTypes, value]
+                    : selectedScheduleTypes.filter((s) => s !== value);
                   onFilterChange({
                     city: selectedCity,
-                    ageGroup: selectedAgeGroup,
-                    scheduleType: e.target.checked ? value : undefined,
+                    ageGroups: selectedAgeGroups.length > 0 ? selectedAgeGroups : undefined,
+                    scheduleTypes: updated.length > 0 ? updated : undefined,
                     language: selectedLanguage,
                     tenDollarDay: selectedTenDollarDay,
-                  })
-                }
+                  });
+                }}
                 className="w-4 h-4 rounded accent-primary-green cursor-pointer"
               />
               <span className="ml-2 text-sm text-primary-dark">{label}</span>
@@ -182,8 +188,8 @@ export default function FilterSidebar({
             onChange={(e) =>
               onFilterChange({
                 city: selectedCity,
-                ageGroup: selectedAgeGroup,
-                scheduleType: selectedScheduleType,
+                ageGroups: selectedAgeGroups.length > 0 ? selectedAgeGroups : undefined,
+                scheduleTypes: selectedScheduleTypes.length > 0 ? selectedScheduleTypes : undefined,
                 language: e.target.value || undefined,
                 tenDollarDay: selectedTenDollarDay,
               })
@@ -205,23 +211,17 @@ export default function FilterSidebar({
 
       {/* $10/Day */}
       <div className="mb-6">
-        <label className="flex items-center">
+        <label className="flex items-center gap-2 cursor-not-allowed opacity-50">
           <input
             type="checkbox"
-            checked={selectedTenDollarDay || false}
-            onChange={(e) =>
-              onFilterChange({
-                city: selectedCity,
-                ageGroup: selectedAgeGroup,
-                scheduleType: selectedScheduleType,
-                language: selectedLanguage,
-                tenDollarDay: e.target.checked || undefined,
-              })
-            }
-            className="w-4 h-4 rounded accent-primary-green cursor-pointer"
+            disabled
+            className="w-4 h-4 rounded accent-primary-green"
           />
-          <span className="ml-2 text-sm font-bold text-primary-dark">
+          <span className="text-sm font-bold text-primary-dark">
             $10/Day Program Only
+          </span>
+          <span className="text-xs font-medium text-neutral-muted bg-neutral-border px-1.5 py-0.5 rounded-full">
+            Coming soon
           </span>
         </label>
       </div>
