@@ -2043,54 +2043,6 @@
   },
   {
     "id": "89",
-    "name": "Kinder Kampus - Eagle Mountain Middle School",
-    "address": "110 Dogwood Dr",
-    "city": "Anmore",
-    "lat": 49.2997555,
-    "lng": -122.8396457,
-    "ageGroups": [
-      "infant",
-      "toddler",
-      "preschool"
-    ],
-    "languages": [
-      "English"
-    ],
-    "scheduleType": "full-time",
-    "tenDollarDay": false,
-    "spotsAvailable": 0,
-    "phone": "778-980-0711",
-    "email": "",
-    "description": "Full-service Kinder Kampus licensed childcare at Eagle Mountain Middle School in Anmore.",
-    "rating": 0,
-    "capacity": 63
-  },
-  {
-    "id": "90",
-    "name": "Anmore Kidos",
-    "address": "1005 Robin Way",
-    "city": "Anmore",
-    "lat": 49.3009763,
-    "lng": -122.8361109,
-    "ageGroups": [
-      "infant",
-      "toddler",
-      "preschool"
-    ],
-    "languages": [
-      "English"
-    ],
-    "scheduleType": "full-time",
-    "tenDollarDay": false,
-    "spotsAvailable": 0,
-    "phone": "604-537-1974",
-    "email": "",
-    "description": "Small licensed family childcare in Anmore serving infants, toddlers, and preschoolers.",
-    "rating": 0,
-    "capacity": 7
-  },
-  {
-    "id": "91",
     "name": "Eagle's Nest Early Learning Centre",
     "address": "Abbotsford, BC",
     "city": "Abbotsford",
@@ -2114,7 +2066,7 @@
     "capacity": 98
   },
   {
-    "id": "92",
+    "id": "90",
     "name": "First Step Daycare Centre",
     "address": "Abbotsford, BC",
     "city": "Abbotsford",
@@ -2138,7 +2090,7 @@
     "capacity": 65
   },
   {
-    "id": "93",
+    "id": "91",
     "name": "New Beginnings Daycare – Mouat Drive",
     "address": "Abbotsford, BC",
     "city": "Abbotsford",
@@ -2161,79 +2113,7 @@
     "capacity": 32
   },
   {
-    "id": "94",
-    "name": "ELCC One Village Childcare",
-    "address": "Chilliwack, BC",
-    "city": "Chilliwack",
-    "lat": 49.1579,
-    "lng": -121.9514,
-    "ageGroups": [
-      "infant",
-      "toddler",
-      "preschool"
-    ],
-    "languages": [
-      "English"
-    ],
-    "scheduleType": "full-time",
-    "tenDollarDay": true,
-    "spotsAvailable": 0,
-    "phone": "",
-    "email": "",
-    "description": "Licensed $10/day childcare in Chilliwack serving infants, toddlers, and preschoolers.",
-    "rating": 0,
-    "capacity": 46
-  },
-  {
-    "id": "95",
-    "name": "Elm Drive YMCA Child Care",
-    "address": "Chilliwack, BC",
-    "city": "Chilliwack",
-    "lat": 49.1579,
-    "lng": -121.9514,
-    "ageGroups": [
-      "infant",
-      "toddler",
-      "preschool"
-    ],
-    "languages": [
-      "English"
-    ],
-    "scheduleType": "full-time",
-    "tenDollarDay": true,
-    "spotsAvailable": 0,
-    "phone": "",
-    "email": "",
-    "description": "YMCA-operated $10/day childcare in Chilliwack.",
-    "rating": 0,
-    "capacity": 37
-  },
-  {
-    "id": "96",
-    "name": "Growing Naturally In-Home Multi-Age",
-    "address": "Chilliwack, BC",
-    "city": "Chilliwack",
-    "lat": 49.1579,
-    "lng": -121.9514,
-    "ageGroups": [
-      "infant",
-      "toddler",
-      "preschool"
-    ],
-    "languages": [
-      "English"
-    ],
-    "scheduleType": "full-time",
-    "tenDollarDay": true,
-    "spotsAvailable": 0,
-    "phone": "",
-    "email": "",
-    "description": "Licensed $10/day in-home multi-age childcare in Chilliwack.",
-    "rating": 0,
-    "capacity": 7
-  },
-  {
-    "id": "97",
+    "id": "92",
     "name": "Covenant Kids Christian Daycare",
     "address": "Langley, BC",
     "city": "Langley",
@@ -2257,7 +2137,7 @@
     "capacity": 46
   },
   {
-    "id": "98",
+    "id": "93",
     "name": "Donna Gabriel Robins YMCA",
     "address": "Langley, BC",
     "city": "Langley",
@@ -2279,7 +2159,7 @@
     "capacity": 79
   },
   {
-    "id": "99",
+    "id": "94",
     "name": "Fort Langley Learning Centre",
     "address": "Langley, BC",
     "city": "Langley",
@@ -2301,7 +2181,7 @@
     "capacity": 58
   },
   {
-    "id": "100",
+    "id": "95",
     "name": "New Generations Early Learning",
     "address": "Langley, BC",
     "city": "Langley",
@@ -2325,7 +2205,7 @@
     "capacity": 28
   },
   {
-    "id": "101",
+    "id": "96",
     "name": "Sonshine Street Preschool",
     "address": "Langley, BC",
     "city": "Langley",
@@ -2349,7 +2229,7 @@
     "capacity": 70
   },
   {
-    "id": "102",
+    "id": "97",
     "name": "Albion Good Beginnings",
     "address": "Maple Ridge, BC",
     "city": "Maple Ridge",
@@ -2373,7 +2253,7 @@
     "capacity": 7
   },
   {
-    "id": "103",
+    "id": "98",
     "name": "Albion YMCA",
     "address": "Maple Ridge, BC",
     "city": "Maple Ridge",
@@ -2395,7 +2275,7 @@
     "capacity": 24
   },
   {
-    "id": "104",
+    "id": "99",
     "name": "Under the Tree Childcare",
     "address": "Maple Ridge, BC",
     "city": "Maple Ridge",
@@ -2419,7 +2299,7 @@
     "capacity": 76
   },
   {
-    "id": "105",
+    "id": "100",
     "name": "Heritage Park Childcare",
     "address": "Mission, BC",
     "city": "Mission",
@@ -2443,7 +2323,7 @@
     "capacity": 37
   },
   {
-    "id": "106",
+    "id": "101",
     "name": "Discovery Playhouse",
     "address": "Pitt Meadows, BC",
     "city": "Pitt Meadows",
@@ -2465,7 +2345,7 @@
     "capacity": 107
   },
   {
-    "id": "107",
+    "id": "102",
     "name": "Bee Daycare",
     "address": "Burnaby, BC",
     "city": "Burnaby",
@@ -2488,7 +2368,7 @@
     "capacity": 8
   },
   {
-    "id": "108",
+    "id": "103",
     "name": "Brentwood Nursery School",
     "address": "Burnaby, BC",
     "city": "Burnaby",
@@ -2510,7 +2390,7 @@
     "capacity": 80
   },
   {
-    "id": "109",
+    "id": "104",
     "name": "Burnaby South Child Care",
     "address": "Burnaby, BC",
     "city": "Burnaby",
@@ -2533,7 +2413,7 @@
     "capacity": 24
   },
   {
-    "id": "110",
+    "id": "105",
     "name": "Cascade Heights YMCA",
     "address": "Burnaby, BC",
     "city": "Burnaby",
@@ -2557,7 +2437,7 @@
     "capacity": 91
   },
   {
-    "id": "111",
+    "id": "106",
     "name": "Fairhaven Children's Centre",
     "address": "Burnaby, BC",
     "city": "Burnaby",
@@ -2581,7 +2461,7 @@
     "capacity": 37
   },
   {
-    "id": "112",
+    "id": "107",
     "name": "Animal Crackers #7",
     "address": "Burnaby, BC",
     "city": "Burnaby",
@@ -2603,7 +2483,7 @@
     "capacity": 34
   },
   {
-    "id": "113",
+    "id": "108",
     "name": "Animal Crackers #9",
     "address": "Burnaby, BC",
     "city": "Burnaby",
@@ -2625,7 +2505,7 @@
     "capacity": 56
   },
   {
-    "id": "114",
+    "id": "109",
     "name": "Happy Castle Child Care",
     "address": "Burnaby, BC",
     "city": "Burnaby",
@@ -2649,7 +2529,7 @@
     "capacity": 8
   },
   {
-    "id": "115",
+    "id": "110",
     "name": "Little Bright Minds",
     "address": "Burnaby, BC",
     "city": "Burnaby",
@@ -2671,7 +2551,7 @@
     "capacity": 36
   },
   {
-    "id": "116",
+    "id": "111",
     "name": "K.I.D.S. Childcare – Victoria Hill",
     "address": "New Westminster, BC",
     "city": "New Westminster",
@@ -2695,7 +2575,7 @@
     "capacity": 62
   },
   {
-    "id": "117",
+    "id": "112",
     "name": "Kids Zone Family Daycare",
     "address": "New Westminster, BC",
     "city": "New Westminster",
@@ -2719,7 +2599,7 @@
     "capacity": 7
   },
   {
-    "id": "118",
+    "id": "113",
     "name": "Queensborough Kids Child Care",
     "address": "New Westminster, BC",
     "city": "New Westminster",
@@ -2743,7 +2623,7 @@
     "capacity": 0
   },
   {
-    "id": "119",
+    "id": "114",
     "name": "Cloverdale Mini-Rec",
     "address": "Surrey, BC",
     "city": "Surrey",
@@ -2765,7 +2645,7 @@
     "capacity": 16
   },
   {
-    "id": "120",
+    "id": "115",
     "name": "GCA Montessori",
     "address": "Surrey, BC",
     "city": "Surrey",
@@ -2789,7 +2669,7 @@
     "capacity": 62
   },
   {
-    "id": "121",
+    "id": "116",
     "name": "YMCA City Hall Child Care",
     "address": "Surrey, BC",
     "city": "Surrey",
@@ -2813,7 +2693,7 @@
     "capacity": 37
   },
   {
-    "id": "122",
+    "id": "117",
     "name": "Young Climbers Childcare",
     "address": "Surrey, BC",
     "city": "Surrey",
@@ -2837,7 +2717,7 @@
     "capacity": 108
   },
   {
-    "id": "123",
+    "id": "118",
     "name": "Acadia Day Care",
     "address": "Vancouver, BC",
     "city": "Vancouver",
@@ -2859,7 +2739,7 @@
     "capacity": 25
   },
   {
-    "id": "124",
+    "id": "119",
     "name": "Atelier Children's Centre",
     "address": "Vancouver, BC",
     "city": "Vancouver",
@@ -2883,7 +2763,7 @@
     "capacity": 37
   },
   {
-    "id": "125",
+    "id": "120",
     "name": "Bayshore Gardens",
     "address": "Vancouver, BC",
     "city": "Vancouver",
@@ -2907,7 +2787,7 @@
     "capacity": 49
   },
   {
-    "id": "126",
+    "id": "121",
     "name": "Beach YMCA",
     "address": "Vancouver, BC",
     "city": "Vancouver",
@@ -2931,7 +2811,7 @@
     "capacity": 37
   },
   {
-    "id": "127",
+    "id": "122",
     "name": "Berwick Child Development",
     "address": "Vancouver, BC",
     "city": "Vancouver",
@@ -2953,7 +2833,7 @@
     "capacity": 80
   },
   {
-    "id": "128",
+    "id": "123",
     "name": "Emma's Early Learning",
     "address": "Vancouver, BC",
     "city": "Vancouver",
@@ -2976,7 +2856,7 @@
     "capacity": 26
   },
   {
-    "id": "129",
+    "id": "124",
     "name": "Fraserview Child Development",
     "address": "Vancouver, BC",
     "city": "Vancouver",
@@ -3000,7 +2880,7 @@
     "capacity": 68
   },
   {
-    "id": "130",
+    "id": "125",
     "name": "Charleson Children's Centre",
     "address": "Vancouver, BC",
     "city": "Vancouver",
@@ -3024,7 +2904,7 @@
     "capacity": 37
   },
   {
-    "id": "131",
+    "id": "126",
     "name": "Collingwood Neighbourhood House",
     "address": "Vancouver, BC",
     "city": "Vancouver",
@@ -3048,7 +2928,7 @@
     "capacity": 87
   },
   {
-    "id": "132",
+    "id": "127",
     "name": "Creekside Child Development Centre",
     "address": "Vancouver, BC",
     "city": "Vancouver",
@@ -3072,7 +2952,7 @@
     "capacity": 49
   },
   {
-    "id": "133",
+    "id": "128",
     "name": "Mount Pleasant Child Care Society",
     "address": "Vancouver, BC",
     "city": "Vancouver",
@@ -3094,7 +2974,7 @@
     "capacity": 37
   },
   {
-    "id": "134",
+    "id": "129",
     "name": "Renfrew Park Childcare Centre",
     "address": "Vancouver, BC",
     "city": "Vancouver",
@@ -3118,7 +2998,7 @@
     "capacity": 87
   },
   {
-    "id": "135",
+    "id": "130",
     "name": "South Vancouver Family Place",
     "address": "Vancouver, BC",
     "city": "Vancouver",
@@ -3142,7 +3022,7 @@
     "capacity": 37
   },
   {
-    "id": "136",
+    "id": "131",
     "name": "UBC Child Care Services",
     "address": "2125 Main Mall, Vancouver, BC",
     "city": "Vancouver",
@@ -3166,7 +3046,7 @@
     "capacity": 100
   },
   {
-    "id": "137",
+    "id": "132",
     "name": "Brighouse Child Care Centre",
     "address": "Richmond, BC",
     "city": "Richmond",
@@ -3190,7 +3070,7 @@
     "capacity": 37
   },
   {
-    "id": "138",
+    "id": "133",
     "name": "Richmond Caring Place Child Care",
     "address": "Richmond, BC",
     "city": "Richmond",
@@ -3212,7 +3092,7 @@
     "capacity": 37
   },
   {
-    "id": "139",
+    "id": "134",
     "name": "Parkgate Community Centre Child Care",
     "address": "North Vancouver, BC",
     "city": "North Vancouver",
@@ -3236,7 +3116,7 @@
     "capacity": 87
   },
   {
-    "id": "140",
+    "id": "135",
     "name": "Capilano University Children's Centre",
     "address": "North Vancouver, BC",
     "city": "North Vancouver",
@@ -3256,290 +3136,5 @@
     "description": "Licensed $10/day children's centre at Capilano University.",
     "rating": 0,
     "capacity": 37
-  },
-  {
-    "id": "141",
-    "name": "Arbutus Grove Children's Centre",
-    "address": "Victoria, BC",
-    "city": "Victoria",
-    "lat": 48.4284,
-    "lng": -123.3656,
-    "ageGroups": [
-      "infant",
-      "toddler",
-      "preschool"
-    ],
-    "languages": [
-      "English"
-    ],
-    "scheduleType": "full-time",
-    "tenDollarDay": true,
-    "spotsAvailable": 0,
-    "phone": "",
-    "email": "",
-    "description": "Licensed $10/day children's centre in Victoria.",
-    "rating": 0,
-    "capacity": 49
-  },
-  {
-    "id": "142",
-    "name": "Fairfield Place Childcare",
-    "address": "Victoria, BC",
-    "city": "Victoria",
-    "lat": 48.422,
-    "lng": -123.349,
-    "ageGroups": [
-      "infant",
-      "toddler",
-      "preschool"
-    ],
-    "languages": [
-      "English"
-    ],
-    "scheduleType": "full-time",
-    "tenDollarDay": true,
-    "spotsAvailable": 0,
-    "phone": "",
-    "email": "",
-    "description": "Licensed $10/day childcare in Fairfield, Victoria.",
-    "rating": 0,
-    "capacity": 37
-  },
-  {
-    "id": "143",
-    "name": "Parkdale Early Childhood Centre",
-    "address": "Victoria, BC",
-    "city": "Victoria",
-    "lat": 48.4284,
-    "lng": -123.3656,
-    "ageGroups": [
-      "infant",
-      "toddler",
-      "preschool"
-    ],
-    "languages": [
-      "English"
-    ],
-    "scheduleType": "full-time",
-    "tenDollarDay": true,
-    "spotsAvailable": 0,
-    "phone": "",
-    "email": "",
-    "description": "Licensed $10/day early childhood centre in Victoria.",
-    "rating": 0,
-    "capacity": 49
-  },
-  {
-    "id": "144",
-    "name": "Mary's Place Childcare Centre",
-    "address": "Victoria, BC",
-    "city": "Victoria",
-    "lat": 48.4284,
-    "lng": -123.3656,
-    "ageGroups": [
-      "preschool"
-    ],
-    "languages": [
-      "English"
-    ],
-    "scheduleType": "full-time",
-    "tenDollarDay": true,
-    "spotsAvailable": 0,
-    "phone": "",
-    "email": "",
-    "description": "Licensed $10/day childcare in Victoria.",
-    "rating": 0,
-    "capacity": 37
-  },
-  {
-    "id": "145",
-    "name": "Nanaimo Child Development Centre",
-    "address": "Nanaimo, BC",
-    "city": "Nanaimo",
-    "lat": 49.1659,
-    "lng": -123.9401,
-    "ageGroups": [
-      "infant",
-      "toddler",
-      "preschool"
-    ],
-    "languages": [
-      "English"
-    ],
-    "scheduleType": "full-time",
-    "tenDollarDay": true,
-    "spotsAvailable": 0,
-    "phone": "",
-    "email": "",
-    "description": "Licensed $10/day child development centre in Nanaimo.",
-    "rating": 0,
-    "capacity": 49
-  },
-  {
-    "id": "146",
-    "name": "Christian Life Children's Centre",
-    "address": "Campbell River, BC",
-    "city": "Campbell River",
-    "lat": 50.0163,
-    "lng": -125.2445,
-    "ageGroups": [
-      "infant",
-      "toddler",
-      "preschool"
-    ],
-    "languages": [
-      "English"
-    ],
-    "scheduleType": "full-time",
-    "tenDollarDay": true,
-    "spotsAvailable": 0,
-    "phone": "",
-    "email": "",
-    "description": "Licensed $10/day childcare in Campbell River.",
-    "rating": 0,
-    "capacity": 37
-  },
-  {
-    "id": "147",
-    "name": "Cari's Infant & Toddler Centre",
-    "address": "Campbell River, BC",
-    "city": "Campbell River",
-    "lat": 50.0163,
-    "lng": -125.2445,
-    "ageGroups": [
-      "infant",
-      "toddler"
-    ],
-    "languages": [
-      "English"
-    ],
-    "scheduleType": "full-time",
-    "tenDollarDay": true,
-    "spotsAvailable": 0,
-    "phone": "",
-    "email": "",
-    "description": "Licensed $10/day infant and toddler care in Campbell River.",
-    "rating": 0,
-    "capacity": 24
-  },
-  {
-    "id": "148",
-    "name": "Okanagan Boys and Girls Club Child Care",
-    "address": "Kelowna, BC",
-    "city": "Kelowna",
-    "lat": 49.888,
-    "lng": -119.496,
-    "ageGroups": [
-      "infant",
-      "toddler",
-      "preschool"
-    ],
-    "languages": [
-      "English"
-    ],
-    "scheduleType": "full-time",
-    "tenDollarDay": true,
-    "spotsAvailable": 0,
-    "phone": "",
-    "email": "",
-    "description": "Boys and Girls Club $10/day childcare in Kelowna.",
-    "rating": 0,
-    "capacity": 109
-  },
-  {
-    "id": "149",
-    "name": "YMCA Child Care Kamloops",
-    "address": "Kamloops, BC",
-    "city": "Kamloops",
-    "lat": 50.6745,
-    "lng": -120.3273,
-    "ageGroups": [
-      "infant",
-      "toddler",
-      "preschool"
-    ],
-    "languages": [
-      "English"
-    ],
-    "scheduleType": "full-time",
-    "tenDollarDay": true,
-    "spotsAvailable": 0,
-    "phone": "",
-    "email": "",
-    "description": "YMCA-operated $10/day childcare in Kamloops.",
-    "rating": 0,
-    "capacity": 87
-  },
-  {
-    "id": "150",
-    "name": "Okanagan Boys and Girls Club Vernon",
-    "address": "Vernon, BC",
-    "city": "Vernon",
-    "lat": 50.2674,
-    "lng": -119.272,
-    "ageGroups": [
-      "infant",
-      "toddler",
-      "preschool"
-    ],
-    "languages": [
-      "English"
-    ],
-    "scheduleType": "full-time",
-    "tenDollarDay": true,
-    "spotsAvailable": 0,
-    "phone": "",
-    "email": "",
-    "description": "Boys and Girls Club $10/day childcare in Vernon.",
-    "rating": 0,
-    "capacity": 49
-  },
-  {
-    "id": "151",
-    "name": "Prince George YMCA Child Care",
-    "address": "Prince George, BC",
-    "city": "Prince George",
-    "lat": 53.9171,
-    "lng": -122.7497,
-    "ageGroups": [
-      "infant",
-      "toddler",
-      "preschool"
-    ],
-    "languages": [
-      "English"
-    ],
-    "scheduleType": "full-time",
-    "tenDollarDay": true,
-    "spotsAvailable": 0,
-    "phone": "",
-    "email": "",
-    "description": "YMCA-operated $10/day childcare in Prince George.",
-    "rating": 0,
-    "capacity": 87
-  },
-  {
-    "id": "152",
-    "name": "Terrace Child Development Centre",
-    "address": "Terrace, BC",
-    "city": "Terrace",
-    "lat": 54.5164,
-    "lng": -128.5987,
-    "ageGroups": [
-      "infant",
-      "toddler",
-      "preschool"
-    ],
-    "languages": [
-      "English"
-    ],
-    "scheduleType": "full-time",
-    "tenDollarDay": true,
-    "spotsAvailable": 0,
-    "phone": "",
-    "email": "",
-    "description": "Licensed $10/day child development centre in Terrace.",
-    "rating": 0,
-    "capacity": 49
   }
 ]
