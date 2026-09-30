@@ -4,8 +4,8 @@
     "name": "A & B Daycare",
     "address": "6436 Malvern Ave",
     "city": "Burnaby",
-    "lat": 49.2488,
-    "lng": -122.9805,
+    "lat": 49.2274241,
+    "lng": -122.9564742,
     "ageGroups": [
       "infant",
       "toddler"
@@ -27,8 +27,8 @@
     "name": "A & B Early Learning Centre",
     "address": "6327 Berwick Ct",
     "city": "Burnaby",
-    "lat": 49.2488,
-    "lng": -122.9805,
+    "lat": 49.2277912,
+    "lng": -122.9714279,
     "ageGroups": [
       "infant",
       "toddler"
@@ -50,8 +50,8 @@
     "name": "A Miracle Childcare",
     "address": "6655 E Georgia St",
     "city": "Burnaby",
-    "lat": 49.2488,
-    "lng": -122.9805,
+    "lat": 49.2788637,
+    "lng": -122.966773,
     "ageGroups": [
       "infant",
       "toddler"
@@ -73,8 +73,8 @@
     "name": "Angels Playhouse Infant & Toddler Child Care Centre",
     "address": "103 - 7339 MacPherson Ave",
     "city": "Burnaby",
-    "lat": 49.2488,
-    "lng": -122.9805,
+    "lat": 49.2170683,
+    "lng": -122.9835466,
     "ageGroups": [
       "infant",
       "toddler"
@@ -96,8 +96,8 @@
     "name": "Burnaby Lake Childcare",
     "address": "4578 Brentlawn Dr",
     "city": "Burnaby",
-    "lat": 49.2488,
-    "lng": -122.9805,
+    "lat": 49.2698784,
+    "lng": -123.0004621,
     "ageGroups": [
       "infant",
       "toddler"
@@ -119,8 +119,8 @@
     "name": "SFU Childcare Society (IT Program)",
     "address": "8888 University Dr",
     "city": "Burnaby",
-    "lat": 49.2788,
-    "lng": -122.9197,
+    "lat": 49.2765366,
+    "lng": -122.9183297,
     "ageGroups": [
       "infant",
       "toddler"
@@ -142,8 +142,8 @@
     "name": "Weave Childcare Centre",
     "address": "3905 Norland Ave",
     "city": "Burnaby",
-    "lat": 49.2488,
-    "lng": -122.9805,
+    "lat": 49.2493266,
+    "lng": -122.9754613,
     "ageGroups": [
       "infant",
       "toddler"
@@ -165,8 +165,8 @@
     "name": "ABC Academy - Children's Learning Center Ltd",
     "address": "3830 Sunset St",
     "city": "Burnaby",
-    "lat": 49.2488,
-    "lng": -122.9805,
+    "lat": 49.2496419,
+    "lng": -123.0190812,
     "ageGroups": [
       "preschool"
     ],
@@ -187,8 +187,8 @@
     "name": "Burnaby Montessori School Ltd",
     "address": "5489 Kingsway",
     "city": "Burnaby",
-    "lat": 49.2488,
-    "lng": -122.9805,
+    "lat": 49.2236006,
+    "lng": -122.9843727,
     "ageGroups": [
       "preschool"
     ],
@@ -209,8 +209,8 @@
     "name": "Capitol Hill Children's Centre",
     "address": "5750 Pandora St",
     "city": "Burnaby",
-    "lat": 49.2488,
-    "lng": -122.9805,
+    "lat": 49.2814555,
+    "lng": -122.9795368,
     "ageGroups": [
       "preschool"
     ],
@@ -231,8 +231,8 @@
     "name": "Cariboo Kids Daycare",
     "address": "7200 Cariboo Rd",
     "city": "Burnaby",
-    "lat": 49.2488,
-    "lng": -122.9805,
+    "lat": 49.2442496,
+    "lng": -122.9085529,
     "ageGroups": [
       "preschool"
     ],
@@ -253,8 +253,8 @@
     "name": "Jellybean Park Junior Campus",
     "address": "2110 - 4700 Kingsway",
     "city": "Burnaby",
-    "lat": 49.2488,
-    "lng": -122.9805,
+    "lat": 49.2268212,
+    "lng": -123.0011848,
     "ageGroups": [
       "preschool"
     ],
@@ -275,8 +275,8 @@
     "name": "Next Prep Academy",
     "address": "4838 Hastings St",
     "city": "Burnaby",
-    "lat": 49.2488,
-    "lng": -122.9805,
+    "lat": 49.2806719,
+    "lng": -122.9940602,
     "ageGroups": [
       "preschool"
     ],
@@ -297,8 +297,8 @@
     "name": "UniverCity Childcare",
     "address": "9075 Highland Ct",
     "city": "Burnaby",
-    "lat": 49.2788,
-    "lng": -122.9197,
+    "lat": 49.2790005,
+    "lng": -122.90904,
     "ageGroups": [
       "preschool"
     ],
@@ -319,8 +319,8 @@
     "name": "Brentwood Preschool Society",
     "address": "1455A Delta Ave",
     "city": "Burnaby",
-    "lat": 49.2488,
-    "lng": -122.9805,
+    "lat": 49.2714516,
+    "lng": -122.9922151,
     "ageGroups": [
       "preschool"
     ],
@@ -341,8 +341,8 @@
     "name": "Burnaby French Language Preschool",
     "address": "6060 Marlborough Ave",
     "city": "Burnaby",
-    "lat": 49.2488,
-    "lng": -122.9805,
+    "lat": 49.229787,
+    "lng": -122.9914661,
     "ageGroups": [
       "preschool"
     ],
@@ -364,8 +364,8 @@
     "name": "A & B Childcare Centre",
     "address": "6620 Colborne Ave",
     "city": "Burnaby",
-    "lat": 49.2488,
-    "lng": -122.9805,
+    "lat": 49.2238168,
+    "lng": -122.9704105,
     "ageGroups": [
       "infant",
       "toddler",
@@ -388,8 +388,8 @@
     "name": "Harmony Family Childcare",
     "address": "7750 Newcombe St",
     "city": "Burnaby",
-    "lat": 49.2488,
-    "lng": -122.9805,
+    "lat": 49.2269762,
+    "lng": -122.9194505,
     "ageGroups": [
       "infant",
       "toddler",
@@ -412,8 +412,8 @@
     "name": "BCIT Student Association Childcare Centre",
     "address": "4703 Wayburne Dr",
     "city": "Burnaby",
-    "lat": 49.2488,
-    "lng": -122.9805,
+    "lat": 49.2425186,
+    "lng": -122.9982162,
     "ageGroups": [
       "infant",
       "toddler",
@@ -436,8 +436,8 @@
     "name": "Brightstart Children's Academy Ltd",
     "address": "2830 Bainbridge Ave",
     "city": "Burnaby",
-    "lat": 49.2488,
-    "lng": -122.9805,
+    "lat": 49.2592476,
+    "lng": -122.9553893,
     "ageGroups": [
       "infant",
       "toddler",
@@ -460,8 +460,8 @@
     "name": "CEFA Early Learning Brentwood",
     "address": "LM100 - 4664 Lougheed Hwy",
     "city": "Burnaby",
-    "lat": 49.2488,
-    "lng": -122.9805,
+    "lat": 49.2653401,
+    "lng": -122.998255,
     "ageGroups": [
       "infant",
       "toddler",
@@ -484,8 +484,8 @@
     "name": "Wonderworld Montessori Academy - Metrotown",
     "address": "6390 Silver Ave",
     "city": "Burnaby",
-    "lat": 49.2488,
-    "lng": -122.9805,
+    "lat": 49.2254348,
+    "lng": -123.0051043,
     "ageGroups": [
       "infant",
       "toddler",
@@ -508,8 +508,8 @@
     "name": "St. Matthews Day Care Society",
     "address": "103 - 7355 Canada Way",
     "city": "Burnaby",
-    "lat": 49.2488,
-    "lng": -122.9805,
+    "lat": 49.2233872,
+    "lng": -122.9408426,
     "ageGroups": [
       "infant",
       "toddler",
@@ -532,8 +532,8 @@
     "name": "1,2,3, A.B.C. Montessori Infant/Toddler Center",
     "address": "737 Poirier St",
     "city": "Coquitlam",
-    "lat": 49.2838,
-    "lng": -122.7932,
+    "lat": 49.2621775,
+    "lng": -122.8460119,
     "ageGroups": [
       "infant",
       "toddler"
@@ -555,8 +555,8 @@
     "name": "Bright Beginnings Infant / Child Care",
     "address": "1393 Austin Ave",
     "city": "Coquitlam",
-    "lat": 49.2838,
-    "lng": -122.7932,
+    "lat": 49.2493248,
+    "lng": -122.8547561,
     "ageGroups": [
       "infant",
       "toddler"
@@ -578,8 +578,8 @@
     "name": "DreamKids Childcare",
     "address": "207 - 1194 Lansdowne Dr",
     "city": "Coquitlam",
-    "lat": 49.2838,
-    "lng": -122.7932,
+    "lat": 49.2834979,
+    "lng": -122.8100313,
     "ageGroups": [
       "infant",
       "toddler"
@@ -601,8 +601,8 @@
     "name": "Blue Mountain Kids Academy Ltd",
     "address": "1045 Ridgeway Ave",
     "city": "Coquitlam",
-    "lat": 49.2838,
-    "lng": -122.7932,
+    "lat": 49.2499215,
+    "lng": -122.864111,
     "ageGroups": [
       "preschool"
     ],
@@ -623,8 +623,8 @@
     "name": "Green Apple Daycare Coquitlam",
     "address": "1504 Sprice Ave",
     "city": "Coquitlam",
-    "lat": 49.2838,
-    "lng": -122.7932,
+    "lat": 49.25713,
+    "lng": -122.8517789,
     "ageGroups": [
       "preschool"
     ],
@@ -645,8 +645,8 @@
     "name": "Little Dolphins Daycare Ltd",
     "address": "103 & 107 - 1135 Pipeline Rd",
     "city": "Coquitlam",
-    "lat": 49.2838,
-    "lng": -122.7932,
+    "lat": 49.2802211,
+    "lng": -122.7867246,
     "ageGroups": [
       "preschool"
     ],
@@ -667,8 +667,8 @@
     "name": "Wind and Tide - Eagle Ridge",
     "address": "1160 Lansdowne Dr",
     "city": "Coquitlam",
-    "lat": 49.2838,
-    "lng": -122.7932,
+    "lat": 49.2810932,
+    "lng": -122.8091383,
     "ageGroups": [
       "preschool"
     ],
@@ -689,8 +689,8 @@
     "name": "Douglas College Early Childhood Education Centre",
     "address": "1250 Pinetree Way",
     "city": "Coquitlam",
-    "lat": 49.2838,
-    "lng": -122.7932,
+    "lat": 49.2881777,
+    "lng": -122.7925384,
     "ageGroups": [
       "preschool"
     ],
@@ -711,8 +711,8 @@
     "name": "Shining Star Daycare",
     "address": "2665 Runnel Dr",
     "city": "Coquitlam",
-    "lat": 49.2838,
-    "lng": -122.7932,
+    "lat": 49.2792001,
+    "lng": -122.8133646,
     "ageGroups": [
       "infant",
       "toddler",
@@ -735,8 +735,8 @@
     "name": "Westwood Montessori",
     "address": "1438 Pinetree Way",
     "city": "Coquitlam",
-    "lat": 49.2838,
-    "lng": -122.7932,
+    "lat": 49.3011398,
+    "lng": -122.7852192,
     "ageGroups": [
       "infant",
       "toddler",
@@ -759,8 +759,8 @@
     "name": "Academics preKindergarten Westwood Inc",
     "address": "501 - 1123 Westwood St",
     "city": "Coquitlam",
-    "lat": 49.2838,
-    "lng": -122.7932,
+    "lat": 49.278673,
+    "lng": -122.7894984,
     "ageGroups": [
       "infant",
       "toddler",
@@ -783,8 +783,8 @@
     "name": "Willowbrae Academy Sunwood",
     "address": "910 - 3025 Lougheed Hwy",
     "city": "Coquitlam",
-    "lat": 49.2838,
-    "lng": -122.7932,
+    "lat": 49.2762749,
+    "lng": -122.7918636,
     "ageGroups": [
       "infant",
       "toddler",
@@ -807,8 +807,8 @@
     "name": "Emerald Hills Montessori",
     "address": "1501 Bramble Lane",
     "city": "Coquitlam",
-    "lat": 49.2838,
-    "lng": -122.7932,
+    "lat": 49.2977422,
+    "lng": -122.8116085,
     "ageGroups": [
       "infant",
       "toddler",
@@ -831,8 +831,8 @@
     "name": "Canyon Springs Montessori School & Childcare Centre",
     "address": "2910 Walton Ave",
     "city": "Coquitlam",
-    "lat": 49.2838,
-    "lng": -122.7932,
+    "lat": 49.2899177,
+    "lng": -122.8009607,
     "ageGroups": [
       "preschool"
     ],
@@ -853,8 +853,8 @@
     "name": "Parkland Players",
     "address": "1563 Regan Ave",
     "city": "Coquitlam",
-    "lat": 49.2838,
-    "lng": -122.7932,
+    "lat": 49.2616299,
+    "lng": -122.8493771,
     "ageGroups": [
       "infant",
       "toddler",
@@ -877,8 +877,8 @@
     "name": "Baker's Corner Preschool Society",
     "address": "1563 Regan Ave",
     "city": "Coquitlam",
-    "lat": 49.2838,
-    "lng": -122.7932,
+    "lat": 49.2616299,
+    "lng": -122.8493771,
     "ageGroups": [
       "preschool"
     ],
@@ -899,8 +899,8 @@
     "name": "Caterpillar Montessori Daycare",
     "address": "599 Chapman Ave",
     "city": "Coquitlam",
-    "lat": 49.2838,
-    "lng": -122.7932,
+    "lat": 49.270127,
+    "lng": -122.8880296,
     "ageGroups": [
       "infant",
       "toddler",
@@ -923,8 +923,8 @@
     "name": "Little Butterflies Daycare",
     "address": "16, 20 & 24 - 2773 Barnet Hwy",
     "city": "Coquitlam",
-    "lat": 49.2838,
-    "lng": -122.7932,
+    "lat": 49.2785314,
+    "lng": -122.8071979,
     "ageGroups": [
       "infant",
       "toddler",
@@ -947,8 +947,8 @@
     "name": "Ranch Park Kids Place Inc.",
     "address": "2701 Spuraway Ave",
     "city": "Coquitlam",
-    "lat": 49.2838,
-    "lng": -122.7932,
+    "lat": 49.2652028,
+    "lng": -122.8128423,
     "ageGroups": [
       "preschool"
     ],
@@ -969,8 +969,8 @@
     "name": "Curious Minds Learning Centre Ltd - MRSS",
     "address": "21911 122nd Ave",
     "city": "Maple Ridge",
-    "lat": 49.2196,
-    "lng": -122.5984,
+    "lat": 49.225722,
+    "lng": -122.614463,
     "ageGroups": [
       "infant",
       "toddler",
@@ -993,8 +993,8 @@
     "name": "Wind and Tide - Maple Ridge",
     "address": "20639 123rd Ave",
     "city": "Maple Ridge",
-    "lat": 49.2196,
-    "lng": -122.5984,
+    "lat": 49.2272675,
+    "lng": -122.6486372,
     "ageGroups": [
       "preschool"
     ],
@@ -1015,8 +1015,8 @@
     "name": "BrightPath Maple Ridge",
     "address": "21593 Dewdney Trunk Rd",
     "city": "Maple Ridge",
-    "lat": 49.2196,
-    "lng": -122.5984,
+    "lat": 49.2209017,
+    "lng": -122.6230934,
     "ageGroups": [
       "infant",
       "toddler",
@@ -1039,8 +1039,8 @@
     "name": "BrightPath Maple Ridge Meadows",
     "address": "11918 207th St",
     "city": "Maple Ridge",
-    "lat": 49.2196,
-    "lng": -122.5984,
+    "lat": 49.2195635,
+    "lng": -122.6466122,
     "ageGroups": [
       "infant",
       "toddler",
@@ -1063,8 +1063,8 @@
     "name": "Puddle Hoppers Childcare HP Inc",
     "address": "11900 Haney Pl",
     "city": "Maple Ridge",
-    "lat": 49.2196,
-    "lng": -122.5984,
+    "lat": 49.2180343,
+    "lng": -122.598961,
     "ageGroups": [
       "infant",
       "toddler",
@@ -1087,8 +1087,8 @@
     "name": "Little Willows Dewdney House",
     "address": "23550 Dewdney Trunk Rd",
     "city": "Maple Ridge",
-    "lat": 49.2196,
-    "lng": -122.5984,
+    "lat": 49.2201302,
+    "lng": -122.5692752,
     "ageGroups": [
       "infant",
       "toddler",
@@ -1111,8 +1111,8 @@
     "name": "Start Smart Childcare Center",
     "address": "22610 Dewdney Trunk Rd",
     "city": "Maple Ridge",
-    "lat": 49.2196,
-    "lng": -122.5984,
+    "lat": 49.2200099,
+    "lng": -122.5958919,
     "ageGroups": [
       "infant",
       "toddler",
@@ -1135,8 +1135,8 @@
     "name": "Hava Childcare Academy",
     "address": "113 - 11300 Pazarena Pl",
     "city": "Maple Ridge",
-    "lat": 49.2196,
-    "lng": -122.5984,
+    "lat": 49.2077614,
+    "lng": -122.5832835,
     "ageGroups": [
       "infant",
       "toddler",
@@ -1159,8 +1159,8 @@
     "name": "Happy Hearts Childcare Centre Inc",
     "address": "22315 McIntosh Ave",
     "city": "Maple Ridge",
-    "lat": 49.2196,
-    "lng": -122.5984,
+    "lat": 49.2197101,
+    "lng": -122.6040965,
     "ageGroups": [
       "preschool"
     ],
@@ -1181,8 +1181,8 @@
     "name": "Blessed Generations Academy - Maple Ridge",
     "address": "22311 119th Ave",
     "city": "Maple Ridge",
-    "lat": 49.2196,
-    "lng": -122.5984,
+    "lat": 49.2188496,
+    "lng": -122.6042418,
     "ageGroups": [
       "infant",
       "toddler",
@@ -1205,8 +1205,8 @@
     "name": "Starlight Child Care LTD.",
     "address": "1 - 1001 Royal Ave",
     "city": "New Westminster",
-    "lat": 49.2057,
-    "lng": -122.911,
+    "lat": 49.2021231,
+    "lng": -122.917984,
     "ageGroups": [
       "infant",
       "toddler"
@@ -1228,8 +1228,8 @@
     "name": "Blessed Generations Academy in Royal City",
     "address": "501 4th Ave",
     "city": "New Westminster",
-    "lat": 49.2057,
-    "lng": -122.911,
+    "lat": 49.2108701,
+    "lng": -122.9160586,
     "ageGroups": [
       "infant",
       "toddler"
@@ -1251,8 +1251,8 @@
     "name": "Polka Dot Early Learning",
     "address": "10 - 800 McBride Blvd",
     "city": "New Westminster",
-    "lat": 49.2057,
-    "lng": -122.911,
+    "lat": 49.2227461,
+    "lng": -122.9142402,
     "ageGroups": [
       "infant",
       "toddler"
@@ -1274,8 +1274,8 @@
     "name": "Cambridge Montessori Children's Centre",
     "address": "57 7th Ave",
     "city": "New Westminster",
-    "lat": 49.2057,
-    "lng": -122.911,
+    "lat": 49.2192094,
+    "lng": -122.9137477,
     "ageGroups": [
       "preschool"
     ],
@@ -1296,8 +1296,8 @@
     "name": "Tulip Childcare Center",
     "address": "427 E Columbia St",
     "city": "New Westminster",
-    "lat": 49.2057,
-    "lng": -122.911,
+    "lat": 49.2295095,
+    "lng": -122.8931415,
     "ageGroups": [
       "preschool"
     ],
@@ -1318,8 +1318,8 @@
     "name": "Little Footprints Academy (New West)",
     "address": "200 - 505 6th St",
     "city": "New Westminster",
-    "lat": 49.2057,
-    "lng": -122.911,
+    "lat": 49.2123606,
+    "lng": -122.9192487,
     "ageGroups": [
       "infant",
       "toddler",
@@ -1342,8 +1342,8 @@
     "name": "Mongio Early Learning Center",
     "address": "600 Royal Ave",
     "city": "New Westminster",
-    "lat": 49.2057,
-    "lng": -122.911,
+    "lat": 49.2052104,
+    "lng": -122.9109592,
     "ageGroups": [
       "infant",
       "toddler",
@@ -1366,8 +1366,8 @@
     "name": "Tiny Hoppers Early Learning Queensborough",
     "address": "F120 - 805 Boyd St",
     "city": "New Westminster",
-    "lat": 49.2057,
-    "lng": -122.911,
+    "lat": 49.192676,
+    "lng": -122.9475427,
     "ageGroups": [
       "infant",
       "toddler",
@@ -1390,8 +1390,8 @@
     "name": "Fraser Montessori Daycare",
     "address": "1408 5th Ave",
     "city": "New Westminster",
-    "lat": 49.2057,
-    "lng": -122.911,
+    "lat": 49.2040895,
+    "lng": -122.9322751,
     "ageGroups": [
       "preschool"
     ],
@@ -1412,8 +1412,8 @@
     "name": "CEFA Early Learning New Westminster",
     "address": "243 - 610 6th St",
     "city": "New Westminster",
-    "lat": 49.2057,
-    "lng": -122.911,
+    "lat": 49.2134839,
+    "lng": -122.9217729,
     "ageGroups": [
       "infant",
       "toddler",
@@ -1436,8 +1436,8 @@
     "name": "Urban Academy",
     "address": "466 Rousseau St",
     "city": "New Westminster",
-    "lat": 49.2057,
-    "lng": -122.911,
+    "lat": 49.2311468,
+    "lng": -122.8858786,
     "ageGroups": [
       "preschool"
     ],
@@ -1458,8 +1458,8 @@
     "name": "Willowbrae Childcare Academy",
     "address": "211 - 800 McBride Blvd",
     "city": "New Westminster",
-    "lat": 49.2057,
-    "lng": -122.911,
+    "lat": 49.2227461,
+    "lng": -122.9142402,
     "ageGroups": [
       "infant",
       "toddler",
@@ -1482,8 +1482,8 @@
     "name": "Canyon Springs Montessori Academy",
     "address": "18477 Old Dewdney Trunk Rd",
     "city": "Pitt Meadows",
-    "lat": 49.2213,
-    "lng": -122.6892,
+    "lat": 49.2456113,
+    "lng": -122.7094549,
     "ageGroups": [
       "infant",
       "toddler",
@@ -1506,8 +1506,8 @@
     "name": "CEFA Meadowtown",
     "address": "115 - 19800 Lougheed Hwy",
     "city": "Pitt Meadows",
-    "lat": 49.2213,
-    "lng": -122.6892,
+    "lat": 49.2215345,
+    "lng": -122.6718279,
     "ageGroups": [
       "infant",
       "toddler",
@@ -1530,8 +1530,8 @@
     "name": "Best Friends Children's Centre Inc",
     "address": "106 & 201 - 19141 Ford Rd",
     "city": "Pitt Meadows",
-    "lat": 49.2213,
-    "lng": -122.6892,
+    "lat": 49.2231615,
+    "lng": -122.6916053,
     "ageGroups": [
       "infant",
       "toddler",
@@ -1554,8 +1554,8 @@
     "name": "Stardom Childcare",
     "address": "11435 Bonson Rd",
     "city": "Pitt Meadows",
-    "lat": 49.2213,
-    "lng": -122.6892,
+    "lat": 49.2105046,
+    "lng": -122.6811421,
     "ageGroups": [
       "infant",
       "toddler",
@@ -1578,8 +1578,8 @@
     "name": "Little Meadows Academy",
     "address": "11887 Bonson Rd",
     "city": "Pitt Meadows",
-    "lat": 49.2213,
-    "lng": -122.6892,
+    "lat": 49.2185514,
+    "lng": -122.6811573,
     "ageGroups": [
       "infant",
       "toddler",
@@ -1602,8 +1602,8 @@
     "name": "Hundred Languages Childcare Inc",
     "address": "110 - 12409 Harris Rd",
     "city": "Pitt Meadows",
-    "lat": 49.2213,
-    "lng": -122.6892,
+    "lat": 49.2282632,
+    "lng": -122.6901982,
     "ageGroups": [
       "preschool"
     ],
@@ -1624,8 +1624,8 @@
     "name": "Windy Willows Environmental Centre Inc",
     "address": "19089 Advent Rd",
     "city": "Pitt Meadows",
-    "lat": 49.2213,
-    "lng": -122.6892,
+    "lat": 49.2263756,
+    "lng": -122.6926944,
     "ageGroups": [
       "preschool"
     ],
@@ -1646,8 +1646,8 @@
     "name": "BCCA Kids Club",
     "address": "1019 Fernwood Ave",
     "city": "Port Coquitlam",
-    "lat": 49.2627,
-    "lng": -122.7811,
+    "lat": 49.2800889,
+    "lng": -122.7438336,
     "ageGroups": [
       "infant",
       "toddler",
@@ -1670,8 +1670,8 @@
     "name": "Bramblewood Montessori Child Care Center Ltd.",
     "address": "201 - 2255 Wilson Ave",
     "city": "Port Coquitlam",
-    "lat": 49.2627,
-    "lng": -122.7811,
+    "lat": 49.2611419,
+    "lng": -122.7804481,
     "ageGroups": [
       "infant",
       "toddler",
@@ -1694,8 +1694,8 @@
     "name": "The Learning Experience Children's Centre Ltd.",
     "address": "3862 Wellington St",
     "city": "Port Coquitlam",
-    "lat": 49.2627,
-    "lng": -122.7811,
+    "lat": 49.2825507,
+    "lng": -122.7606789,
     "ageGroups": [
       "preschool"
     ],
@@ -1716,8 +1716,8 @@
     "name": "Dream Builders Early Learning Centre",
     "address": "1116 - 1470 Prairie Ave",
     "city": "Port Coquitlam",
-    "lat": 49.2627,
-    "lng": -122.7811,
+    "lat": 49.2707162,
+    "lng": -122.7551013,
     "ageGroups": [
       "infant",
       "toddler",
@@ -1740,8 +1740,8 @@
     "name": "Honeybees Child Care Center",
     "address": "A121 - 2099 Lougheed Hwy",
     "city": "Port Coquitlam",
-    "lat": 49.2627,
-    "lng": -122.7811,
+    "lat": 49.2668239,
+    "lng": -122.7740211,
     "ageGroups": [
       "infant",
       "toddler",
@@ -1764,8 +1764,8 @@
     "name": "BrightPath Port Coquitlam North",
     "address": "3610 Hastings St",
     "city": "Port Coquitlam",
-    "lat": 49.2627,
-    "lng": -122.7811,
+    "lat": 49.2777818,
+    "lng": -122.7813545,
     "ageGroups": [
       "infant",
       "toddler",
@@ -1788,8 +1788,8 @@
     "name": "Lions Park Montessori",
     "address": "50 - 2789 Shaughnessy St",
     "city": "Port Coquitlam",
-    "lat": 49.2627,
-    "lng": -122.7811,
+    "lat": 49.2660662,
+    "lng": -122.7785123,
     "ageGroups": [
       "infant",
       "toddler",
@@ -1812,8 +1812,8 @@
     "name": "Green Planet Daycare",
     "address": "2435 Lobb Ave",
     "city": "Port Coquitlam",
-    "lat": 49.2627,
-    "lng": -122.7811,
+    "lat": 49.253763,
+    "lng": -122.7870872,
     "ageGroups": [
       "infant",
       "toddler"
@@ -1835,8 +1835,8 @@
     "name": "Stay 'N' Play Group Daycare",
     "address": "3260 Coast Meridian Rd",
     "city": "Port Coquitlam",
-    "lat": 49.2627,
-    "lng": -122.7811,
+    "lat": 49.271993,
+    "lng": -122.7556167,
     "ageGroups": [
       "infant",
       "toddler"
@@ -1858,8 +1858,8 @@
     "name": "Pure Play Child Care Shaughnessy",
     "address": "6108 - 2850 Shaughnessy St",
     "city": "Port Coquitlam",
-    "lat": 49.2627,
-    "lng": -122.7811,
+    "lat": 49.2665646,
+    "lng": -122.7761966,
     "ageGroups": [
       "infant",
       "toddler",
@@ -1882,8 +1882,8 @@
     "name": "Kids & Company Port Moody",
     "address": "220 Brew St",
     "city": "Port Moody",
-    "lat": 49.2834,
-    "lng": -122.8317,
+    "lat": 49.2789427,
+    "lng": -122.8278693,
     "ageGroups": [
       "infant",
       "toddler",
@@ -1906,8 +1906,8 @@
     "name": "Kinder Kampus - Heritage Mountain",
     "address": "103 - 300 Panorama Pl",
     "city": "Port Moody",
-    "lat": 49.2834,
-    "lng": -122.8317,
+    "lat": 49.3020248,
+    "lng": -122.8297823,
     "ageGroups": [
       "infant",
       "toddler",
@@ -1930,8 +1930,8 @@
     "name": "BrightPath St Johns Street",
     "address": "2750 St Johns St",
     "city": "Port Moody",
-    "lat": 49.2834,
-    "lng": -122.8317,
+    "lat": 49.2770179,
+    "lng": -122.8510498,
     "ageGroups": [
       "infant",
       "toddler",
@@ -1954,8 +1954,8 @@
     "name": "Kids Academy Port Moody",
     "address": "2610 St Johns St",
     "city": "Port Moody",
-    "lat": 49.2834,
-    "lng": -122.8317,
+    "lat": 49.2770374,
+    "lng": -122.8538798,
     "ageGroups": [
       "infant",
       "toddler",
@@ -1978,8 +1978,8 @@
     "name": "Glenayre Montessori Centre",
     "address": "495 Glencoe Dr",
     "city": "Port Moody",
-    "lat": 49.2834,
-    "lng": -122.8317,
+    "lat": 49.2733439,
+    "lng": -122.8880611,
     "ageGroups": [
       "preschool"
     ],
@@ -2000,8 +2000,8 @@
     "name": "Rocky Point Montessori",
     "address": "2709 Clarke St",
     "city": "Port Moody",
-    "lat": 49.2834,
-    "lng": -122.8317,
+    "lat": 49.2774747,
+    "lng": -122.8518847,
     "ageGroups": [
       "infant",
       "toddler",
@@ -2024,8 +2024,8 @@
     "name": "Junior Citizens Care Center",
     "address": "999 Noons Creek Dr",
     "city": "Port Moody",
-    "lat": 49.2834,
-    "lng": -122.8317,
+    "lat": 49.290215,
+    "lng": -122.8245821,
     "ageGroups": [
       "preschool"
     ],
@@ -2046,8 +2046,8 @@
     "name": "Kinder Kampus - Eagle Mountain Middle School",
     "address": "110 Dogwood Dr",
     "city": "Anmore",
-    "lat": 49.3213,
-    "lng": -122.8113,
+    "lat": 49.2997555,
+    "lng": -122.8396457,
     "ageGroups": [
       "infant",
       "toddler",
@@ -2070,8 +2070,8 @@
     "name": "Anmore Kidos",
     "address": "1005 Robin Way",
     "city": "Anmore",
-    "lat": 49.3213,
-    "lng": -122.8113,
+    "lat": 49.3009763,
+    "lng": -122.8361109,
     "ageGroups": [
       "infant",
       "toddler",
@@ -2139,7 +2139,7 @@
   },
   {
     "id": "93",
-    "name": "New Beginnings Daycare \u2013 Mouat Drive",
+    "name": "New Beginnings Daycare – Mouat Drive",
     "address": "Abbotsford, BC",
     "city": "Abbotsford",
     "lat": 49.0504,
@@ -2672,7 +2672,7 @@
   },
   {
     "id": "116",
-    "name": "K.I.D.S. Childcare \u2013 Victoria Hill",
+    "name": "K.I.D.S. Childcare – Victoria Hill",
     "address": "New Westminster, BC",
     "city": "New Westminster",
     "lat": 49.2063,
@@ -3146,8 +3146,8 @@
     "name": "UBC Child Care Services",
     "address": "2125 Main Mall, Vancouver, BC",
     "city": "Vancouver",
-    "lat": 49.2606,
-    "lng": -123.246,
+    "lat": 49.2643226,
+    "lng": -123.2525949,
     "ageGroups": [
       "infant",
       "toddler",

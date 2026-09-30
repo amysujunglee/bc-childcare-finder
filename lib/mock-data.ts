@@ -1,4 +1,4 @@
-import centresData from './centres.json';
+import centresData from "./centres.json";
 
 export type AgeGroup = "infant" | "toddler" | "preschool";
 export type ScheduleType = "full-time" | "part-time" | "drop-in";
@@ -26,6 +26,18 @@ export interface Centre {
 
 export const centres: Centre[] = centresData as Centre[];
 
+export const hasStreetAddress = (centre: Centre): boolean => {
+  const address = centre.address.trim().toLowerCase();
+  const city = centre.city.trim().toLowerCase();
+
+  return (
+    address.length > 0 &&
+    address !== city &&
+    address !== `${city}, bc` &&
+    address !== `${city}, british columbia`
+  );
+};
+
 // Helper: get centre by id
 export const getCentreById = (id: string): Centre | undefined =>
   centres.find((c) => c.id === id);
@@ -36,9 +48,9 @@ export const getCentreBySlug = (slug: string): Centre | undefined =>
     (c) =>
       c.name
         .toLowerCase()
-        .replace(/[^a-z0-9\s-]/g, '')
+        .replace(/[^a-z0-9\s-]/g, "")
         .trim()
-        .replace(/\s+/g, '-') === slug
+        .replace(/\s+/g, "-") === slug,
   );
 
 // Helper: get unique cities

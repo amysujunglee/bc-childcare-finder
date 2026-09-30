@@ -8,6 +8,7 @@ import MapView from "@/components/MapView";
 import {
   centres,
   searchCentres,
+  hasStreetAddress,
   AgeGroup,
   ScheduleType,
 } from "@/lib/mock-data";
@@ -18,7 +19,9 @@ function FindPageInner() {
   const [displayedCentres, setDisplayedCentres] = useState(centres);
   const [selectedCity, setSelectedCity] = useState<string>();
   const [selectedAgeGroups, setSelectedAgeGroups] = useState<AgeGroup[]>([]);
-  const [selectedScheduleTypes, setSelectedScheduleTypes] = useState<ScheduleType[]>([]);
+  const [selectedScheduleTypes, setSelectedScheduleTypes] = useState<
+    ScheduleType[]
+  >([]);
   const [selectedLanguage, setSelectedLanguage] = useState<string>();
   const [selectedTenDollarDay, setSelectedTenDollarDay] = useState<boolean>();
   const [selectedCentreId, setSelectedCentreId] = useState<string>();
@@ -51,9 +54,15 @@ function FindPageInner() {
     filtered = filtered.filter((c) => {
       if (selectedCity && c.city.toLowerCase() !== selectedCity.toLowerCase())
         return false;
-      if (selectedAgeGroups.length > 0 && !selectedAgeGroups.some((ag) => c.ageGroups.includes(ag)))
+      if (
+        selectedAgeGroups.length > 0 &&
+        !selectedAgeGroups.some((ag) => c.ageGroups.includes(ag))
+      )
         return false;
-      if (selectedScheduleTypes.length > 0 && !selectedScheduleTypes.includes(c.scheduleType))
+      if (
+        selectedScheduleTypes.length > 0 &&
+        !selectedScheduleTypes.includes(c.scheduleType)
+      )
         return false;
       if (
         selectedTenDollarDay !== undefined &&
@@ -128,6 +137,7 @@ function FindPageInner() {
     onSearch: handleSearch,
     onFilterChange: handleFilterChange,
   };
+  const mappableCentres = displayedCentres.filter(hasStreetAddress);
 
   return (
     <div className="py-6 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -187,10 +197,10 @@ function FindPageInner() {
         <div className="md:col-span-3">
           <div className="mb-6">
             <h2 className="text-base font-serif font-bold text-primary-dark mb-3">
-              Map View ({displayedCentres.length})
+              Map View ({mappableCentres.length})
             </h2>
             <MapView
-              centres={displayedCentres}
+              centres={mappableCentres}
               selectedCentreId={selectedCentreId}
               onCentreSelect={handleMapPinClick}
               searchQuery={searchParams.get("search") ?? undefined}
@@ -212,8 +222,8 @@ function FindPageInner() {
                     className="underline hover:text-primary-dark transition"
                   >
                     Fraser Health Authority
-                  </a>
-                  {" "}· Updated Jan 6, 2026
+                  </a>{" "}
+                  · Updated Jan 6, 2026
                 </p>
               </div>
               <p className="sm:hidden text-xs text-neutral-muted mt-0.5">
@@ -225,8 +235,8 @@ function FindPageInner() {
                   className="underline hover:text-primary-dark transition"
                 >
                   Fraser Health Authority
-                </a>
-                {" "}· Updated Jan 6, 2026
+                </a>{" "}
+                · Updated Jan 6, 2026
               </p>
             </div>
 
