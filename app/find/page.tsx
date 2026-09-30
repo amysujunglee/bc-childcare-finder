@@ -119,13 +119,18 @@ function FindPageInner() {
     setScrollToCard(centreId);
   };
 
-  const activeFilterCount = [
-    selectedCity,
-    ...selectedAgeGroups,
-    ...selectedScheduleTypes,
-    selectedLanguage,
-    selectedTenDollarDay,
-  ].filter(Boolean).length;
+  const activeAgeGroupCount =
+    Number(
+      selectedAgeGroups.includes("infant") ||
+        selectedAgeGroups.includes("toddler"),
+    ) + Number(selectedAgeGroups.includes("preschool"));
+  const activeFilterCount =
+    [
+      selectedCity,
+      ...selectedScheduleTypes,
+      selectedLanguage,
+      selectedTenDollarDay,
+    ].filter(Boolean).length + activeAgeGroupCount;
 
   const sidebarProps = {
     selectedCity,

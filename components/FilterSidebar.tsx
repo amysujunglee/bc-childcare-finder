@@ -30,17 +30,16 @@ export default function FilterSidebar({
   selectedScheduleTypes = [],
   selectedLanguage,
   selectedTenDollarDay,
-  searchQuery = '',
+  searchQuery = "",
   onSearch,
   onFilterChange,
 }: FilterSidebarProps) {
   const cities = getUniqueCities();
   const languages = getUniqueLanguages();
 
-  const ageGroups: { value: AgeGroup; label: string }[] = [
-    { value: "infant", label: "Infant (0–18 months)" },
-    { value: "toddler", label: "Toddler (18 months–3 years)" },
-    { value: "preschool", label: "Preschool (3–5 years)" },
+  const ageGroups: { values: AgeGroup[]; label: string }[] = [
+    { values: ["infant", "toddler"], label: "Infant & Toddler (0–3 years)" },
+    { values: ["preschool"], label: "Preschool (30 months–5 years)" },
   ];
 
   const scheduleTypes: { value: ScheduleType; label: string }[] = [
@@ -71,7 +70,13 @@ export default function FilterSidebar({
           <label className="block text-sm font-bold text-primary-dark mb-3">
             Search
           </label>
-          <form onSubmit={(e) => { e.preventDefault(); onSearch(searchQuery); }} className="flex gap-2">
+          <form
+            onSubmit={(e) => {
+              e.preventDefault();
+              onSearch(searchQuery);
+            }}
+            className="flex gap-2"
+          >
             <input
               type="text"
               value={searchQuery}
@@ -94,8 +99,12 @@ export default function FilterSidebar({
             onChange={(e) =>
               onFilterChange({
                 city: e.target.value || undefined,
-                ageGroups: selectedAgeGroups.length > 0 ? selectedAgeGroups : undefined,
-                scheduleTypes: selectedScheduleTypes.length > 0 ? selectedScheduleTypes : undefined,
+                ageGroups:
+                  selectedAgeGroups.length > 0 ? selectedAgeGroups : undefined,
+                scheduleTypes:
+                  selectedScheduleTypes.length > 0
+                    ? selectedScheduleTypes
+                    : undefined,
                 language: selectedLanguage,
                 tenDollarDay: selectedTenDollarDay,
               })
@@ -109,8 +118,18 @@ export default function FilterSidebar({
               </option>
             ))}
           </select>
-          <svg className="pointer-events-none absolute right-3 top-1/2 -translate-y-1/2 w-4 h-4 text-neutral-muted" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+          <svg
+            className="pointer-events-none absolute right-3 top-1/2 -translate-y-1/2 w-4 h-4 text-neutral-muted"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2}
+              d="M19 9l-7 7-7-7"
+            />
           </svg>
         </div>
       </div>
@@ -121,19 +140,26 @@ export default function FilterSidebar({
           Age Groups
         </label>
         <div className="space-y-2">
-          {ageGroups.map(({ value, label }) => (
-            <label key={value} className="flex items-center">
+          {ageGroups.map(({ values, label }) => (
+            <label key={values.join("-")} className="flex items-center">
               <input
                 type="checkbox"
-                checked={selectedAgeGroups.includes(value)}
+                checked={values.every((value) =>
+                  selectedAgeGroups.includes(value),
+                )}
                 onChange={(e) => {
                   const updated = e.target.checked
-                    ? [...selectedAgeGroups, value]
-                    : selectedAgeGroups.filter((ag) => ag !== value);
+                    ? [...new Set([...selectedAgeGroups, ...values])]
+                    : selectedAgeGroups.filter(
+                        (ageGroup) => !values.includes(ageGroup),
+                      );
                   onFilterChange({
                     city: selectedCity,
                     ageGroups: updated.length > 0 ? updated : undefined,
-                    scheduleTypes: selectedScheduleTypes.length > 0 ? selectedScheduleTypes : undefined,
+                    scheduleTypes:
+                      selectedScheduleTypes.length > 0
+                        ? selectedScheduleTypes
+                        : undefined,
                     language: selectedLanguage,
                     tenDollarDay: selectedTenDollarDay,
                   });
@@ -163,7 +189,10 @@ export default function FilterSidebar({
                     : selectedScheduleTypes.filter((s) => s !== value);
                   onFilterChange({
                     city: selectedCity,
-                    ageGroups: selectedAgeGroups.length > 0 ? selectedAgeGroups : undefined,
+                    ageGroups:
+                      selectedAgeGroups.length > 0
+                        ? selectedAgeGroups
+                        : undefined,
                     scheduleTypes: updated.length > 0 ? updated : undefined,
                     language: selectedLanguage,
                     tenDollarDay: selectedTenDollarDay,
@@ -188,8 +217,12 @@ export default function FilterSidebar({
             onChange={(e) =>
               onFilterChange({
                 city: selectedCity,
-                ageGroups: selectedAgeGroups.length > 0 ? selectedAgeGroups : undefined,
-                scheduleTypes: selectedScheduleTypes.length > 0 ? selectedScheduleTypes : undefined,
+                ageGroups:
+                  selectedAgeGroups.length > 0 ? selectedAgeGroups : undefined,
+                scheduleTypes:
+                  selectedScheduleTypes.length > 0
+                    ? selectedScheduleTypes
+                    : undefined,
                 language: e.target.value || undefined,
                 tenDollarDay: selectedTenDollarDay,
               })
@@ -203,8 +236,18 @@ export default function FilterSidebar({
               </option>
             ))}
           </select>
-          <svg className="pointer-events-none absolute right-3 top-1/2 -translate-y-1/2 w-4 h-4 text-neutral-muted" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+          <svg
+            className="pointer-events-none absolute right-3 top-1/2 -translate-y-1/2 w-4 h-4 text-neutral-muted"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2}
+              d="M19 9l-7 7-7-7"
+            />
           </svg>
         </div>
       </div>
@@ -218,8 +261,12 @@ export default function FilterSidebar({
             onChange={(e) =>
               onFilterChange({
                 city: selectedCity,
-                ageGroups: selectedAgeGroups.length > 0 ? selectedAgeGroups : undefined,
-                scheduleTypes: selectedScheduleTypes.length > 0 ? selectedScheduleTypes : undefined,
+                ageGroups:
+                  selectedAgeGroups.length > 0 ? selectedAgeGroups : undefined,
+                scheduleTypes:
+                  selectedScheduleTypes.length > 0
+                    ? selectedScheduleTypes
+                    : undefined,
                 language: selectedLanguage,
                 tenDollarDay: e.target.checked ? true : undefined,
               })
